@@ -21,5 +21,10 @@ namespace Solucion01
         {
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
