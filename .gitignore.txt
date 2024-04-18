@@ -1,3 +1,0 @@
-ABM\ Productos/.vs/
-ABM\ Productos/Solucion01/obj/
-
