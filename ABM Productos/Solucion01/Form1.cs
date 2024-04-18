@@ -14,6 +14,7 @@ namespace Solucion01
     {
         public Form1()
         {
+            //comentario de prueba
             InitializeComponent();
         }
 
