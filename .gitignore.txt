@@ -1,2 +1,3 @@
-ABM Productos/.vs/
-ABM Productos/Solucion01/obj/
+ABM\ Productos/.vs/
+ABM\ Productos/Solucion01/obj/
+
