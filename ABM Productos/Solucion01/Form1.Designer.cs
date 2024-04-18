@@ -45,7 +45,7 @@
             this.Listas.Name = "Listas";
             this.Listas.Size = new System.Drawing.Size(275, 26);
             this.Listas.TabIndex = 0;
-            this.Listas.Text = "LISTA ARTICULOS";
+            this.Listas.Text = "LISTA ARTÍCULOS";
             this.Listas.UseVisualStyleBackColor = true;
             // 
             // button2
@@ -76,7 +76,7 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(275, 26);
             this.button4.TabIndex = 3;
-            this.button4.Text = "AGREGAR ARTICULOS";
+            this.button4.Text = "AGREGAR ARTÍCULOS";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // label1
@@ -107,7 +107,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(275, 26);
             this.button3.TabIndex = 6;
-            this.button3.Text = "DETALLE DE UN ARTICULO ";
+            this.button3.Text = "DETALLE DE UN ARTÍCULO ";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // Form1
