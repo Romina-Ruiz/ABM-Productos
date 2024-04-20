@@ -107,6 +107,7 @@
             this.btMarcas.Text = "MARCAS";
             this.btMarcas.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btMarcas.UseVisualStyleBackColor = false;
+            this.btMarcas.Click += new System.EventHandler(this.btMarcas_Click);
             // 
             // frmPrincipal
             // 

@@ -32,5 +32,13 @@ namespace Solucion01
             Form1 ventana = new Form1();
             ventana.ShowDialog();
         }
+
+        private void btMarcas_Click(object sender, EventArgs e)
+        {
+
+            frmMarcas ventana = new frmMarcas();  
+            ventana.ShowDialog();
+
+        }
     }
 }
