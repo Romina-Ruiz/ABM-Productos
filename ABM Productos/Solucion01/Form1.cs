@@ -14,8 +14,41 @@ namespace Solucion01
     {
         public Form1()
         {
-            //comentario de prueba
             InitializeComponent();
+            this.Resize += MainForm_Resize; 
+        }
+
+        private void MainForm_Resize(object sender, EventArgs e)
+        {
+            CentrarBotones();
+        }
+        private void CentrarBotones()
+        {
+            // Calcula el centro del formulario
+            int centerX = this.Width / 2;
+            //int centerY = this.Height / 2;
+
+            // Ajusta la posición de los botones
+            boton1.Left = centerX - 400;
+            //boton1.Top = centerY - 15;
+
+            boton2.Left = centerX + 50;
+            //boton2.Top = centerY - 15;
+        
+            boton3.Left = centerX - 400;
+            //boton3.Top = centerY - 25;
+
+            boton4.Left = centerX + 50;
+            //boton4.Top = centerY - 25;
+
+            boton5.Left = centerX - 400;
+            //boton5.Top = centerY - 35;
+
+            boton6.Left = centerX + 50;
+            //boton6.Top = centerY -35;
+
+            titulo.Left = centerX - 300;                     
+          
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -24,6 +57,21 @@ namespace Solucion01
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Listas_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BUSCAR_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
         {
 
         }
