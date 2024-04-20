@@ -26,5 +26,10 @@ namespace Solucion01
         {
 
         }
+
+        private void toolStripLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
