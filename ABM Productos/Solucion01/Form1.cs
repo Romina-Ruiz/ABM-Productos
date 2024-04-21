@@ -47,7 +47,7 @@ namespace Solucion01
             boton6.Left = centerX + 50;
             //boton6.Top = centerY -35;
 
-            titulo.Left = centerX - 300;                     
+            titulo.Left = centerX - 300;                  
           
         }
 
@@ -63,7 +63,8 @@ namespace Solucion01
 
         private void Listas_Click(object sender, EventArgs e)
         {
-
+            listaArticulos ventana = new listaArticulos();
+            ventana.ShowDialog();
         }
 
         private void BUSCAR_Click(object sender, EventArgs e)

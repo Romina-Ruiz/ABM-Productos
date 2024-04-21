@@ -61,3 +61,9 @@ C:\Users\Romina\Desktop\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj
 C:\Users\Romina\Desktop\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.frmMarcas.resources
 C:\Users\Romina\Desktop\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.listaArticulos.resources
 C:\Users\Romina\Desktop\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.csproj.Up2Date
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM-Productos\ABM Productos\Solucion01\bin\Debug\dominio.dll
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM-Productos\ABM Productos\Solucion01\bin\Debug\dominio.pdb
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.frmCategorias.resources
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.csproj.CopyComplete
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM-Productos\ABM Productos\Solucion01\bin\Debug\negocio.dll
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM-Productos\ABM Productos\Solucion01\bin\Debug\negocio.pdb

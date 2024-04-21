@@ -4,3 +4,9 @@ C:\Users\Romina\Desktop\ABM Productos\ABM-Productos\ABM Productos\dominio\obj\De
 C:\Users\Romina\Desktop\ABM Productos\ABM-Productos\ABM Productos\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
 C:\Users\Romina\Desktop\ABM Productos\ABM-Productos\ABM Productos\dominio\obj\Debug\dominio.dll
 C:\Users\Romina\Desktop\ABM Productos\ABM-Productos\ABM Productos\dominio\obj\Debug\dominio.pdb
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM-Productos\ABM Productos\dominio\bin\Debug\dominio.dll
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM-Productos\ABM Productos\dominio\bin\Debug\dominio.pdb
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM-Productos\ABM Productos\dominio\obj\Debug\dominio.csproj.AssemblyReference.cache
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM-Productos\ABM Productos\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM-Productos\ABM Productos\dominio\obj\Debug\dominio.dll
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM-Productos\ABM Productos\dominio\obj\Debug\dominio.pdb
