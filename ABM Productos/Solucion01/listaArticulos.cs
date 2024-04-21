@@ -23,5 +23,10 @@ namespace Solucion01
             ArticuloNegocio negocio = new ArticuloNegocio();
             DgvArticulo.DataSource = negocio.listar();
         }
+
+        private void btnAtras_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

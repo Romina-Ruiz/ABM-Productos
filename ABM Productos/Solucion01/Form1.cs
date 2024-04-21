@@ -74,7 +74,7 @@ namespace Solucion01
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
     }
 }
