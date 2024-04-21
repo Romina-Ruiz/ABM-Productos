@@ -52,13 +52,17 @@
     <Compile Include="AgreArti.Designer.cs">
       <DependentUpon>AgreArti.cs</DependentUpon>
     </Compile>
-    <Compile Include="Categoria.cs" />
-    <Compile Include="Class1.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCategorias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCategorias.Designer.cs">
+      <DependentUpon>frmCategorias.cs</DependentUpon>
     </Compile>
     <Compile Include="frmMarcas.cs">
       <SubType>Form</SubType>
@@ -72,15 +76,12 @@
     <Compile Include="frmPrincipal.Designer.cs">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
     </Compile>
-    <Compile Include="Imagen.cs" />
     <Compile Include="listaArticulos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="listaArticulos.Designer.cs">
       <DependentUpon>listaArticulos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Marca.cs" />
-    <Compile Include="Producto.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AgreArti.resx">
@@ -88,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCategorias.resx">
+      <DependentUpon>frmCategorias.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMarcas.resx">
       <DependentUpon>frmMarcas.cs</DependentUpon>
@@ -126,6 +130,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\flecha_atras.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\dominio\dominio.csproj">
+      <Project>{d3a05dab-9f43-4329-bb55-36269c13858a}</Project>
+      <Name>dominio</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

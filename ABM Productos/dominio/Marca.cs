@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Solucion01
+namespace dominio
 {
-    internal class Imagen
+    public class Marca
     {
 
-        public int _CodImagen { get; set; }
-        public int _TamanioMB { get; set; }
+        public int _CodMarca { get; set; }
+        public string _NombreMarca { get; set; }
 
     }
 }

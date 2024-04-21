@@ -40,5 +40,11 @@ namespace Solucion01
             ventana.ShowDialog();
 
         }
+
+        private void btCategorias_Click(object sender, EventArgs e)
+        {
+            frmCategorias ventana= new frmCategorias();
+            ventana.ShowDialog();
+        }
     }
 }
