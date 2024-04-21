@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Solucion01
+namespace dominio
 {
-    internal class Categoria
+    public class Categoria
     {
 
 

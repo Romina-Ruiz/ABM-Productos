@@ -52,8 +52,6 @@
     <Compile Include="AgreArti.Designer.cs">
       <DependentUpon>AgreArti.cs</DependentUpon>
     </Compile>
-    <Compile Include="Categoria.cs" />
-    <Compile Include="Class1.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,15 +76,12 @@
     <Compile Include="frmPrincipal.Designer.cs">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
     </Compile>
-    <Compile Include="Imagen.cs" />
     <Compile Include="listaArticulos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="listaArticulos.Designer.cs">
       <DependentUpon>listaArticulos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Marca.cs" />
-    <Compile Include="Producto.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AgreArti.resx">
@@ -135,6 +130,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\flecha_atras.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\dominio\dominio.csproj">
+      <Project>{d3a05dab-9f43-4329-bb55-36269c13858a}</Project>
+      <Name>dominio</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

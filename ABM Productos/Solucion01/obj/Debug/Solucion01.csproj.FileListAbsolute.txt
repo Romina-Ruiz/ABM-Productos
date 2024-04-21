@@ -51,3 +51,13 @@ C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01
 C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.csproj.CoreCompileInputs.cache
 C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.exe
 C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.pdb
+C:\Users\Romina\Documents\GitHub\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.AgreArti.resources
+C:\Users\Romina\Documents\GitHub\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.frmCategorias.resources
+C:\Users\Romina\Documents\GitHub\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.listaArticulos.resources
+C:\Users\Romina\Desktop\ABM Productos\ABM-Productos\ABM Productos\Solucion01\bin\Debug\dominio.dll
+C:\Users\Romina\Desktop\ABM Productos\ABM-Productos\ABM Productos\Solucion01\bin\Debug\dominio.pdb
+C:\Users\Romina\Desktop\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.AgreArti.resources
+C:\Users\Romina\Desktop\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.frmCategorias.resources
+C:\Users\Romina\Desktop\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.frmMarcas.resources
+C:\Users\Romina\Desktop\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.listaArticulos.resources
+C:\Users\Romina\Desktop\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.csproj.Up2Date

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Solucion01
+namespace negocio
 {
-    internal class Class1
+    public class Class1
     {
     }
 }
