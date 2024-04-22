@@ -9,8 +9,8 @@ namespace dominio
     public class Marca
     {
 
-        public int _CodMarca { get; set; }
-        public string _NombreMarca { get; set; }
+        public int CodMarca { get; set; }
+        public string NombreMarca { get; set; }
 
     }
 }

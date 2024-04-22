@@ -106,6 +106,7 @@
     <Compile Include="listaArticulos.Designer.cs">
       <DependentUpon>listaArticulos.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="ListarCategorias.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,6 +118,13 @@
     </Compile>
     <Compile Include="ModificarCategoria.Designer.cs">
       <DependentUpon>ModificarCategoria.cs</DependentUpon>
+=======
+    <Compile Include="ListarMarcas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListarMarcas.Designer.cs">
+      <DependentUpon>ListarMarcas.cs</DependentUpon>
+>>>>>>> 02748c8911e05f1574f6a5b5873639968e0481c6
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -141,8 +149,13 @@
     <EmbeddedResource Include="listaArticulos.resx">
       <DependentUpon>listaArticulos.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="ListarCategorias.resx">
       <DependentUpon>ListarCategorias.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="ListarMarcas.resx">
+      <DependentUpon>ListarMarcas.cs</DependentUpon>
+>>>>>>> 02748c8911e05f1574f6a5b5873639968e0481c6
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
