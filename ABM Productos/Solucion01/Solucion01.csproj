@@ -52,11 +52,29 @@
     <Compile Include="AgreArti.Designer.cs">
       <DependentUpon>AgreArti.cs</DependentUpon>
     </Compile>
+    <Compile Include="AgregarCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarCategoria.Designer.cs">
+      <DependentUpon>AgregarCategoria.cs</DependentUpon>
+    </Compile>
     <Compile Include="BuscarArticulo.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="BuscarArticulo.Designer.cs">
       <DependentUpon>BuscarArticulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BuscarCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscarCategoria.Designer.cs">
+      <DependentUpon>BuscarCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EliminarCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EliminarCategoria.Designer.cs">
+      <DependentUpon>EliminarCategoria.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -88,6 +106,18 @@
     <Compile Include="listaArticulos.Designer.cs">
       <DependentUpon>listaArticulos.cs</DependentUpon>
     </Compile>
+    <Compile Include="ListarCategorias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListarCategorias.Designer.cs">
+      <DependentUpon>ListarCategorias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificarCategoria.Designer.cs">
+      <DependentUpon>ModificarCategoria.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AgreArti.resx">
@@ -110,6 +140,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="listaArticulos.resx">
       <DependentUpon>listaArticulos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListarCategorias.resx">
+      <DependentUpon>ListarCategorias.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
