@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using negocio;
 
-namespace dominio
+namespace Solucion01
 {
     public partial class ListarCategorias : Form
     {
@@ -18,16 +18,10 @@ namespace dominio
             InitializeComponent();
         }
 
-        private void dgvListaCategoria_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        { 
-            
-
-        }
-
         private void ListarCategorias_Load(object sender, EventArgs e)
         {
-            CategoriaNegocio negocio1 = new CategoriaNegocio();
-            dgvListaCategoria.DataSource = negocio1.listar();
+            CategoriaNegocio negocio = new CategoriaNegocio();
+            dgvListarCategorias.DataSource = negocio.listar();
         }
 
         private void btnAtras_Click(object sender, EventArgs e)
