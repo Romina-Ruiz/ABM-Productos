@@ -10,7 +10,7 @@ namespace dominio
     {
 
         public int _CodImagen { get; set; }
-        public int _TamanioMB { get; set; }
+        public string _Rutamagen { get; set; }
 
     }
 }

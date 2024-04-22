@@ -10,8 +10,8 @@ namespace dominio
     {
 
 
-        public int _CodCategoria { get; set; }
-        public string _NombreCategoria { get; set; }
+        public int Id { get; set; }
+        public string Descripcion { get; set; }
 
 
 
