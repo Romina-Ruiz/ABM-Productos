@@ -109,6 +109,7 @@
             this.boton3.TabIndex = 3;
             this.boton3.Text = "AGREGAR ARTÍCULOS";
             this.boton3.UseVisualStyleBackColor = false;
+            this.boton3.Click += new System.EventHandler(this.boton3_Click);
             // 
             // titulo
             // 

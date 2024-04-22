@@ -10,19 +10,19 @@ using System.Windows.Forms;
 
 namespace Solucion01
 {
-    public partial class AgreArti : Form
+    public partial class BuscarArticulo : Form
     {
-        public AgreArti()
+        public BuscarArticulo()
         {
             InitializeComponent();
         }
 
-        private void label4_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void botonCancelar_Click(object sender, EventArgs e)
+        private void btnCancelar_Click(object sender, EventArgs e)
         {
             this.Close();
         }

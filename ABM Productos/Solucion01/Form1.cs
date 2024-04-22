@@ -69,12 +69,20 @@ namespace Solucion01
 
         private void BUSCAR_Click(object sender, EventArgs e)
         {
-
+            BuscarArticulo ventana2 = new BuscarArticulo();
+            ventana2.ShowDialog();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void boton3_Click(object sender, EventArgs e)
+        {
+            AgreArti ventana1 = new AgreArti();
+            ventana1.ShowDialog();
+
         }
     }
 }
