@@ -21,7 +21,20 @@ namespace Solucion01
         private void listaArticulos_Load(object sender, EventArgs e)
         {
             ArticuloNegocio negocio = new ArticuloNegocio();
-            DgvArticulo.DataSource = negocio.listar();
+
+            try
+            {
+                DgvArticulo.DataSource = negocio.listar();
+                DgvArticulo.Columns["Id_Marca"].Visible = false;
+                DgvArticulo.Columns["Id_Categoria"].Visible = false;
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());               
+            }
+
+          
         }
 
         private void btnAtras_Click(object sender, EventArgs e)

@@ -14,38 +14,42 @@ namespace negocio
      public class ArticuloNegocio
     {
         public List<Articulo> listar() 
-        { 
-            List<Articulo> lista  = new List<Articulo>();
-            SqlConnection conexion = new SqlConnection();
-            SqlCommand comando = new SqlCommand();
-            SqlDataReader lector;
+        {
+
+            List<Articulo> lista = new List<Articulo>();
+            AccesoDatos datos = new AccesoDatos();
 
             try
             {
-                conexion.ConnectionString = "server=.\\SQLEXPRESS; database=CATALOGO_P3_DB; integrated security=true";
-                comando.CommandType = System.Data.CommandType.Text;
-                comando.CommandText = "select Codigo, Nombre, Descripcion, Precio from ARTICULOS";
-                comando.Connection = conexion;
+                datos.setearConsulta("select Codigo, Nombre, Descripcion, Precio from ARTICULOS");
+                datos.ejecutarLectura();
 
-                conexion.Open();
-                lector = comando.ExecuteReader();
-
-                while (lector.Read()) 
+                while(datos.Lector.Read())
                 {
                     Articulo aux = new Articulo();
-                    aux.Cod_Articulo = (string)lector["Codigo"];
-                    aux.Nombre_Articulo = (string)lector["Nombre"];
-                    aux.Descripcion = (string)lector["Descripcion"];
 
-                    decimal cantidad = (decimal)lector["Precio"];            
-                                     
 
-                    aux.Precio = (float)cantidad;                
-                    
+                    if (!(datos.Lector.IsDBNull(datos.Lector.GetOrdinal("Codigo"))))
+                    {
+                        aux.Cod_Articulo = (string)datos.Lector["Codigo"];
+                    }
+                    if (!(datos.Lector.IsDBNull(datos.Lector.GetOrdinal("Nombre"))))
+                    {
+                        aux.Nombre_Articulo = (string)datos.Lector["Nombre"];
+                    }
+                    if (!(datos.Lector.IsDBNull(datos.Lector.GetOrdinal("Descripcion"))))
+                    {
+                        aux._Descripcion = (string)datos.Lector["Descripcion"];
+                    }
+                    if (!(datos.Lector["Precio"] is DBNull))
+                    {
+                        decimal cantidad = (decimal)datos.Lector["Precio"];
+                        aux.Precio = (float)cantidad;
+                    }
+
                     lista.Add(aux);
                 }
-
-                conexion.Close();
+                
                 return lista;
             }
             catch (Exception ex)
@@ -54,10 +58,30 @@ namespace negocio
                 throw ex;
 
             }
-
             
         }
 
+        public void Agregar(Articulo Art)
+        {
+            AccesoDatos datos = new AccesoDatos();
+
+            try
+            {
+                datos.setearConsulta("insert into Articulos (Codigo, Nombre, Descripcion, Precio) values ('" + Art.Cod_Articulo + "','" + Art.Nombre_Articulo + "','" + Art._Descripcion + "'," + Art.Precio + ")");
+                datos.ejecutarAccion();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            finally 
+            {
+                datos.cerrarConexion();
+            }
+        
+        
+        }
 
     }
 }

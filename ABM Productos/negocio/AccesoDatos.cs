@@ -58,6 +58,7 @@ namespace negocio
                 throw ex;
             }
         }
+      
 
         public void cerrarConexion()
         {

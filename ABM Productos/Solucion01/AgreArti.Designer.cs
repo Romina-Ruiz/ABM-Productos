@@ -158,6 +158,7 @@
             this.botonAgregar.TabIndex = 11;
             this.botonAgregar.Text = "AGREGAR";
             this.botonAgregar.UseVisualStyleBackColor = false;
+            this.botonAgregar.Click += new System.EventHandler(this.botonAgregar_Click);
             // 
             // AgreArti
             // 

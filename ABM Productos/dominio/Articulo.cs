@@ -11,7 +11,7 @@ namespace dominio
         
         public string Cod_Articulo { get; set; }
         public string Nombre_Articulo { get; set; }
-        public string Descripcion { get; set; }
+        public string _Descripcion { get; set; }
         public float Precio { get; set; }
 
 
