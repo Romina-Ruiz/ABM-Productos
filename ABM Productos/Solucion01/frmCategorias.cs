@@ -35,8 +35,7 @@ namespace Solucion01
 
         private void btnListar_Click(object sender, EventArgs e)
         {
-            ListarCategorias ventana = new ListarCategorias ();
-            ventana.ShowDialog();
+
         }
 
         private void btnBuscar_Click(object sender, EventArgs e)
@@ -54,8 +53,7 @@ namespace Solucion01
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
-            ModificarCategoria ventana = new ModificarCategoria();
-            ventana.ShowDialog();
+            
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)

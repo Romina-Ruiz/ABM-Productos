@@ -106,29 +106,6 @@
     <Compile Include="listaArticulos.Designer.cs">
       <DependentUpon>listaArticulos.cs</DependentUpon>
     </Compile>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <Compile Include="ListarCategorias.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ListarCategorias.Designer.cs">
-      <DependentUpon>ListarCategorias.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ModificarCategoria.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ModificarCategoria.Designer.cs">
-      <DependentUpon>ModificarCategoria.cs</DependentUpon>
-=======
-    <Compile Include="ListarMarcas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ListarMarcas.Designer.cs">
-      <DependentUpon>ListarMarcas.cs</DependentUpon>
->>>>>>> 02748c8911e05f1574f6a5b5873639968e0481c6
-    </Compile>
-=======
->>>>>>> parent of 02748c8 (creacion de clase MarcaNegocio)
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AgreArti.resx">
@@ -152,17 +129,6 @@
     <EmbeddedResource Include="listaArticulos.resx">
       <DependentUpon>listaArticulos.cs</DependentUpon>
     </EmbeddedResource>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <EmbeddedResource Include="ListarCategorias.resx">
-      <DependentUpon>ListarCategorias.cs</DependentUpon>
-=======
-    <EmbeddedResource Include="ListarMarcas.resx">
-      <DependentUpon>ListarMarcas.cs</DependentUpon>
->>>>>>> 02748c8911e05f1574f6a5b5873639968e0481c6
-    </EmbeddedResource>
-=======
->>>>>>> parent of 02748c8 (creacion de clase MarcaNegocio)
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
