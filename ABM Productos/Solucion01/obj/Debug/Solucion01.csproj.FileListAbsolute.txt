@@ -86,3 +86,8 @@ C:\Users\Romina\Documents\GitHub\ABM Productos\ABM-Productos\ABM Productos\Soluc
 >>>>>>> 02748c8911e05f1574f6a5b5873639968e0481c6
 >>>>>>> parent of 02748c8 (creacion de clase MarcaNegocio)
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.BuscarArticulo.resources
+C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.ListarCategorias.resources
+C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\dominio.BuscarCategoria.resources
+C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\dominio.EliminarCategoria.resources
+C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.ModificarCategorias.resources
+C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\dominio.AgregarCategoria.resources

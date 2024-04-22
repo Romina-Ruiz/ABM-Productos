@@ -1,6 +1,6 @@
-﻿namespace dominio
+﻿namespace Solucion01
 {
-    partial class AgregarCategoria
+    partial class ModificarCategorias
     {
         /// <summary>
         /// Required designer variable.
@@ -45,18 +45,18 @@
             this.btnAtras.Location = new System.Drawing.Point(12, 12);
             this.btnAtras.Name = "btnAtras";
             this.btnAtras.Size = new System.Drawing.Size(67, 67);
-            this.btnAtras.TabIndex = 5;
+            this.btnAtras.TabIndex = 4;
             this.btnAtras.UseVisualStyleBackColor = false;
             this.btnAtras.Click += new System.EventHandler(this.btnAtras_Click);
             // 
-            // AgregarCategoria
+            // ModificarCategorias
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnAtras);
-            this.Name = "AgregarCategoria";
-            this.Text = "AgregarCategoria";
+            this.Name = "ModificarCategorias";
+            this.Text = "ModificarCategorias";
             this.ResumeLayout(false);
 
         }

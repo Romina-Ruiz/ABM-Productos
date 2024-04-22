@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace dominio
+namespace Solucion01
 {
-    public partial class BuscarCategoria : Form
+    public partial class ModificarCategorias : Form
     {
-        public BuscarCategoria()
+        public ModificarCategorias()
         {
             InitializeComponent();
         }
