@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using negocio;
 
 namespace Solucion01
 {
@@ -25,8 +24,7 @@ namespace Solucion01
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ListarMarcas ventana=new ListarMarcas();
-            ventana.ShowDialog();
+
         }
 
         private void toolStripLabel1_Click(object sender, EventArgs e)

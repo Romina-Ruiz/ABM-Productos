@@ -73,6 +73,7 @@ C:\Users\Romina\Documents\GitHub\ABM Productos\ABM-Productos\ABM Productos\Soluc
 C:\Users\Romina\Documents\GitHub\ABM Productos\ABM-Productos\ABM Productos\Solucion01\bin\Debug\negocio.pdb
 C:\Users\Romina\Documents\GitHub\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.csproj.Up2Date
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\bin\Debug\dominio.dll
 C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\bin\Debug\negocio.dll
 C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\bin\Debug\dominio.pdb
@@ -84,3 +85,5 @@ C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01
 C:\Users\Romina\Documents\GitHub\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.BuscarArticulo.resources
 C:\Users\Romina\Documents\GitHub\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.ListarMarcas.resources
 >>>>>>> 02748c8911e05f1574f6a5b5873639968e0481c6
+=======
+>>>>>>> parent of 02748c8 (creacion de clase MarcaNegocio)

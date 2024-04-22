@@ -107,6 +107,7 @@
       <DependentUpon>listaArticulos.cs</DependentUpon>
     </Compile>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="ListarCategorias.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +127,8 @@
       <DependentUpon>ListarMarcas.cs</DependentUpon>
 >>>>>>> 02748c8911e05f1574f6a5b5873639968e0481c6
     </Compile>
+=======
+>>>>>>> parent of 02748c8 (creacion de clase MarcaNegocio)
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AgreArti.resx">
@@ -150,6 +153,7 @@
       <DependentUpon>listaArticulos.cs</DependentUpon>
     </EmbeddedResource>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <EmbeddedResource Include="ListarCategorias.resx">
       <DependentUpon>ListarCategorias.cs</DependentUpon>
 =======
@@ -157,6 +161,8 @@
       <DependentUpon>ListarMarcas.cs</DependentUpon>
 >>>>>>> 02748c8911e05f1574f6a5b5873639968e0481c6
     </EmbeddedResource>
+=======
+>>>>>>> parent of 02748c8 (creacion de clase MarcaNegocio)
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>

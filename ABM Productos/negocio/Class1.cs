@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace dominio
+namespace negocio
 {
-    public class Marca
+    public class Class1
     {
-
-        public int _CodMarca { get; set; }
-        public string _NombreMarca { get; set; }
-
     }
 }
