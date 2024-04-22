@@ -24,10 +24,26 @@ namespace Solucion01
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            ListarMarcas ventana=new ListarMarcas();
+            ventana.ShowDialog();
         }
 
         private void toolStripLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void picMarca_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbMarca_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btEliminar_Click(object sender, EventArgs e)
         {
 
         }

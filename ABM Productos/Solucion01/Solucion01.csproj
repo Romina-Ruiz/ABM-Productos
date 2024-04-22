@@ -58,6 +58,12 @@
     <Compile Include="AgregarCategoria.Designer.cs">
       <DependentUpon>AgregarCategoria.cs</DependentUpon>
     </Compile>
+    <Compile Include="AgregarMarcas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarMarcas.Designer.cs">
+      <DependentUpon>AgregarMarcas.cs</DependentUpon>
+    </Compile>
     <Compile Include="BuscarArticulo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,11 +76,23 @@
     <Compile Include="BuscarCategoria.Designer.cs">
       <DependentUpon>BuscarCategoria.cs</DependentUpon>
     </Compile>
+    <Compile Include="BuscarMarcas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscarMarcas.Designer.cs">
+      <DependentUpon>BuscarMarcas.cs</DependentUpon>
+    </Compile>
     <Compile Include="EliminarCategoria.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="EliminarCategoria.Designer.cs">
       <DependentUpon>EliminarCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EliminarMarcas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EliminarMarcas.Designer.cs">
+      <DependentUpon>EliminarMarcas.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -111,6 +129,12 @@
     </Compile>
     <Compile Include="ListarCategorias.Designer.cs">
       <DependentUpon>ListarCategorias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListarMarcas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListarMarcas.Designer.cs">
+      <DependentUpon>ListarMarcas.cs</DependentUpon>
     </Compile>
     <Compile Include="ModificarCategorias.cs">
       <SubType>Form</SubType>
@@ -152,6 +176,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ListarCategorias.resx">
       <DependentUpon>ListarCategorias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListarMarcas.resx">
+      <DependentUpon>ListarMarcas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ModificarCategorias.resx">
       <DependentUpon>ModificarCategorias.cs</DependentUpon>

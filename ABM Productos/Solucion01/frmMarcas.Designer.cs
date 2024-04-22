@@ -29,43 +29,29 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMarcas));
-            this.picMarca = new System.Windows.Forms.PictureBox();
             this.lbMarca = new System.Windows.Forms.Label();
             this.btListar = new System.Windows.Forms.Button();
             this.btBuscar = new System.Windows.Forms.Button();
             this.btAgregar = new System.Windows.Forms.Button();
             this.btEliminar = new System.Windows.Forms.Button();
             this.btModificar = new System.Windows.Forms.Button();
-            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
-            this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
-            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.picMarca = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picMarca)).BeginInit();
-            this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // picMarca
-            // 
-            this.picMarca.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.picMarca.Image = ((System.Drawing.Image)(resources.GetObject("picMarca.Image")));
-            this.picMarca.Location = new System.Drawing.Point(-17, -31);
-            this.picMarca.Name = "picMarca";
-            this.picMarca.Size = new System.Drawing.Size(512, 512);
-            this.picMarca.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.picMarca.TabIndex = 0;
-            this.picMarca.TabStop = false;
             // 
             // lbMarca
             // 
             this.lbMarca.AutoSize = true;
             this.lbMarca.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.lbMarca.Font = new System.Drawing.Font("Lucida Fax", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbMarca.Font = new System.Drawing.Font("Stencil", 36F, System.Drawing.FontStyle.Bold);
             this.lbMarca.ForeColor = System.Drawing.Color.Firebrick;
-            this.lbMarca.Location = new System.Drawing.Point(449, 42);
+            this.lbMarca.Location = new System.Drawing.Point(301, 9);
             this.lbMarca.Name = "lbMarca";
-            this.lbMarca.Size = new System.Drawing.Size(238, 55);
+            this.lbMarca.Size = new System.Drawing.Size(218, 57);
             this.lbMarca.TabIndex = 1;
             this.lbMarca.Text = "MARCAS";
             this.lbMarca.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.lbMarca.Click += new System.EventHandler(this.lbMarca_Click);
             // 
             // btListar
             // 
@@ -78,10 +64,10 @@
             this.btListar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
             this.btListar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.btListar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btListar.Font = new System.Drawing.Font("Century", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btListar.Location = new System.Drawing.Point(377, 149);
+            this.btListar.Font = new System.Drawing.Font("Stencil", 21.75F, System.Drawing.FontStyle.Bold);
+            this.btListar.Location = new System.Drawing.Point(43, 100);
             this.btListar.Name = "btListar";
-            this.btListar.Size = new System.Drawing.Size(168, 55);
+            this.btListar.Size = new System.Drawing.Size(198, 71);
             this.btListar.TabIndex = 2;
             this.btListar.Text = "Listar";
             this.btListar.UseVisualStyleBackColor = false;
@@ -96,10 +82,10 @@
             this.btBuscar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
             this.btBuscar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.btBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btBuscar.Font = new System.Drawing.Font("Century", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btBuscar.Location = new System.Drawing.Point(573, 149);
+            this.btBuscar.Font = new System.Drawing.Font("Stencil", 21.75F, System.Drawing.FontStyle.Bold);
+            this.btBuscar.Location = new System.Drawing.Point(562, 100);
             this.btBuscar.Name = "btBuscar";
-            this.btBuscar.Size = new System.Drawing.Size(166, 55);
+            this.btBuscar.Size = new System.Drawing.Size(198, 71);
             this.btBuscar.TabIndex = 3;
             this.btBuscar.Text = "Buscar";
             this.btBuscar.UseVisualStyleBackColor = false;
@@ -113,10 +99,10 @@
             this.btAgregar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
             this.btAgregar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.btAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btAgregar.Font = new System.Drawing.Font("Century", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btAgregar.Location = new System.Drawing.Point(377, 225);
+            this.btAgregar.Font = new System.Drawing.Font("Stencil", 21.75F, System.Drawing.FontStyle.Bold);
+            this.btAgregar.Location = new System.Drawing.Point(43, 215);
             this.btAgregar.Name = "btAgregar";
-            this.btAgregar.Size = new System.Drawing.Size(168, 55);
+            this.btAgregar.Size = new System.Drawing.Size(198, 71);
             this.btAgregar.TabIndex = 4;
             this.btAgregar.Text = "Agregar";
             this.btAgregar.UseVisualStyleBackColor = false;
@@ -130,13 +116,14 @@
             this.btEliminar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
             this.btEliminar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.btEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btEliminar.Font = new System.Drawing.Font("Century", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btEliminar.Location = new System.Drawing.Point(478, 311);
+            this.btEliminar.Font = new System.Drawing.Font("Stencil", 21.75F, System.Drawing.FontStyle.Bold);
+            this.btEliminar.Location = new System.Drawing.Point(311, 367);
             this.btEliminar.Name = "btEliminar";
-            this.btEliminar.Size = new System.Drawing.Size(166, 55);
+            this.btEliminar.Size = new System.Drawing.Size(198, 71);
             this.btEliminar.TabIndex = 5;
             this.btEliminar.Text = "Eliminar";
             this.btEliminar.UseVisualStyleBackColor = false;
+            this.btEliminar.Click += new System.EventHandler(this.btEliminar_Click);
             // 
             // btModificar
             // 
@@ -146,44 +133,25 @@
             this.btModificar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
             this.btModificar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.btModificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btModificar.Font = new System.Drawing.Font("Century", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btModificar.Location = new System.Drawing.Point(573, 225);
+            this.btModificar.Font = new System.Drawing.Font("Stencil", 21.75F, System.Drawing.FontStyle.Bold);
+            this.btModificar.Location = new System.Drawing.Point(562, 215);
             this.btModificar.Name = "btModificar";
-            this.btModificar.Size = new System.Drawing.Size(166, 55);
+            this.btModificar.Size = new System.Drawing.Size(198, 71);
             this.btModificar.TabIndex = 7;
             this.btModificar.Text = "Modificar";
             this.btModificar.UseVisualStyleBackColor = false;
             // 
-            // toolStripLabel1
+            // picMarca
             // 
-            this.toolStripLabel1.Font = new System.Drawing.Font("Cambria", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripLabel1.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.toolStripLabel1.LinkVisited = true;
-            this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(96, 25);
-            this.toolStripLabel1.Text = "Articulos";
-            this.toolStripLabel1.VisitedLinkColor = System.Drawing.Color.Maroon;
-            this.toolStripLabel1.Click += new System.EventHandler(this.toolStripLabel1_Click);
-            // 
-            // toolStripLabel2
-            // 
-            this.toolStripLabel2.Font = new System.Drawing.Font("Cambria", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripLabel2.Name = "toolStripLabel2";
-            this.toolStripLabel2.Size = new System.Drawing.Size(114, 25);
-            this.toolStripLabel2.Text = "Categorias";
-            // 
-            // toolStrip1
-            // 
-            this.toolStrip1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(16, 8);
-            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripLabel1,
-            this.toolStripLabel2});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
-            this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(800, 28);
-            this.toolStrip1.TabIndex = 8;
-            this.toolStrip1.Text = "toolStrip1";
+            this.picMarca.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.picMarca.Image = ((System.Drawing.Image)(resources.GetObject("picMarca.Image")));
+            this.picMarca.Location = new System.Drawing.Point(279, 100);
+            this.picMarca.Name = "picMarca";
+            this.picMarca.Size = new System.Drawing.Size(250, 250);
+            this.picMarca.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.picMarca.TabIndex = 0;
+            this.picMarca.TabStop = false;
+            this.picMarca.Click += new System.EventHandler(this.picMarca_Click);
             // 
             // frmMarcas
             // 
@@ -191,7 +159,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.btModificar);
             this.Controls.Add(this.btEliminar);
             this.Controls.Add(this.btAgregar);
@@ -204,24 +171,18 @@
             this.Text = "frmMarcas";
             this.Load += new System.EventHandler(this.frmMarcas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picMarca)).EndInit();
-            this.toolStrip1.ResumeLayout(false);
-            this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox picMarca;
         private System.Windows.Forms.Label lbMarca;
         private System.Windows.Forms.Button btListar;
         private System.Windows.Forms.Button btBuscar;
         private System.Windows.Forms.Button btAgregar;
         private System.Windows.Forms.Button btEliminar;
         private System.Windows.Forms.Button btModificar;
-        private System.Windows.Forms.ToolStripLabel toolStripLabel1;
-        private System.Windows.Forms.ToolStripLabel toolStripLabel2;
-        private System.Windows.Forms.ToolStrip toolStrip1;
+        private System.Windows.Forms.PictureBox picMarca;
     }
 }
