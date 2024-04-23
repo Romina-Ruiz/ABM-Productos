@@ -31,11 +31,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BuscarCategoria));
             this.btnAtras = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.lblBuscar = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.lblTitulo = new System.Windows.Forms.Label();
             this.lblId = new System.Windows.Forms.Label();
             this.btnBuscar = new System.Windows.Forms.Button();
+            this.lblInformacion = new System.Windows.Forms.Label();
+            this.numId = new System.Windows.Forms.NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numId)).BeginInit();
             this.SuspendLayout();
             // 
             // btnAtras
@@ -67,23 +69,16 @@
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
-            // lblBuscar
+            // lblTitulo
             // 
-            this.lblBuscar.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.lblBuscar.AutoSize = true;
-            this.lblBuscar.Font = new System.Drawing.Font("Stencil", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBuscar.Location = new System.Drawing.Point(167, 12);
-            this.lblBuscar.Name = "lblBuscar";
-            this.lblBuscar.Size = new System.Drawing.Size(494, 57);
-            this.lblBuscar.TabIndex = 6;
-            this.lblBuscar.Text = "Buscar Categoria\r\n";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(262, 141);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(171, 20);
-            this.textBox1.TabIndex = 7;
+            this.lblTitulo.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lblTitulo.AutoSize = true;
+            this.lblTitulo.Font = new System.Drawing.Font("Stencil", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.Location = new System.Drawing.Point(167, 12);
+            this.lblTitulo.Name = "lblTitulo";
+            this.lblTitulo.Size = new System.Drawing.Size(494, 57);
+            this.lblTitulo.TabIndex = 6;
+            this.lblTitulo.Text = "Buscar Categoria\r\n";
             // 
             // lblId
             // 
@@ -103,6 +98,39 @@
             this.btnBuscar.TabIndex = 9;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
+            // 
+            // lblInformacion
+            // 
+            this.lblInformacion.AutoSize = true;
+            this.lblInformacion.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInformacion.ForeColor = System.Drawing.Color.White;
+            this.lblInformacion.Location = new System.Drawing.Point(312, 271);
+            this.lblInformacion.Name = "lblInformacion";
+            this.lblInformacion.Size = new System.Drawing.Size(0, 31);
+            this.lblInformacion.TabIndex = 10;
+            // 
+            // numId
+            // 
+            this.numId.Location = new System.Drawing.Point(283, 141);
+            this.numId.Maximum = new decimal(new int[] {
+            4,
+            0,
+            0,
+            0});
+            this.numId.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numId.Name = "numId";
+            this.numId.Size = new System.Drawing.Size(120, 20);
+            this.numId.TabIndex = 11;
+            this.numId.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // BuscarCategoria
             // 
@@ -110,15 +138,17 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HotTrack;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.numId);
+            this.Controls.Add(this.lblInformacion);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.lblId);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.lblBuscar);
+            this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnAtras);
             this.Name = "BuscarCategoria";
             this.Text = "BuscarCategoria";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numId)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -128,9 +158,10 @@
 
         private System.Windows.Forms.Button btnAtras;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label lblBuscar;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.Label lblId;
         private System.Windows.Forms.Button btnBuscar;
+        private System.Windows.Forms.Label lblInformacion;
+        private System.Windows.Forms.NumericUpDown numId;
     }
 }
