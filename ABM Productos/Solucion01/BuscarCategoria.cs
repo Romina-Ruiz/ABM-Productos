@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using negocio;
+using dominio;
+using Solucion01;
 
 namespace dominio
 {
@@ -24,8 +27,21 @@ namespace dominio
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
-            string texto = txtBuscar.Text;
-            lblInformacion.Text = "Descripcion "+texto;
+            int IdBuscado = (int)numId.Value;
+            
+            Categoria categoriaBuscada;
+            List<Categoria> listaCompleta;
+            CategoriaNegocio negocio = new CategoriaNegocio();
+            listaCompleta = negocio.listar();
+            categoriaBuscada = listaCompleta.Find(c => c.Id == IdBuscado);
+            if(categoriaBuscada !=null )
+            {
+                lblInformacion.Text = categoriaBuscada.Descripcion;
+            }
+            else
+            {
+                lblInformacion.Text = "Categoria no encontrada,intente con otro numer de Id";
+            }
         }
     }
 }
