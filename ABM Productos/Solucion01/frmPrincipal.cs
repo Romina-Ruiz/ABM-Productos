@@ -28,8 +28,8 @@ namespace Solucion01
         }
 
         private void btArticulos_Click(object sender, EventArgs e)
-        {
-            Form1 ventana = new Form1();
+        {         
+            listaArticulos ventana = new listaArticulos();
             ventana.ShowDialog();
         }
 

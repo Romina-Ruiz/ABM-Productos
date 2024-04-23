@@ -181,6 +181,7 @@
             this.Name = "AgreArti";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AgreArti";
+            this.Load += new System.EventHandler(this.AgreArti_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

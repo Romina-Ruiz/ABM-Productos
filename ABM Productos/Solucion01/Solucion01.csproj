@@ -58,29 +58,23 @@
     <Compile Include="AgregarCategoria.Designer.cs">
       <DependentUpon>AgregarCategoria.cs</DependentUpon>
     </Compile>
-    <Compile Include="BuscarArticulo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="BuscarArticulo.Designer.cs">
-      <DependentUpon>BuscarArticulo.cs</DependentUpon>
-    </Compile>
     <Compile Include="BuscarCategoria.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="BuscarCategoria.Designer.cs">
       <DependentUpon>BuscarCategoria.cs</DependentUpon>
     </Compile>
+    <Compile Include="DetalleArticulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetalleArticulo.Designer.cs">
+      <DependentUpon>DetalleArticulo.cs</DependentUpon>
+    </Compile>
     <Compile Include="EliminarCategoria.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="EliminarCategoria.Designer.cs">
       <DependentUpon>EliminarCategoria.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="frmCategorias.cs">
       <SubType>Form</SubType>
@@ -126,17 +120,14 @@
     <EmbeddedResource Include="AgregarCategoria.resx">
       <DependentUpon>AgregarCategoria.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="BuscarArticulo.resx">
-      <DependentUpon>BuscarArticulo.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="BuscarCategoria.resx">
       <DependentUpon>BuscarCategoria.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DetalleArticulo.resx">
+      <DependentUpon>DetalleArticulo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EliminarCategoria.resx">
       <DependentUpon>EliminarCategoria.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmCategorias.resx">
       <DependentUpon>frmCategorias.cs</DependentUpon>

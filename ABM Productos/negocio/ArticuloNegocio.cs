@@ -21,13 +21,14 @@ namespace negocio
 
             try
             {
-                datos.setearConsulta("select Codigo, Nombre, Descripcion, Precio from ARTICULOS");
+                datos.setearConsulta("select Id, Codigo, Nombre, Descripcion, Precio from ARTICULOS");
                 datos.ejecutarLectura();
 
                 while(datos.Lector.Read())
                 {
                     Articulo aux = new Articulo();
 
+                    aux.Id = (int)datos.Lector["Id"];                    
 
                     if (!(datos.Lector.IsDBNull(datos.Lector.GetOrdinal("Codigo"))))
                     {
@@ -82,6 +83,45 @@ namespace negocio
         
         
         }
+        public void Modificar(Articulo modificar)
+        {
+            AccesoDatos datos = new AccesoDatos();
+        
+            try
+            {
+                datos.setearConsulta("update ARTICULOS set Codigo = '" + modificar.Cod_Articulo + "', Nombre = '" + modificar.Nombre_Articulo + "', Descripcion = '" + modificar._Descripcion + "', Precio = " + modificar.Precio + " where Id = "+ modificar.Id +"");
+                datos.setearParametro("Codigo", modificar.Cod_Articulo);
+                datos.setearParametro("Nombre", modificar.Nombre_Articulo);
+                datos.setearParametro("Descripcion", modificar._Descripcion);
+                datos.setearParametro("Precio", modificar.Precio);
+                datos.setearParametro("Id", modificar.Id);
 
+                datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
+        public void eliminar(int id)
+        {
+            try
+            {
+                AccesoDatos datos = new AccesoDatos();
+                datos.setearConsulta("delete from ARTICULOS where id = " + id + "");
+                datos.setearParametro("Id", id);
+                datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+
+        }
     }
 }

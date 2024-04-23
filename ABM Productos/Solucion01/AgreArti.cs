@@ -17,10 +17,19 @@ namespace Solucion01
 {
     public partial class AgreArti : Form
     {
+        private Articulo articulo = null;
+
         public AgreArti()
         {
             InitializeComponent();
         }
+        public AgreArti(Articulo articulo)
+        {
+            InitializeComponent();
+            this.articulo = articulo;
+            Text = "Modificar Artículo";
+        }
+
 
         private void label4_Click(object sender, EventArgs e)
         {
@@ -34,25 +43,60 @@ namespace Solucion01
 
         private void botonAgregar_Click(object sender, EventArgs e)
         {
-            Articulo arti = new Articulo();
+            //Articulo arti = new Articulo();
             ArticuloNegocio artiNe = new ArticuloNegocio();
 
             try
             {
-                arti.Cod_Articulo = textBox1.Text;
-                arti.Nombre_Articulo = textBox2.Text;
-                arti._Descripcion = textBox3.Text;
-                arti.Precio = float.Parse(textBox4.Text);
+                if (articulo == null)
+                    articulo = new Articulo();
 
-                artiNe.Agregar(arti);
-                MessageBox.Show("Agregado Exitosamente");
-                Close();
+                articulo.Cod_Articulo = textBox1.Text;
+                articulo.Nombre_Articulo = textBox2.Text;
+                articulo._Descripcion = textBox3.Text;
+                articulo.Precio = float.Parse(textBox4.Text);
+
+
+                if (articulo.Id != 0) 
+                {
+                    artiNe.Modificar(articulo);
+                    MessageBox.Show("Modificado Exitosamente");
+                }
+                else
+                {
+                    artiNe.Agregar(articulo);
+                    MessageBox.Show("Agregado Exitosamente");
+                }                
+               
+                Close();               
+
             }
             catch (Exception ex) 
             {
                 MessageBox.Show(ex.ToString());
             }
 
+
+        }
+
+        private void AgreArti_Load(object sender, EventArgs e)
+        {
+            try
+            {
+                if (articulo != null)
+                {
+                    textBox1.Text = articulo.Cod_Articulo;
+                    textBox2.Text = articulo.Nombre_Articulo;
+                    textBox3.Text = articulo._Descripcion;
+                    textBox4.Text = articulo.Precio.ToString();
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }          
 
         }
     }

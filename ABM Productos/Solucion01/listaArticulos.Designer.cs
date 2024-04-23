@@ -30,14 +30,23 @@
         {
             this.DgvArticulo = new System.Windows.Forms.DataGridView();
             this.btnAtras = new System.Windows.Forms.Button();
+            this.btnAgregar = new System.Windows.Forms.Button();
+            this.boton4 = new System.Windows.Forms.Button();
+            this.btnElimin = new System.Windows.Forms.Button();
+            this.etiquetaBuscar = new System.Windows.Forms.Label();
+            this.txtFiltro = new System.Windows.Forms.TextBox();
+            this.bntBuscar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.DgvArticulo)).BeginInit();
             this.SuspendLayout();
             // 
             // DgvArticulo
             // 
             this.DgvArticulo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DgvArticulo.Location = new System.Drawing.Point(108, 105);
+            this.DgvArticulo.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
+            this.DgvArticulo.Location = new System.Drawing.Point(145, 82);
+            this.DgvArticulo.MultiSelect = false;
             this.DgvArticulo.Name = "DgvArticulo";
+            this.DgvArticulo.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.DgvArticulo.Size = new System.Drawing.Size(425, 270);
             this.DgvArticulo.TabIndex = 0;
             // 
@@ -56,21 +65,117 @@
             this.btnAtras.UseVisualStyleBackColor = false;
             this.btnAtras.Click += new System.EventHandler(this.btnAtras_Click);
             // 
+            // btnAgregar
+            // 
+            this.btnAgregar.AccessibleName = "";
+            this.btnAgregar.BackColor = System.Drawing.Color.CadetBlue;
+            this.btnAgregar.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnAgregar.FlatAppearance.BorderSize = 2;
+            this.btnAgregar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAgregar.ForeColor = System.Drawing.Color.White;
+            this.btnAgregar.Location = new System.Drawing.Point(13, 400);
+            this.btnAgregar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.Size = new System.Drawing.Size(166, 36);
+            this.btnAgregar.TabIndex = 4;
+            this.btnAgregar.Text = "AGREGAR ARTÍCULOS";
+            this.btnAgregar.UseVisualStyleBackColor = false;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
+            // 
+            // boton4
+            // 
+            this.boton4.AccessibleName = "";
+            this.boton4.BackColor = System.Drawing.Color.CadetBlue;
+            this.boton4.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.boton4.FlatAppearance.BorderSize = 2;
+            this.boton4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.boton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.boton4.ForeColor = System.Drawing.Color.White;
+            this.boton4.Location = new System.Drawing.Point(261, 400);
+            this.boton4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.boton4.Name = "boton4";
+            this.boton4.Size = new System.Drawing.Size(167, 36);
+            this.boton4.TabIndex = 5;
+            this.boton4.Text = "MODIFICAR";
+            this.boton4.UseVisualStyleBackColor = false;
+            this.boton4.Click += new System.EventHandler(this.boton4_Click);
+            // 
+            // btnElimin
+            // 
+            this.btnElimin.AccessibleName = "";
+            this.btnElimin.BackColor = System.Drawing.Color.CadetBlue;
+            this.btnElimin.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnElimin.FlatAppearance.BorderSize = 2;
+            this.btnElimin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.btnElimin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnElimin.ForeColor = System.Drawing.Color.White;
+            this.btnElimin.Location = new System.Drawing.Point(484, 400);
+            this.btnElimin.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnElimin.Name = "btnElimin";
+            this.btnElimin.Size = new System.Drawing.Size(181, 36);
+            this.btnElimin.TabIndex = 6;
+            this.btnElimin.Text = "ELIMINAR";
+            this.btnElimin.UseVisualStyleBackColor = false;
+            this.btnElimin.Click += new System.EventHandler(this.btnElimin_Click);
+            // 
+            // etiquetaBuscar
+            // 
+            this.etiquetaBuscar.AutoSize = true;
+            this.etiquetaBuscar.BackColor = System.Drawing.Color.White;
+            this.etiquetaBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.etiquetaBuscar.Location = new System.Drawing.Point(141, 46);
+            this.etiquetaBuscar.Name = "etiquetaBuscar";
+            this.etiquetaBuscar.Size = new System.Drawing.Size(56, 20);
+            this.etiquetaBuscar.TabIndex = 7;
+            this.etiquetaBuscar.Text = "Filtrar";
+            // 
+            // txtFiltro
+            // 
+            this.txtFiltro.Location = new System.Drawing.Point(203, 46);
+            this.txtFiltro.Name = "txtFiltro";
+            this.txtFiltro.Size = new System.Drawing.Size(181, 20);
+            this.txtFiltro.TabIndex = 8;
+            // 
+            // bntBuscar
+            // 
+            this.bntBuscar.AccessibleName = "";
+            this.bntBuscar.BackColor = System.Drawing.Color.CadetBlue;
+            this.bntBuscar.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.bntBuscar.FlatAppearance.BorderSize = 2;
+            this.bntBuscar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.bntBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bntBuscar.ForeColor = System.Drawing.Color.White;
+            this.bntBuscar.Location = new System.Drawing.Point(426, 35);
+            this.bntBuscar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.bntBuscar.Name = "bntBuscar";
+            this.bntBuscar.Size = new System.Drawing.Size(135, 31);
+            this.bntBuscar.TabIndex = 9;
+            this.bntBuscar.Text = "Buscar";
+            this.bntBuscar.UseVisualStyleBackColor = false;
+            this.bntBuscar.Click += new System.EventHandler(this.bntBuscar_Click);
+            // 
             // listaArticulos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Solucion01.Properties.Resources.Fondo4;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(623, 450);
+            this.ClientSize = new System.Drawing.Size(692, 450);
+            this.Controls.Add(this.bntBuscar);
+            this.Controls.Add(this.txtFiltro);
+            this.Controls.Add(this.etiquetaBuscar);
+            this.Controls.Add(this.btnElimin);
+            this.Controls.Add(this.boton4);
+            this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.btnAtras);
             this.Controls.Add(this.DgvArticulo);
             this.Name = "listaArticulos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "listaArticulos";
+            this.Text = "Administrador Artículos";
             this.Load += new System.EventHandler(this.listaArticulos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.DgvArticulo)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -78,5 +183,11 @@
 
         private System.Windows.Forms.DataGridView DgvArticulo;
         private System.Windows.Forms.Button btnAtras;
+        private System.Windows.Forms.Button btnAgregar;
+        private System.Windows.Forms.Button boton4;
+        private System.Windows.Forms.Button btnElimin;
+        private System.Windows.Forms.Label etiquetaBuscar;
+        private System.Windows.Forms.TextBox txtFiltro;
+        private System.Windows.Forms.Button bntBuscar;
     }
 }
