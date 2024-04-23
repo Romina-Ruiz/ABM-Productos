@@ -21,5 +21,11 @@ namespace dominio
         {
             this.Close();
         }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            string texto = txtBuscar.Text;
+            lblInformacion.Text = "Descripcion "+texto;
+        }
     }
 }

@@ -90,3 +90,10 @@ C:\Users\Romina\Documents\GitHub\ABM Productos\ABM-Productos\ABM Productos\Soluc
 C:\Users\Romina\Documents\GitHub\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.ListarCategorias.resources
 C:\Users\Romina\Documents\GitHub\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.ModificarCategorias.resources
 C:\Users\Romina\Documents\GitHub\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.ListarMarcas.resources
+C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\bin\Debug\dominio.dll
+C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\bin\Debug\negocio.dll
+C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\bin\Debug\dominio.pdb
+C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\bin\Debug\negocio.pdb
+C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.BuscarArticulo.resources
+C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.ListarMarcas.resources
+C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.csproj.CopyComplete
