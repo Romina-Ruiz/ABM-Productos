@@ -97,3 +97,4 @@ C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01
 C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.BuscarArticulo.resources
 C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.ListarMarcas.resources
 C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.csproj.CopyComplete
+C:\Users\Romina\Documents\GitHub\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.AgregarMarcas.resources

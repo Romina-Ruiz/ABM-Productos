@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
+
 namespace negocio
 {
     public class MarcaNegocio
@@ -50,6 +51,27 @@ namespace negocio
 
 
 
+        }
+
+
+        public void Agregar(Marca nuevo)
+        {
+            AccesoDatos datos = new AccesoDatos();
+
+            try
+            {
+                datos.setearConsulta("INSERT into MARCAS (Descripcion) values ('')");
+                datos.ejecutarAccion();
+
+                
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+
+            finally { datos.cerrarConexion();}
 
         }
     }

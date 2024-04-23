@@ -150,6 +150,9 @@
     <EmbeddedResource Include="AgregarCategoria.resx">
       <DependentUpon>AgregarCategoria.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AgregarMarcas.resx">
+      <DependentUpon>AgregarMarcas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BuscarArticulo.resx">
       <DependentUpon>BuscarArticulo.cs</DependentUpon>
     </EmbeddedResource>

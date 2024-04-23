@@ -44,7 +44,7 @@
             this.lbMarca.AutoSize = true;
             this.lbMarca.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.lbMarca.Font = new System.Drawing.Font("Stencil", 36F, System.Drawing.FontStyle.Bold);
-            this.lbMarca.ForeColor = System.Drawing.Color.Firebrick;
+            this.lbMarca.ForeColor = System.Drawing.Color.Black;
             this.lbMarca.Location = new System.Drawing.Point(301, 9);
             this.lbMarca.Name = "lbMarca";
             this.lbMarca.Size = new System.Drawing.Size(218, 57);
@@ -106,6 +106,7 @@
             this.btAgregar.TabIndex = 4;
             this.btAgregar.Text = "Agregar";
             this.btAgregar.UseVisualStyleBackColor = false;
+            this.btAgregar.Click += new System.EventHandler(this.btAgregar_Click);
             // 
             // btEliminar
             // 

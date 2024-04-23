@@ -47,5 +47,12 @@ namespace Solucion01
         {
 
         }
+
+        private void btAgregar_Click(object sender, EventArgs e)
+        {
+            AgregarMarcas alta=new AgregarMarcas();
+
+            alta.ShowDialog();
+        }
     }
 }
