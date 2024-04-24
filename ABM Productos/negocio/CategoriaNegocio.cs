@@ -58,5 +58,9 @@ namespace negocio
             }
 
         }
+        public void Modificar(Categoria catModificada)
+        {
+
+        }
     }
 }

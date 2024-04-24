@@ -14,9 +14,15 @@ namespace dominio
 {
     public partial class AgregarCategoria : Form
     {
+        private Categoria categoria = null;
         public AgregarCategoria()
         {
             InitializeComponent();
+        } public AgregarCategoria(Categoria catModificar)
+        {
+            InitializeComponent();
+            this.categoria = catModificar;
+            Text = "Modificar Categoria";
         }
 
         private void btnAtras_Click(object sender, EventArgs e)
@@ -31,16 +37,50 @@ namespace dominio
 
         private void btbAceptar_Click(object sender, EventArgs e)
         {
-                Categoria nuevaCat = new Categoria();
+                
+            CategoriaNegocio negocio = new CategoriaNegocio();
+            try
+            {if (categoria == null)
+                {
+                    categoria = new Categoria();
+                }
+                categoria.Descripcion= txtDescripcion.Text;
+               
+                if(categoria.Id != 0)
+                {
+                negocio.Modificar(categoria);
+                MessageBox.Show("Modificado exitosamente");
+
+                }
+                else
+                {
+                negocio.agregar(categoria);
+                MessageBox.Show("Agregado exitosamente");
+
+                }
+
+
+                Close();
+                
+                
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.ToString());
+            }
+        }
+
+        private void AgregarCategoria_Load(object sender, EventArgs e)
+        {
             CategoriaNegocio negocio = new CategoriaNegocio();
             try
             {
-                nuevaCat.Descripcion= txtDescripcion.Text;
-                negocio.agregar(nuevaCat);
-
-                MessageBox.Show("Agregado exitosamente");
-                Close();
-                
+                if(categoria != null)
+                {
+                    txtDescripcion.Text = categoria.Descripcion;
+                }
 
             }
             catch (Exception ex)

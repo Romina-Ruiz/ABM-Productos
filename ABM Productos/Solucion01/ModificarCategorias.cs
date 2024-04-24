@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using negocio;
+using dominio;
 
 namespace Solucion01
 {
@@ -18,6 +18,7 @@ namespace Solucion01
         {
             InitializeComponent();
         }
+
 
         private void btnAtras_Click(object sender, EventArgs e)
         {

@@ -48,7 +48,10 @@ namespace Solucion01
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
-            ModificarCategorias ventana = new ModificarCategorias();
+            Categoria seleccionado;
+            seleccionado = (Categoria)dgvListarCategorias.CurrentRow.DataBoundItem;
+
+            AgregarCategoria ventana = new AgregarCategoria(seleccionado);
             ventana.ShowDialog();
             cargar();
         }
