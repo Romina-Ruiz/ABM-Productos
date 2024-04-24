@@ -27,7 +27,6 @@ C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01
 C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.csproj.AssemblyReference.cache
 C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.csproj.SuggestedBindingRedirects.cache
 C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.AgreArti.resources
-C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.Form1.resources
 C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.frmCategorias.resources
 C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.frmMarcas.resources
 C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.frmPrincipal.resources
@@ -94,7 +93,6 @@ C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01
 C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\bin\Debug\negocio.dll
 C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\bin\Debug\dominio.pdb
 C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\bin\Debug\negocio.pdb
-C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.BuscarArticulo.resources
 C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.ListarMarcas.resources
 C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.csproj.CopyComplete
 C:\Users\Romina\Documents\GitHub\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.AgregarMarcas.resources
@@ -126,3 +124,4 @@ C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM\ABM-Productos\ABM Product
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.csproj.CopyComplete
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.exe
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.pdb
+C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.DetalleArticulo.resources

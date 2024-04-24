@@ -105,7 +105,7 @@
             this.lblInformacion.AutoSize = true;
             this.lblInformacion.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblInformacion.ForeColor = System.Drawing.Color.White;
-            this.lblInformacion.Location = new System.Drawing.Point(312, 271);
+            this.lblInformacion.Location = new System.Drawing.Point(296, 252);
             this.lblInformacion.Name = "lblInformacion";
             this.lblInformacion.Size = new System.Drawing.Size(0, 31);
             this.lblInformacion.TabIndex = 10;
@@ -113,11 +113,6 @@
             // numId
             // 
             this.numId.Location = new System.Drawing.Point(283, 141);
-            this.numId.Maximum = new decimal(new int[] {
-            4,
-            0,
-            0,
-            0});
             this.numId.Minimum = new decimal(new int[] {
             1,
             0,
@@ -146,6 +141,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnAtras);
             this.Name = "BuscarCategoria";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BuscarCategoria";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numId)).EndInit();
