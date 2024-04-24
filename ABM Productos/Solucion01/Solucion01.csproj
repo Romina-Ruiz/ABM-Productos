@@ -58,40 +58,23 @@
     <Compile Include="AgregarCategoria.Designer.cs">
       <DependentUpon>AgregarCategoria.cs</DependentUpon>
     </Compile>
-<<<<<<< HEAD
-=======
     <Compile Include="AgregarMarcas.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AgregarMarcas.Designer.cs">
       <DependentUpon>AgregarMarcas.cs</DependentUpon>
     </Compile>
-    <Compile Include="BuscarArticulo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="BuscarArticulo.Designer.cs">
-      <DependentUpon>BuscarArticulo.cs</DependentUpon>
-    </Compile>
->>>>>>> ac96d4caeb87838f958bc66b6776d3abe37ffcdc
     <Compile Include="BuscarCategoria.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="BuscarCategoria.Designer.cs">
       <DependentUpon>BuscarCategoria.cs</DependentUpon>
     </Compile>
-<<<<<<< HEAD
-    <Compile Include="DetalleArticulo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DetalleArticulo.Designer.cs">
-      <DependentUpon>DetalleArticulo.cs</DependentUpon>
-=======
     <Compile Include="BuscarMarcas.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="BuscarMarcas.Designer.cs">
       <DependentUpon>BuscarMarcas.cs</DependentUpon>
->>>>>>> ac96d4caeb87838f958bc66b6776d3abe37ffcdc
     </Compile>
     <Compile Include="EliminarCategoria.cs">
       <SubType>Form</SubType>
@@ -99,21 +82,12 @@
     <Compile Include="EliminarCategoria.Designer.cs">
       <DependentUpon>EliminarCategoria.cs</DependentUpon>
     </Compile>
-<<<<<<< HEAD
-=======
     <Compile Include="EliminarMarcas.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="EliminarMarcas.Designer.cs">
       <DependentUpon>EliminarMarcas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
->>>>>>> ac96d4caeb87838f958bc66b6776d3abe37ffcdc
     <Compile Include="frmCategorias.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -164,15 +138,9 @@
     <EmbeddedResource Include="AgregarCategoria.resx">
       <DependentUpon>AgregarCategoria.cs</DependentUpon>
     </EmbeddedResource>
-<<<<<<< HEAD
-=======
     <EmbeddedResource Include="AgregarMarcas.resx">
       <DependentUpon>AgregarMarcas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="BuscarArticulo.resx">
-      <DependentUpon>BuscarArticulo.cs</DependentUpon>
-    </EmbeddedResource>
->>>>>>> ac96d4caeb87838f958bc66b6776d3abe37ffcdc
     <EmbeddedResource Include="BuscarCategoria.resx">
       <DependentUpon>BuscarCategoria.cs</DependentUpon>
     </EmbeddedResource>
