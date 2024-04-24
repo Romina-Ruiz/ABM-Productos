@@ -58,6 +58,7 @@
             this.Controls.Add(this.btnAtras);
             this.Name = "ModificarCategorias";
             this.Text = "ModificarCategorias";
+            this.Load += new System.EventHandler(this.ModificarCategorias_Load);
             this.ResumeLayout(false);
 
         }

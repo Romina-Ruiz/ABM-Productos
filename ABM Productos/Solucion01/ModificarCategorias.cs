@@ -1,4 +1,5 @@
-﻿using System;
+﻿using negocio;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using negocio;
 
 namespace Solucion01
 {
@@ -21,5 +23,12 @@ namespace Solucion01
         {
             this.Close();
         }
+
+        private void ModificarCategorias_Load(object sender, EventArgs e)
+        {
+           
+
+        }
+        
     }
 }

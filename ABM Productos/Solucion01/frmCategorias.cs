@@ -52,16 +52,6 @@ namespace Solucion01
 
         }
 
-        private void btnModificar_Click(object sender, EventArgs e)
-        {
-            ModificarCategorias ventana = new ModificarCategorias();
-            ventana.ShowDialog();
-        }
-
-        private void btnEliminar_Click(object sender, EventArgs e)
-        {
-            EliminarCategoria ventana = new EliminarCategoria();
-            ventana.ShowDialog();
-        }
+       
     }
 }
