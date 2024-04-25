@@ -1,4 +1,5 @@
-﻿using System;
+﻿using negocio;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,11 +11,19 @@ using System.Windows.Forms;
 
 namespace Solucion01
 {
-    public partial class BuscarMarcas : Form
+    public partial class Buscar : Form
     {
-        public BuscarMarcas()
+        public Buscar()
         {
             InitializeComponent();
+        }
+
+        private void BuscarMarcas_Load(object sender, EventArgs e)
+        {
+            MarcaNegocio negocio = new MarcaNegocio();
+            dgvBuscarMarca.DataSource = negocio.listar();
+
+
         }
     }
 }

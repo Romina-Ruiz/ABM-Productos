@@ -54,5 +54,12 @@ namespace Solucion01
 
             alta.ShowDialog();
         }
+
+        private void btBuscar_Click(object sender, EventArgs e)
+        {
+            Buscar buscar=new Buscar();
+            buscar.ShowDialog();
+
+        }
     }
 }

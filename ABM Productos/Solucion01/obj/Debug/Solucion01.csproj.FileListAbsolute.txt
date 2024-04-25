@@ -13,7 +13,6 @@ C:\Users\Romina\Documents\GitHub\ABM Productos\ABM-Productos\ABM Productos\Soluc
 C:\Users\Romina\Documents\GitHub\ABM Productos\ABM-Productos\ABM Productos\Solucion01\bin\Debug\Solucion01.exe
 C:\Users\Romina\Documents\GitHub\ABM Productos\ABM-Productos\ABM Productos\Solucion01\bin\Debug\Solucion01.pdb
 C:\Users\Romina\Documents\GitHub\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.csproj.AssemblyReference.cache
-C:\Users\Romina\Documents\GitHub\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.Form1.resources
 C:\Users\Romina\Documents\GitHub\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.Properties.Resources.resources
 C:\Users\Romina\Documents\GitHub\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.csproj.GenerateResource.cache
 C:\Users\Romina\Documents\GitHub\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.csproj.CoreCompileInputs.cache
@@ -51,7 +50,6 @@ C:\Users\Romina\Documents\GitHub\ABM Productos\ABM-Productos\ABM Productos\Soluc
 C:\Users\Romina\Documents\GitHub\ABM Productos\ABM-Productos\ABM Productos\Solucion01\bin\Debug\dominio.pdb
 C:\Users\Romina\Documents\GitHub\ABM Productos\ABM-Productos\ABM Productos\Solucion01\bin\Debug\negocio.pdb
 C:\Users\Romina\Documents\GitHub\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.csproj.Up2Date
-C:\Users\Romina\Documents\GitHub\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.BuscarArticulo.resources
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM-Productos\ABM Productos\Solucion01\bin\Debug\Solucion01.exe.config
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM-Productos\ABM Productos\Solucion01\bin\Debug\Solucion01.exe
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM-Productos\ABM Productos\Solucion01\bin\Debug\Solucion01.pdb
@@ -125,3 +123,5 @@ C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM\ABM-Productos\ABM Product
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.exe
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.pdb
 C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.DetalleArticulo.resources
+C:\Users\Romina\Documents\GitHub\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.DetalleArticulo.resources
+C:\Users\Romina\Documents\GitHub\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.Buscar.resources

@@ -33,8 +33,6 @@
             this.btListar = new System.Windows.Forms.Button();
             this.btBuscar = new System.Windows.Forms.Button();
             this.btAgregar = new System.Windows.Forms.Button();
-            this.btEliminar = new System.Windows.Forms.Button();
-            this.btModificar = new System.Windows.Forms.Button();
             this.picMarca = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picMarca)).BeginInit();
             this.SuspendLayout();
@@ -65,7 +63,7 @@
             this.btListar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.btListar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btListar.Font = new System.Drawing.Font("Stencil", 21.75F, System.Drawing.FontStyle.Bold);
-            this.btListar.Location = new System.Drawing.Point(43, 100);
+            this.btListar.Location = new System.Drawing.Point(110, 124);
             this.btListar.Name = "btListar";
             this.btListar.Size = new System.Drawing.Size(198, 71);
             this.btListar.TabIndex = 2;
@@ -83,12 +81,13 @@
             this.btBuscar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.btBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btBuscar.Font = new System.Drawing.Font("Stencil", 21.75F, System.Drawing.FontStyle.Bold);
-            this.btBuscar.Location = new System.Drawing.Point(562, 100);
+            this.btBuscar.Location = new System.Drawing.Point(110, 340);
             this.btBuscar.Name = "btBuscar";
             this.btBuscar.Size = new System.Drawing.Size(198, 71);
             this.btBuscar.TabIndex = 3;
             this.btBuscar.Text = "Buscar";
             this.btBuscar.UseVisualStyleBackColor = false;
+            this.btBuscar.Click += new System.EventHandler(this.btBuscar_Click);
             // 
             // btAgregar
             // 
@@ -100,7 +99,7 @@
             this.btAgregar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.btAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btAgregar.Font = new System.Drawing.Font("Stencil", 21.75F, System.Drawing.FontStyle.Bold);
-            this.btAgregar.Location = new System.Drawing.Point(43, 215);
+            this.btAgregar.Location = new System.Drawing.Point(110, 236);
             this.btAgregar.Name = "btAgregar";
             this.btAgregar.Size = new System.Drawing.Size(198, 71);
             this.btAgregar.TabIndex = 4;
@@ -108,45 +107,11 @@
             this.btAgregar.UseVisualStyleBackColor = false;
             this.btAgregar.Click += new System.EventHandler(this.btAgregar_Click);
             // 
-            // btEliminar
-            // 
-            this.btEliminar.BackColor = System.Drawing.Color.CadetBlue;
-            this.btEliminar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btEliminar.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
-            this.btEliminar.FlatAppearance.BorderSize = 2;
-            this.btEliminar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.btEliminar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
-            this.btEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btEliminar.Font = new System.Drawing.Font("Stencil", 21.75F, System.Drawing.FontStyle.Bold);
-            this.btEliminar.Location = new System.Drawing.Point(311, 367);
-            this.btEliminar.Name = "btEliminar";
-            this.btEliminar.Size = new System.Drawing.Size(198, 71);
-            this.btEliminar.TabIndex = 5;
-            this.btEliminar.Text = "Eliminar";
-            this.btEliminar.UseVisualStyleBackColor = false;
-            this.btEliminar.Click += new System.EventHandler(this.btEliminar_Click);
-            // 
-            // btModificar
-            // 
-            this.btModificar.BackColor = System.Drawing.Color.CadetBlue;
-            this.btModificar.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
-            this.btModificar.FlatAppearance.BorderSize = 2;
-            this.btModificar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.btModificar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
-            this.btModificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btModificar.Font = new System.Drawing.Font("Stencil", 21.75F, System.Drawing.FontStyle.Bold);
-            this.btModificar.Location = new System.Drawing.Point(562, 215);
-            this.btModificar.Name = "btModificar";
-            this.btModificar.Size = new System.Drawing.Size(198, 71);
-            this.btModificar.TabIndex = 7;
-            this.btModificar.Text = "Modificar";
-            this.btModificar.UseVisualStyleBackColor = false;
-            // 
             // picMarca
             // 
             this.picMarca.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.picMarca.Image = ((System.Drawing.Image)(resources.GetObject("picMarca.Image")));
-            this.picMarca.Location = new System.Drawing.Point(279, 100);
+            this.picMarca.Location = new System.Drawing.Point(443, 124);
             this.picMarca.Name = "picMarca";
             this.picMarca.Size = new System.Drawing.Size(250, 250);
             this.picMarca.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -160,8 +125,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btModificar);
-            this.Controls.Add(this.btEliminar);
             this.Controls.Add(this.btAgregar);
             this.Controls.Add(this.btBuscar);
             this.Controls.Add(this.btListar);
@@ -182,8 +145,6 @@
         private System.Windows.Forms.Button btListar;
         private System.Windows.Forms.Button btBuscar;
         private System.Windows.Forms.Button btAgregar;
-        private System.Windows.Forms.Button btEliminar;
-        private System.Windows.Forms.Button btModificar;
         private System.Windows.Forms.PictureBox picMarca;
     }
 }
