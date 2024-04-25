@@ -132,9 +132,10 @@
             // 
             // txtFiltro
             // 
+            this.txtFiltro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFiltro.Location = new System.Drawing.Point(203, 46);
             this.txtFiltro.Name = "txtFiltro";
-            this.txtFiltro.Size = new System.Drawing.Size(181, 20);
+            this.txtFiltro.Size = new System.Drawing.Size(181, 22);
             this.txtFiltro.TabIndex = 8;
             // 
             // bntBuscar
@@ -146,7 +147,7 @@
             this.bntBuscar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.bntBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bntBuscar.ForeColor = System.Drawing.Color.White;
-            this.bntBuscar.Location = new System.Drawing.Point(426, 35);
+            this.bntBuscar.Location = new System.Drawing.Point(422, 42);
             this.bntBuscar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.bntBuscar.Name = "bntBuscar";
             this.bntBuscar.Size = new System.Drawing.Size(135, 31);

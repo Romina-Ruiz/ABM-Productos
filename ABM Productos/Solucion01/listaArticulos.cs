@@ -16,6 +16,7 @@ namespace Solucion01
     public partial class listaArticulos : Form
     {
         private List<Articulo> listaArticulo;
+       
         
         public listaArticulos()
         {
@@ -46,9 +47,8 @@ namespace Solucion01
             try
             {
                 DgvArticulo.DataSource = negocio.listar();
-                DgvArticulo.Columns["Id"].Visible = false;
-                DgvArticulo.Columns["Id_Marca"].Visible = false;
-                DgvArticulo.Columns["Id_Categoria"].Visible = false;
+                this.listaArticulo = negocio.listar();
+                ocultarColumna();
 
             }
             catch (Exception ex)
@@ -58,6 +58,12 @@ namespace Solucion01
 
         }
 
+        private void ocultarColumna()
+        {
+            DgvArticulo.Columns["Id"].Visible = false;
+            DgvArticulo.Columns["des_marca"].Visible = false;
+            DgvArticulo.Columns["des_categoria"].Visible = false;
+        }
         private void boton4_Click(object sender, EventArgs e)
         {
             Articulo seleccionado;
@@ -68,7 +74,7 @@ namespace Solucion01
             cargar();
         }
 
-        private void btnElimin_Click(object sender, EventArgs e)
+       private void btnElimin_Click(object sender, EventArgs e)
         {
             ArticuloNegocio nego = new ArticuloNegocio();
             Articulo seleccionado;
@@ -93,21 +99,22 @@ namespace Solucion01
 
         private void bntBuscar_Click(object sender, EventArgs e)
         {
-           /* List<Articulo> listaFiltrada;
-            string filtro = txtFiltro.Text;
 
-            if(filtro != "") 
-            {
-              listaFiltrada = this.listaArticulo.FindAll(x => x.Nombre_Articulo== filtro);
-            }
-            else
-            {
-                listaFiltrada = this.listaArticulo;
-            }
-            
-            DgvArticulo.DataSource = null;
-            DgvArticulo.DataSource = listaFiltrada;*/
+             List<Articulo> listaFiltrada;
+             string filtro = (string)txtFiltro.Text;
 
+             if(filtro != "") 
+             {
+               listaFiltrada = listaArticulo.FindAll(x => x.Nombre_Articulo.ToLower().Contains(filtro.ToLower()));
+             }
+             else
+             {
+                 listaFiltrada = listaArticulo;
+             }
+
+             DgvArticulo.DataSource = null;
+             DgvArticulo.DataSource = listaFiltrada;
+             ocultarColumna();
         }
     }
 }

@@ -13,11 +13,12 @@ using System.Windows.Forms;
 using static System.Net.Mime.MediaTypeNames;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
+
 namespace Solucion01
 {
     public partial class AgreArti : Form
     {
-        private Articulo articulo = null;
+        private Articulo articulo = null;        
 
         public AgreArti()
         {
@@ -42,8 +43,7 @@ namespace Solucion01
         }
 
         private void botonAgregar_Click(object sender, EventArgs e)
-        {
-            //Articulo arti = new Articulo();
+        {           
             ArticuloNegocio artiNe = new ArticuloNegocio();
 
             try
@@ -55,7 +55,19 @@ namespace Solucion01
                 articulo.Nombre_Articulo = textBox2.Text;
                 articulo._Descripcion = textBox3.Text;
                 articulo.Precio = float.Parse(textBox4.Text);
+                
+                articulo.des_marca = cmbMarca.SelectedItem.ToString();
+                articulo.des_categoria = cmbCategoria.SelectedItem.ToString();
 
+                
+                /*// Obtener la marca seleccionada del ComboBox
+                int marcaSeleccionada = 
+                int cateSeleccionada = (int)cmbCategoria.SelectedItem;
+
+               
+                    articulo.Id_marca = marcaSeleccionada;
+                    articulo.Id_cate = cateSeleccionada;*/
+                                             
 
                 if (articulo.Id != 0) 
                 {
@@ -89,15 +101,38 @@ namespace Solucion01
                     textBox2.Text = articulo.Nombre_Articulo;
                     textBox3.Text = articulo._Descripcion;
                     textBox4.Text = articulo.Precio.ToString();
-
+                    cmbMarca.Text = articulo.des_marca;
+                    cmbCategoria.Text = articulo.des_categoria;
                 }
 
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.ToString());
-            }          
+            }            
+            
+            MarcaNegocio negocio = new MarcaNegocio();
+            CategoriaNegocio negocio2 = new CategoriaNegocio();
 
+            try
+            {
+                cmbMarca.DataSource = negocio.listar();
+                cmbCategoria.DataSource = negocio2.listar();
+
+                cmbMarca.DisplayMember = "NombreMarca";
+                cmbCategoria.DisplayMember = "Descripcion";
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+
+        }
+
+        private void cmbMarca_SelectedIndexChanged(object sender, EventArgs e)
+        {
+           
         }
     }
 }

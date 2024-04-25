@@ -21,14 +21,18 @@ namespace negocio
 
             try
             {
-                datos.setearConsulta("select Id, Codigo, Nombre, Descripcion, Precio from ARTICULOS");
+                datos.setearConsulta("select A.Id as IdArti, A.Codigo, A.Nombre, A.Descripcion, " +
+                                     "A.Precio,A.IdMarca,C.Id, M.Descripcion as des_marca, +" +
+                                     "C.Descripcion as des_Categoria from ARTICULOS A, MARCAS M ," +
+                                     " CATEGORIAS C where A.IdMarca = M.Id and +" +
+                                     "A.IdCategoria = C.Id");
                 datos.ejecutarLectura();
 
                 while(datos.Lector.Read())
                 {
                     Articulo aux = new Articulo();
 
-                    aux.Id = (int)datos.Lector["Id"];                    
+                    aux.Id = (int)datos.Lector["IdArti"];                    
 
                     if (!(datos.Lector.IsDBNull(datos.Lector.GetOrdinal("Codigo"))))
                     {
@@ -46,7 +50,20 @@ namespace negocio
                     {
                         decimal cantidad = (decimal)datos.Lector["Precio"];
                         aux.Precio = (float)cantidad;
+                    }                    
+
+                    if (!(datos.Lector["des_marca"] is DBNull))
+                    {
+                        aux.des_marca = (string)datos.Lector["des_marca"];
                     }
+                    if (!(datos.Lector["des_categoria"] is DBNull))
+                    {
+                        aux.des_categoria = (string)datos.Lector["des_categoria"];
+                    }
+
+                    aux.Id_marca= (int)datos.Lector["IdMarca"];
+                    aux.Id_cate= (int)datos.Lector["Id"];
+
 
                     lista.Add(aux);
                 }
@@ -68,8 +85,27 @@ namespace negocio
 
             try
             {
-                datos.setearConsulta("insert into Articulos (Codigo, Nombre, Descripcion, Precio) values ('" + Art.Cod_Articulo + "','" + Art.Nombre_Articulo + "','" + Art._Descripcion + "'," + Art.Precio + ")");
+                // Combinar las tres consultas en una sola
+                string consulta = "INSERT INTO Articulos (Codigo, Nombre, Descripcion,IdMarca,IdCategoria, Precio) " +
+                                  "VALUES ('" + Art.Cod_Articulo + "','" + Art.Nombre_Articulo +
+                                  "','" + Art._Descripcion + "'," + Art.Id_marca + "," + Art.Id_cate + "," + Art.Precio + ")";
+                                  
+                                  
+                                  
+                                  /*+"INSERT INTO MARCAS (Descripcion) VALUES('" + Art.des_marca + "');" +
+                                  "INSERT INTO CATEGORIAS (Descripcion) VALUES('" + Art.des_categoria + "');";*/
+
+                
+                datos.setearConsulta(consulta);                
                 datos.ejecutarAccion();
+
+               /* datos.setearConsulta("insert into Articulos (Codigo, Nombre, Descripcion, Precio) values ('" + Art.Cod_Articulo + "','" + Art.Nombre_Articulo + "','" + Art._Descripcion + "'," + Art.Precio + ")");
+                datos.ejecutarAccion();                                
+                datos.setearConsulta("insert into MARCAS (Descripcion) values('" + Art.des_marca + "')");
+                datos.ejecutarAccion();                
+                datos.setearConsulta("insert into CATEGORIAS(Descripcion) values('" + Art.des_categoria + "')");
+               
+                datos.ejecutarAccion();*/
             }
             catch (Exception)
             {
@@ -95,6 +131,8 @@ namespace negocio
                 datos.setearParametro("Descripcion", modificar._Descripcion);
                 datos.setearParametro("Precio", modificar.Precio);
                 datos.setearParametro("Id", modificar.Id);
+                datos.setearParametro("des_marca", modificar.des_marca);
+                datos.setearParametro("des_categoria", modificar.des_categoria);
 
                 datos.ejecutarAccion();
             }

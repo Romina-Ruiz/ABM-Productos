@@ -15,9 +15,12 @@ namespace dominio
         public string _Descripcion { get; set; }
         public float Precio { get; set; }
 
+        public int Id_marca { get; set; }
+        public int Id_cate { get; set; }
 
-        public int Id_Marca { get; set; }
-        public int Id_Categoria { get; set; }        
+
+        public string des_marca { get; set; }
+        public string des_categoria { get; set; }        
        
         
     }
