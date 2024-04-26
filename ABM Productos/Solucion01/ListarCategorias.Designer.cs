@@ -135,6 +135,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.dgvListarCategorias);
             this.Name = "ListarCategorias";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ListarCategorias";
             this.Load += new System.EventHandler(this.ListarCategorias_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvListarCategorias)).EndInit();
