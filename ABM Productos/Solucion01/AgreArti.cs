@@ -19,11 +19,13 @@ namespace Solucion01
     public partial class AgreArti : Form
     {
         private Articulo articulo = null;        
-
+        
         public AgreArti()
         {
-            InitializeComponent();
-        }
+            InitializeComponent();    
+           
+        }  
+        
         public AgreArti(Articulo articulo)
         {
             InitializeComponent();
@@ -59,20 +61,24 @@ namespace Solucion01
                 articulo.des_marca = cmbMarca.SelectedItem.ToString();
                 articulo.des_categoria = cmbCategoria.SelectedItem.ToString();
 
-                
-                /*// Obtener la marca seleccionada del ComboBox
-                int marcaSeleccionada = 
-                int cateSeleccionada = (int)cmbCategoria.SelectedItem;
+                // Obtener el objeto Marca seleccionado del ComboBox
+                Marca marcaSeleccionada = (Marca)cmbMarca.SelectedItem;                
+                Categoria categoriaSeleccionada = (Categoria)cmbCategoria.SelectedItem;
 
-               
-                    articulo.Id_marca = marcaSeleccionada;
-                    articulo.Id_cate = cateSeleccionada;*/
-                                             
+                // Obtener el ID correspondiente
+                int idMarcaSeleccionado = marcaSeleccionada.Id_M;
+                int idCategoriaSeleccionado = categoriaSeleccionada.Id;
+
+                articulo.Id_marca = idMarcaSeleccionado;
+                articulo.Id_cate = idCategoriaSeleccionado;       
+                                                         
+                                            
 
                 if (articulo.Id != 0) 
                 {
                     artiNe.Modificar(articulo);
                     MessageBox.Show("Modificado Exitosamente");
+                    
                 }
                 else
                 {

@@ -63,6 +63,8 @@ namespace Solucion01
             DgvArticulo.Columns["Id"].Visible = false;
             DgvArticulo.Columns["des_marca"].Visible = false;
             DgvArticulo.Columns["des_categoria"].Visible = false;
+            DgvArticulo.Columns["Id_marca"].Visible = false;
+            DgvArticulo.Columns["Id_Cate"].Visible = false;
         }
         private void boton4_Click(object sender, EventArgs e)
         {
