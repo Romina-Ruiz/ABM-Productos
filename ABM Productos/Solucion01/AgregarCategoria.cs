@@ -44,10 +44,12 @@ namespace dominio
                 {
                     categoria = new Categoria();
                 }
+            
                 categoria.Descripcion= txtDescripcion.Text;
                
                 if(categoria.Id != 0)
                 {
+                   
                 negocio.Modificar(categoria);
                 MessageBox.Show("Modificado exitosamente");
 

@@ -58,10 +58,27 @@ namespace Solucion01
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-
-            EliminarCategoria ventana = new EliminarCategoria();
-            ventana.ShowDialog();
+            CategoriaNegocio negocio = new CategoriaNegocio();
+            Categoria seleccionado;
+           
+            try
+            {
+               DialogResult Respuesta= MessageBox.Show("¿Esta seguro que quiere eliminar?","Eliminando",MessageBoxButtons.YesNo,MessageBoxIcon.Warning);
+                if (Respuesta == DialogResult.Yes)
+                {
+                seleccionado = (Categoria)dgvListarCategorias.CurrentRow.DataBoundItem;
+                negocio.Eliminar(seleccionado.Id);
             cargar();
+
+                }
+               
+               
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.ToString());
+            }
         }
     }
 }

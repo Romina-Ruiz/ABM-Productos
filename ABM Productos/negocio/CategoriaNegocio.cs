@@ -59,7 +59,41 @@ namespace negocio
 
         }
         public void Modificar(Categoria catModificada)
+        {AccesoDatos datos = new AccesoDatos();
+            try
+            {
+                datos.setearConsulta("update CATEGORIAS set Descripcion= @desc Where Id= @id");
+                datos.setearParametro("@desc", catModificada.Descripcion);
+                datos.setearParametro("@id", catModificada.Id);
+
+                datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally { 
+            
+                datos.cerrarConexion() ;
+            }
+        }
+
+        public void Eliminar(int id)
         {
+            try
+            {
+                AccesoDatos datos = new AccesoDatos();
+                datos.setearConsulta("delete from CATEGORIAS Where Id = @id");
+                datos.setearParametro("@id",id);
+                datos.ejecutarAccion();
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+           
 
         }
     }
