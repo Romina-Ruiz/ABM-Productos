@@ -166,3 +166,5 @@ C:\Users\Romina\Documents\GitHub\ABM Productos\ABM-Productos\ABM Productos\Soluc
 C:\Users\Romina\Documents\GitHub\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.BuscarMarca.resources
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_nuevo\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.BuscarMarca.resources
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_nuevo\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.ModificarMarca.resources
+C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.BuscarMarca.resources
+C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.ModificarMarca.resources
