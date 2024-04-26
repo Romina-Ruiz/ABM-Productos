@@ -125,8 +125,12 @@ namespace Solucion01
 
         private void DgvArticulo_SelectionChanged(object sender, EventArgs e)
         {
-            Articulo selec = (Articulo)DgvArticulo.CurrentRow.DataBoundItem;
-            cargarImagen(selec.urlImagen);
+            if (DgvArticulo.CurrentRow != null) 
+            {
+                Articulo selec = (Articulo)DgvArticulo.CurrentRow.DataBoundItem;
+                cargarImagen(selec.urlImagen);
+            }
+            
         }
 
         private void cargarImagen(string imagen)
