@@ -21,7 +21,15 @@ namespace negocio
 
             try
             {
-                datos.setearConsulta("select A.Id as IdArti, A.Codigo, A.Nombre, A.Descripcion,A.Precio,A.IdMarca,C.Id, M.Descripcion as des_marca,C.Descripcion as des_Categoria from ARTICULOS A, MARCAS M ,CATEGORIAS C where A.IdMarca = M.Id and A.IdCategoria = C.Id");
+                //datos.setearConsulta("select A.Id as IdArti, A.Codigo, A.Nombre, A.Descripcion,A.Precio,A.IdMarca,C.Id, M.Descripcion as des_marca,C.Descripcion as des_Categoria from ARTICULOS A, MARCAS M ,CATEGORIAS C where A.IdMarca = M.Id and A.IdCategoria = C.Id");
+                
+                datos.setearConsulta("select A.Id as IdArti, A.Codigo, A.Nombre, A.Descripcion," +
+                    "A.Precio,A.IdMarca,C.Id, M.Descripcion as des_marca," +
+                    "C.Descripcion as des_Categoria, I.ImagenUrl, IdArticulo from ARTICULOS A," +
+                    " MARCAS M ,CATEGORIAS C, IMAGENES I where A.IdMarca = M.Id " +
+                    "and A.IdCategoria = C.Id and A.Id = IdArticulo");
+
+
                 datos.ejecutarLectura();
 
                 while (datos.Lector.Read())
@@ -60,6 +68,14 @@ namespace negocio
                     {
                         aux.des_categoria = (string)datos.Lector["des_categoria"];
                     }
+
+                    //IMAGENES
+                    if (!(datos.Lector["ImagenUrl"] is DBNull))
+                    {
+                        aux.urlImagen = (string)datos.Lector["ImagenUrl"];
+                    }
+                    aux.IdArticulo = (int)datos.Lector["IdArticulo"];
+
 
                     lista.Add(aux);
                 }

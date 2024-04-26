@@ -20,8 +20,11 @@ namespace dominio
 
 
         public string des_marca { get; set; }
-        public string des_categoria { get; set; }        
-       
-        
+        public string des_categoria { get; set; }
+
+        public string urlImagen { get; set; }
+
+        public int IdArticulo { get; set; }
+
     }
 }
