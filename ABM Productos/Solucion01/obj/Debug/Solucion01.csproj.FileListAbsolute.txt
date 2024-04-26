@@ -135,7 +135,6 @@ C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_nuevo\ABM-Productos\ABM P
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_nuevo\ABM-Productos\ABM Productos\Solucion01\obj\Debug\dominio.AgregarCategoria.resources
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_nuevo\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.AgregarMarcas.resources
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_nuevo\ABM-Productos\ABM Productos\Solucion01\obj\Debug\dominio.BuscarCategoria.resources
-C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_nuevo\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.Buscar.resources
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_nuevo\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.DetalleArticulo.resources
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_nuevo\ABM-Productos\ABM Productos\Solucion01\obj\Debug\dominio.EliminarCategoria.resources
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_nuevo\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.frmCategorias.resources
@@ -165,3 +164,5 @@ C:\Users\Romina\Desktop\ABM Productos\ABM-Productos\ABM Productos\Solucion01\bin
 C:\Users\Romina\Desktop\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.FrmModificarMarca.resources
 C:\Users\Romina\Documents\GitHub\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.ModificarMarca.resources
 C:\Users\Romina\Documents\GitHub\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.BuscarMarca.resources
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_nuevo\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.BuscarMarca.resources
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_nuevo\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.ModificarMarca.resources

@@ -66,7 +66,7 @@ namespace Solucion01
                 Categoria categoriaSeleccionada = (Categoria)cmbCategoria.SelectedItem;
 
                 // Obtener el ID correspondiente
-                int idMarcaSeleccionado = marcaSeleccionada.Id_M;
+                int idMarcaSeleccionado = marcaSeleccionada.CodMarca;
                 int idCategoriaSeleccionado = categoriaSeleccionada.Id;
 
                 articulo.Id_marca = idMarcaSeleccionado;
