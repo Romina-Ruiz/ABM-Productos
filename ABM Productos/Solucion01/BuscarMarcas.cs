@@ -12,17 +12,20 @@ using System.Windows.Forms;
 
 namespace Solucion01
 {
-    public partial class Buscar : Form
+    public partial class BuscarMarca : Form
     {
-        public Buscar()
+        public BuscarMarca()
         {
             InitializeComponent();
         }
 
         private void BuscarMarcas_Load(object sender, EventArgs e)
         {
+
             MarcaNegocio negocio = new MarcaNegocio();
-            dgvBuscarMarca.DataSource = negocio.listar();
+
+            dgvSeleccionado.DataSource = negocio.listar();
+
 
 
         }
@@ -30,15 +33,11 @@ namespace Solucion01
         private void Modificar_Click(object sender, EventArgs e)
         {
 
-           
-        
+            Marca seleccionado;
+            seleccionado = (Marca)dgvSeleccionado.CurrentRow.DataBoundItem;
 
-
-
-
-
-
-
+            ModificarMarca modificarMarca = new ModificarMarca(seleccionado);
+            modificarMarca.ShowDialog();
 
 
 
@@ -57,7 +56,7 @@ namespace Solucion01
                
                 if(resp == DialogResult.Yes)
                 {
-                    seleccionado = (Marca)dgvBuscarMarca.CurrentRow.DataBoundItem;
+                    seleccionado = (Marca)dgvSeleccionado.CurrentRow.DataBoundItem;
 
                     marcaNegocio.Eliminar(seleccionado.CodMarca);
 
@@ -72,5 +71,6 @@ namespace Solucion01
                 MessageBox.Show(ex.ToString());
             }
         }
+
     }
 }

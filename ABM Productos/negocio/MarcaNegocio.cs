@@ -74,8 +74,30 @@ namespace negocio
             finally { datos.cerrarConexion();}
 
         }
-    
-    
+
+       
+        public void Modificar(Marca seleccionado)
+        {
+            AccesoDatos datos = new AccesoDatos();
+
+            try
+            {
+                datos.setearConsulta("update MARCAS set Descripcion= @Descripcion");
+                datos.ejecutarAccion();
+
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+
+            finally { datos.cerrarConexion(); }
+
+        }
+
+
         public void Eliminar(int id)
         {
            

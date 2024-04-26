@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using dominio;
+using negocio;
 
 namespace Solucion01
 {
@@ -57,9 +59,9 @@ namespace Solucion01
 
         private void btBuscar_Click(object sender, EventArgs e)
         {
-            Buscar buscar=new Buscar();
-            buscar.ShowDialog();
+           BuscarMarca alta = new BuscarMarca();
 
+            alta.ShowDialog();  
         }
     }
 }
