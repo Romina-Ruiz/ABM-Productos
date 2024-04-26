@@ -1,4 +1,5 @@
-﻿using negocio;
+﻿using dominio;
+using negocio;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -24,6 +25,52 @@ namespace Solucion01
             dgvBuscarMarca.DataSource = negocio.listar();
 
 
+        }
+
+        private void Modificar_Click(object sender, EventArgs e)
+        {
+
+           
+        
+
+
+
+
+
+
+
+
+
+
+        }
+
+        private void btEliminar_Click(object sender, EventArgs e)
+        {
+
+            MarcaNegocio marcaNegocio = new MarcaNegocio();
+            Marca seleccionado;
+
+            try
+            {
+
+               DialogResult resp= MessageBox.Show("¿Esta seguro que quiere eliminarlo?", "Eliminando", MessageBoxButtons.YesNo,MessageBoxIcon.Warning);
+               
+                if(resp == DialogResult.Yes)
+                {
+                    seleccionado = (Marca)dgvBuscarMarca.CurrentRow.DataBoundItem;
+
+                    marcaNegocio.Eliminar(seleccionado.CodMarca);
+
+                }
+                
+              
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.ToString());
+            }
         }
     }
 }

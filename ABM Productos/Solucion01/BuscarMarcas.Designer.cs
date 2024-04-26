@@ -39,9 +39,12 @@
             // 
             this.dgvBuscarMarca.BackgroundColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.dgvBuscarMarca.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvBuscarMarca.Location = new System.Drawing.Point(268, 80);
+            this.dgvBuscarMarca.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
+            this.dgvBuscarMarca.Location = new System.Drawing.Point(208, 75);
+            this.dgvBuscarMarca.MultiSelect = false;
             this.dgvBuscarMarca.Name = "dgvBuscarMarca";
-            this.dgvBuscarMarca.Size = new System.Drawing.Size(268, 223);
+            this.dgvBuscarMarca.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvBuscarMarca.Size = new System.Drawing.Size(375, 223);
             this.dgvBuscarMarca.TabIndex = 2;
             // 
             // lbBuscarMarca
@@ -70,6 +73,7 @@
             this.Modificar.Text = "Modificar";
             this.Modificar.UseMnemonic = false;
             this.Modificar.UseVisualStyleBackColor = false;
+            this.Modificar.Click += new System.EventHandler(this.Modificar_Click);
             // 
             // btEliminar
             // 
@@ -84,6 +88,7 @@
             this.btEliminar.TabIndex = 5;
             this.btEliminar.Text = "Eliminar";
             this.btEliminar.UseVisualStyleBackColor = false;
+            this.btEliminar.Click += new System.EventHandler(this.btEliminar_Click);
             // 
             // Buscar
             // 
