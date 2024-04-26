@@ -26,5 +26,7 @@ namespace dominio
 
         public int IdArticulo { get; set; }
 
+        public int Id_imagen { get; set; }
+
     }
 }

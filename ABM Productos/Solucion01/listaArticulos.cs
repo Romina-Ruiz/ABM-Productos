@@ -50,7 +50,7 @@ namespace Solucion01
                 this.listaArticulo = negocio.listar();
 
                 cargarImagen(listaArticulo[0].urlImagen);
-                ocultarColumna();             
+                //ocultarColumna();             
 
             }
             catch (Exception ex)
@@ -69,6 +69,7 @@ namespace Solucion01
             DgvArticulo.Columns["Id_Cate"].Visible = false;
             DgvArticulo.Columns["urlImagen"].Visible = false;
             DgvArticulo.Columns["IdArticulo"].Visible = false;
+            DgvArticulo.Columns["Id_img"].Visible = false;
         }
         private void boton4_Click(object sender, EventArgs e)
         {
