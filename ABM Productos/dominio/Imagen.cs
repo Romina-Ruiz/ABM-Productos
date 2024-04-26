@@ -9,8 +9,8 @@ namespace dominio
     public class Imagen
     {
 
-        public int _CodImagen { get; set; }
-        public string _Rutamagen { get; set; }
+        public int Id_Articulo { get; set; }
+        public string Url_Imagen { get; set; }
 
     }
 }

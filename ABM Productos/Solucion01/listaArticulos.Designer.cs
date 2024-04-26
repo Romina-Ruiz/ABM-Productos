@@ -36,19 +36,22 @@
             this.etiquetaBuscar = new System.Windows.Forms.Label();
             this.txtFiltro = new System.Windows.Forms.TextBox();
             this.bntBuscar = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.DgvArticulo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // DgvArticulo
             // 
             this.DgvArticulo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DgvArticulo.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.DgvArticulo.Location = new System.Drawing.Point(145, 82);
+            this.DgvArticulo.Location = new System.Drawing.Point(102, 81);
             this.DgvArticulo.MultiSelect = false;
             this.DgvArticulo.Name = "DgvArticulo";
             this.DgvArticulo.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.DgvArticulo.Size = new System.Drawing.Size(425, 270);
             this.DgvArticulo.TabIndex = 0;
+            this.DgvArticulo.SelectionChanged += new System.EventHandler(this.DgvArticulo_SelectionChanged);
             // 
             // btnAtras
             // 
@@ -156,12 +159,22 @@
             this.bntBuscar.UseVisualStyleBackColor = false;
             this.bntBuscar.Click += new System.EventHandler(this.bntBuscar_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(556, 81);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(309, 270);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 10;
+            this.pictureBox1.TabStop = false;
+            // 
             // listaArticulos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Solucion01.Properties.Resources.Fondo4;
-            this.ClientSize = new System.Drawing.Size(692, 450);
+            this.ClientSize = new System.Drawing.Size(895, 450);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.bntBuscar);
             this.Controls.Add(this.txtFiltro);
             this.Controls.Add(this.etiquetaBuscar);
@@ -175,6 +188,7 @@
             this.Text = "Administrador Artículos";
             this.Load += new System.EventHandler(this.listaArticulos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.DgvArticulo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -190,5 +204,6 @@
         private System.Windows.Forms.Label etiquetaBuscar;
         private System.Windows.Forms.TextBox txtFiltro;
         private System.Windows.Forms.Button bntBuscar;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

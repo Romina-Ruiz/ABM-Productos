@@ -48,7 +48,9 @@ namespace Solucion01
             {
                 DgvArticulo.DataSource = negocio.listar();
                 this.listaArticulo = negocio.listar();
-                ocultarColumna();
+
+                cargarImagen(listaArticulo[0].urlImagen);
+                ocultarColumna();             
 
             }
             catch (Exception ex)
@@ -65,6 +67,8 @@ namespace Solucion01
             DgvArticulo.Columns["des_categoria"].Visible = false;
             DgvArticulo.Columns["Id_marca"].Visible = false;
             DgvArticulo.Columns["Id_Cate"].Visible = false;
+            DgvArticulo.Columns["urlImagen"].Visible = false;
+            DgvArticulo.Columns["IdArticulo"].Visible = false;
         }
         private void boton4_Click(object sender, EventArgs e)
         {
@@ -117,6 +121,27 @@ namespace Solucion01
              DgvArticulo.DataSource = null;
              DgvArticulo.DataSource = listaFiltrada;
              ocultarColumna();
+        }
+
+        private void DgvArticulo_SelectionChanged(object sender, EventArgs e)
+        {
+            Articulo selec = (Articulo)DgvArticulo.CurrentRow.DataBoundItem;
+            cargarImagen(selec.urlImagen);
+        }
+
+        private void cargarImagen(string imagen)
+        {
+            try
+            {
+                pictureBox1.Load(imagen);
+            }
+            catch (Exception)
+            {
+
+                pictureBox1.Load("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/991px-Placeholder_view_vector.svg.png");
+            
+            }
+            
         }
     }
 }
