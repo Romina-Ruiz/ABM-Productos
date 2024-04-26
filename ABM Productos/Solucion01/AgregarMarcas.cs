@@ -14,10 +14,23 @@ namespace Solucion01
 {
     public partial class AgregarMarcas : Form
     {
+
+        //private Marca marca=null;
+        
         public AgregarMarcas()
         {
             InitializeComponent();
         }
+
+      /*  public AgregarMarcas(Marca marca)
+        {
+            InitializeComponent();
+             this.marca= marca;
+            Text = "Modificar Marca";
+
+
+        }*/
+
 
         private void btCancelar_Click(object sender, EventArgs e)
         {
@@ -45,5 +58,6 @@ namespace Solucion01
                 MessageBox.Show(ex.ToString());
             }
         }
+
     }
 }
