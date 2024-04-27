@@ -33,74 +33,103 @@
             this.txtDescripcion = new System.Windows.Forms.TextBox();
             this.btbAceptar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
+            this.lbCategorias = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnAtras
             // 
+            this.btnAtras.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnAtras.BackColor = System.Drawing.Color.Transparent;
             this.btnAtras.BackgroundImage = global::Solucion01.Properties.Resources.flecha_atras;
             this.btnAtras.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnAtras.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAtras.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnAtras.FlatAppearance.BorderSize = 0;
+            this.btnAtras.FlatAppearance.BorderSize = 3;
             this.btnAtras.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.btnAtras.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btnAtras.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
             this.btnAtras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAtras.Location = new System.Drawing.Point(12, 12);
             this.btnAtras.Name = "btnAtras";
             this.btnAtras.Size = new System.Drawing.Size(67, 67);
-            this.btnAtras.TabIndex = 5;
+            this.btnAtras.TabIndex = 3;
+            this.btnAtras.Text = "&";
             this.btnAtras.UseVisualStyleBackColor = false;
             this.btnAtras.Click += new System.EventHandler(this.btnAtras_Click);
             // 
             // lblDescripcion
             // 
             this.lblDescripcion.AutoSize = true;
-            this.lblDescripcion.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDescripcion.Location = new System.Drawing.Point(183, 125);
+            this.lblDescripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold);
+            this.lblDescripcion.Location = new System.Drawing.Point(175, 166);
             this.lblDescripcion.Name = "lblDescripcion";
-            this.lblDescripcion.Size = new System.Drawing.Size(83, 20);
-            this.lblDescripcion.TabIndex = 6;
-            this.lblDescripcion.Text = "Descripcion";
+            this.lblDescripcion.Size = new System.Drawing.Size(205, 37);
+            this.lblDescripcion.TabIndex = 5;
+            this.lblDescripcion.Text = "Descripcion:";
             // 
             // txtDescripcion
             // 
-            this.txtDescripcion.Location = new System.Drawing.Point(307, 127);
+            this.txtDescripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDescripcion.Location = new System.Drawing.Point(418, 166);
             this.txtDescripcion.Name = "txtDescripcion";
-            this.txtDescripcion.Size = new System.Drawing.Size(162, 20);
-            this.txtDescripcion.TabIndex = 7;
+            this.txtDescripcion.Size = new System.Drawing.Size(210, 31);
+            this.txtDescripcion.TabIndex = 0;
             // 
             // btbAceptar
             // 
-            this.btbAceptar.Location = new System.Drawing.Point(187, 222);
+            this.btbAceptar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btbAceptar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btbAceptar.FlatAppearance.BorderSize = 3;
+            this.btbAceptar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
+            this.btbAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btbAceptar.Font = new System.Drawing.Font("Stencil", 21.75F, System.Drawing.FontStyle.Bold);
+            this.btbAceptar.Location = new System.Drawing.Point(160, 257);
             this.btbAceptar.Name = "btbAceptar";
-            this.btbAceptar.Size = new System.Drawing.Size(102, 33);
-            this.btbAceptar.TabIndex = 8;
-            this.btbAceptar.Text = "Aceptar";
+            this.btbAceptar.Size = new System.Drawing.Size(199, 57);
+            this.btbAceptar.TabIndex = 1;
+            this.btbAceptar.Text = "&Aceptar";
             this.btbAceptar.UseVisualStyleBackColor = true;
             this.btbAceptar.Click += new System.EventHandler(this.btbAceptar_Click);
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(481, 222);
+            this.btnCancelar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCancelar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnCancelar.FlatAppearance.BorderSize = 3;
+            this.btnCancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
+            this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancelar.Font = new System.Drawing.Font("Stencil", 21.75F, System.Drawing.FontStyle.Bold);
+            this.btnCancelar.Location = new System.Drawing.Point(418, 257);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(102, 33);
-            this.btnCancelar.TabIndex = 9;
-            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(199, 57);
+            this.btnCancelar.TabIndex = 2;
+            this.btnCancelar.Text = "&Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
+            // 
+            // lbCategorias
+            // 
+            this.lbCategorias.AutoSize = true;
+            this.lbCategorias.Font = new System.Drawing.Font("Stencil", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbCategorias.Location = new System.Drawing.Point(238, 33);
+            this.lbCategorias.Name = "lbCategorias";
+            this.lbCategorias.Size = new System.Drawing.Size(320, 57);
+            this.lbCategorias.TabIndex = 4;
+            this.lbCategorias.Text = "CATEGORIAS";
             // 
             // AgregarCategoria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.BackColor = System.Drawing.SystemColors.Info;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lbCategorias);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btbAceptar);
             this.Controls.Add(this.txtDescripcion);
             this.Controls.Add(this.lblDescripcion);
             this.Controls.Add(this.btnAtras);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(816, 489);
             this.Name = "AgregarCategoria";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AgregarCategoria";
@@ -117,5 +146,6 @@
         private System.Windows.Forms.TextBox txtDescripcion;
         private System.Windows.Forms.Button btbAceptar;
         private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.Label lbCategorias;
     }
 }

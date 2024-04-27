@@ -37,6 +37,7 @@
             this.txtFiltro = new System.Windows.Forms.TextBox();
             this.bntBuscar = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lbArticulo = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.DgvArticulo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -45,26 +46,28 @@
             // 
             this.DgvArticulo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DgvArticulo.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.DgvArticulo.Location = new System.Drawing.Point(102, 81);
+            this.DgvArticulo.Location = new System.Drawing.Point(102, 195);
             this.DgvArticulo.MultiSelect = false;
             this.DgvArticulo.Name = "DgvArticulo";
             this.DgvArticulo.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.DgvArticulo.Size = new System.Drawing.Size(425, 270);
-            this.DgvArticulo.TabIndex = 0;
+            this.DgvArticulo.Size = new System.Drawing.Size(425, 205);
+            this.DgvArticulo.TabIndex = 8;
             this.DgvArticulo.SelectionChanged += new System.EventHandler(this.DgvArticulo_SelectionChanged);
             // 
             // btnAtras
             // 
-            this.btnAtras.BackColor = System.Drawing.Color.White;
+            this.btnAtras.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.btnAtras.BackgroundImage = global::Solucion01.Properties.Resources.flecha_atras;
             this.btnAtras.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnAtras.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAtras.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnAtras.FlatAppearance.BorderSize = 0;
+            this.btnAtras.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.btnAtras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAtras.Location = new System.Drawing.Point(12, 12);
             this.btnAtras.Name = "btnAtras";
             this.btnAtras.Size = new System.Drawing.Size(75, 70);
-            this.btnAtras.TabIndex = 1;
+            this.btnAtras.TabIndex = 5;
             this.btnAtras.UseVisualStyleBackColor = false;
             this.btnAtras.Click += new System.EventHandler(this.btnAtras_Click);
             // 
@@ -72,17 +75,19 @@
             // 
             this.btnAgregar.AccessibleName = "";
             this.btnAgregar.BackColor = System.Drawing.Color.CadetBlue;
+            this.btnAgregar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAgregar.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnAgregar.FlatAppearance.BorderSize = 2;
             this.btnAgregar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnAgregar.ForeColor = System.Drawing.Color.White;
-            this.btnAgregar.Location = new System.Drawing.Point(13, 400);
+            this.btnAgregar.Location = new System.Drawing.Point(102, 450);
             this.btnAgregar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(166, 36);
-            this.btnAgregar.TabIndex = 4;
-            this.btnAgregar.Text = "AGREGAR ARTÍCULOS";
+            this.btnAgregar.Size = new System.Drawing.Size(166, 45);
+            this.btnAgregar.TabIndex = 2;
+            this.btnAgregar.Text = "&AGREGAR";
             this.btnAgregar.UseVisualStyleBackColor = false;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
@@ -90,17 +95,19 @@
             // 
             this.boton4.AccessibleName = "";
             this.boton4.BackColor = System.Drawing.Color.CadetBlue;
+            this.boton4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.boton4.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.boton4.FlatAppearance.BorderSize = 2;
             this.boton4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.boton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.boton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.boton4.ForeColor = System.Drawing.Color.White;
-            this.boton4.Location = new System.Drawing.Point(261, 400);
+            this.boton4.Location = new System.Drawing.Point(333, 450);
             this.boton4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.boton4.Name = "boton4";
-            this.boton4.Size = new System.Drawing.Size(167, 36);
-            this.boton4.TabIndex = 5;
-            this.boton4.Text = "MODIFICAR";
+            this.boton4.Size = new System.Drawing.Size(167, 45);
+            this.boton4.TabIndex = 3;
+            this.boton4.Text = "&MODIFICAR";
             this.boton4.UseVisualStyleBackColor = false;
             this.boton4.Click += new System.EventHandler(this.boton4_Click);
             // 
@@ -108,72 +115,88 @@
             // 
             this.btnElimin.AccessibleName = "";
             this.btnElimin.BackColor = System.Drawing.Color.CadetBlue;
+            this.btnElimin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnElimin.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnElimin.FlatAppearance.BorderSize = 2;
             this.btnElimin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.btnElimin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnElimin.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnElimin.ForeColor = System.Drawing.Color.White;
-            this.btnElimin.Location = new System.Drawing.Point(484, 400);
+            this.btnElimin.Location = new System.Drawing.Point(553, 450);
             this.btnElimin.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnElimin.Name = "btnElimin";
-            this.btnElimin.Size = new System.Drawing.Size(181, 36);
-            this.btnElimin.TabIndex = 6;
-            this.btnElimin.Text = "ELIMINAR";
+            this.btnElimin.Size = new System.Drawing.Size(181, 45);
+            this.btnElimin.TabIndex = 4;
+            this.btnElimin.Text = "&ELIMINAR";
             this.btnElimin.UseVisualStyleBackColor = false;
             this.btnElimin.Click += new System.EventHandler(this.btnElimin_Click);
             // 
             // etiquetaBuscar
             // 
             this.etiquetaBuscar.AutoSize = true;
-            this.etiquetaBuscar.BackColor = System.Drawing.Color.White;
-            this.etiquetaBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.etiquetaBuscar.Location = new System.Drawing.Point(141, 46);
+            this.etiquetaBuscar.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.etiquetaBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.etiquetaBuscar.Location = new System.Drawing.Point(181, 122);
             this.etiquetaBuscar.Name = "etiquetaBuscar";
-            this.etiquetaBuscar.Size = new System.Drawing.Size(56, 20);
+            this.etiquetaBuscar.Size = new System.Drawing.Size(107, 33);
             this.etiquetaBuscar.TabIndex = 7;
-            this.etiquetaBuscar.Text = "Filtrar";
+            this.etiquetaBuscar.Text = "Filtrar:";
             // 
             // txtFiltro
             // 
-            this.txtFiltro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFiltro.Location = new System.Drawing.Point(203, 46);
+            this.txtFiltro.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFiltro.Location = new System.Drawing.Point(304, 122);
             this.txtFiltro.Name = "txtFiltro";
-            this.txtFiltro.Size = new System.Drawing.Size(181, 22);
-            this.txtFiltro.TabIndex = 8;
+            this.txtFiltro.Size = new System.Drawing.Size(181, 31);
+            this.txtFiltro.TabIndex = 0;
             // 
             // bntBuscar
             // 
             this.bntBuscar.AccessibleName = "";
             this.bntBuscar.BackColor = System.Drawing.Color.CadetBlue;
+            this.bntBuscar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bntBuscar.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.bntBuscar.FlatAppearance.BorderSize = 2;
             this.bntBuscar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.bntBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bntBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bntBuscar.ForeColor = System.Drawing.Color.White;
-            this.bntBuscar.Location = new System.Drawing.Point(422, 42);
+            this.bntBuscar.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.bntBuscar.Location = new System.Drawing.Point(523, 122);
             this.bntBuscar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.bntBuscar.Name = "bntBuscar";
-            this.bntBuscar.Size = new System.Drawing.Size(135, 31);
-            this.bntBuscar.TabIndex = 9;
-            this.bntBuscar.Text = "Buscar";
+            this.bntBuscar.Size = new System.Drawing.Size(135, 35);
+            this.bntBuscar.TabIndex = 1;
+            this.bntBuscar.Text = "&Buscar";
             this.bntBuscar.UseVisualStyleBackColor = false;
             this.bntBuscar.Click += new System.EventHandler(this.bntBuscar_Click);
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(556, 81);
+            this.pictureBox1.Location = new System.Drawing.Point(577, 195);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(309, 270);
+            this.pictureBox1.Size = new System.Drawing.Size(260, 205);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
+            // 
+            // lbArticulo
+            // 
+            this.lbArticulo.AutoSize = true;
+            this.lbArticulo.Font = new System.Drawing.Font("Stencil", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbArticulo.Location = new System.Drawing.Point(293, 19);
+            this.lbArticulo.Name = "lbArticulo";
+            this.lbArticulo.Size = new System.Drawing.Size(317, 63);
+            this.lbArticulo.TabIndex = 6;
+            this.lbArticulo.Text = "ARTÍCULOS";
             // 
             // listaArticulos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Solucion01.Properties.Resources.Fondo4;
-            this.ClientSize = new System.Drawing.Size(895, 450);
+            this.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.ClientSize = new System.Drawing.Size(895, 539);
+            this.Controls.Add(this.lbArticulo);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.bntBuscar);
             this.Controls.Add(this.txtFiltro);
@@ -183,6 +206,8 @@
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.btnAtras);
             this.Controls.Add(this.DgvArticulo);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(911, 578);
             this.Name = "listaArticulos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Administrador Artículos";
@@ -205,5 +230,6 @@
         private System.Windows.Forms.TextBox txtFiltro;
         private System.Windows.Forms.Button bntBuscar;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lbArticulo;
     }
 }

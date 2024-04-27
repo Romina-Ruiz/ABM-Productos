@@ -41,11 +41,11 @@
             // 
             this.lbTitulo.AutoSize = true;
             this.lbTitulo.BackColor = System.Drawing.Color.Transparent;
-            this.lbTitulo.Font = new System.Drawing.Font("Arial Rounded MT Bold", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbTitulo.ForeColor = System.Drawing.Color.DarkRed;
+            this.lbTitulo.Font = new System.Drawing.Font("Verdana", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTitulo.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lbTitulo.Location = new System.Drawing.Point(12, 9);
             this.lbTitulo.Name = "lbTitulo";
-            this.lbTitulo.Size = new System.Drawing.Size(364, 55);
+            this.lbTitulo.Size = new System.Drawing.Size(414, 59);
             this.lbTitulo.TabIndex = 0;
             this.lbTitulo.Text = "BIENVENIDOS";
             this.lbTitulo.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -53,6 +53,8 @@
             // 
             // btArticulos
             // 
+            this.btArticulos.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.btArticulos.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.btArticulos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btArticulos.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -69,13 +71,14 @@
             this.btArticulos.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.btArticulos.Size = new System.Drawing.Size(345, 327);
             this.btArticulos.TabIndex = 1;
-            this.btArticulos.Text = "ARTICULOS";
-            this.btArticulos.UseMnemonic = false;
+            this.btArticulos.Text = "&ARTICULOS";
             this.btArticulos.UseVisualStyleBackColor = false;
             this.btArticulos.Click += new System.EventHandler(this.btArticulos_Click);
             // 
             // btCategorias
             // 
+            this.btCategorias.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btCategorias.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.btCategorias.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btCategorias.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -88,13 +91,15 @@
             this.btCategorias.Location = new System.Drawing.Point(363, 260);
             this.btCategorias.Name = "btCategorias";
             this.btCategorias.Size = new System.Drawing.Size(478, 155);
-            this.btCategorias.TabIndex = 2;
-            this.btCategorias.Text = "CATEGORIAS";
+            this.btCategorias.TabIndex = 3;
+            this.btCategorias.Text = "&CATEGORIAS";
             this.btCategorias.UseVisualStyleBackColor = false;
             this.btCategorias.Click += new System.EventHandler(this.btCategorias_Click);
             // 
             // btMarcas
             // 
+            this.btMarcas.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btMarcas.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.btMarcas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btMarcas.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -107,8 +112,8 @@
             this.btMarcas.Location = new System.Drawing.Point(363, 88);
             this.btMarcas.Name = "btMarcas";
             this.btMarcas.Size = new System.Drawing.Size(478, 166);
-            this.btMarcas.TabIndex = 3;
-            this.btMarcas.Text = "MARCAS";
+            this.btMarcas.TabIndex = 2;
+            this.btMarcas.Text = "&MARCAS";
             this.btMarcas.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btMarcas.UseVisualStyleBackColor = false;
             this.btMarcas.Click += new System.EventHandler(this.btMarcas_Click);
@@ -126,13 +131,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.BackColor = System.Drawing.Color.DarkCyan;
             this.ClientSize = new System.Drawing.Size(978, 450);
             this.Controls.Add(this.lbTitulo);
             this.Controls.Add(this.btMarcas);
             this.Controls.Add(this.btCategorias);
             this.Controls.Add(this.btArticulos);
             this.Controls.Add(this.pictureBox1);
+            this.MaximizeBox = false;
             this.Name = "frmPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmPrincipal";
