@@ -34,6 +34,7 @@
             this.btBuscar = new System.Windows.Forms.Button();
             this.btAgregar = new System.Windows.Forms.Button();
             this.picMarca = new System.Windows.Forms.PictureBox();
+            this.btCierreMarcas = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picMarca)).BeginInit();
             this.SuspendLayout();
             // 
@@ -119,12 +120,28 @@
             this.picMarca.TabStop = false;
             this.picMarca.Click += new System.EventHandler(this.picMarca_Click);
             // 
+            // btCierreMarcas
+            // 
+            this.btCierreMarcas.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btCierreMarcas.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btCierreMarcas.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btCierreMarcas.FlatAppearance.BorderSize = 3;
+            this.btCierreMarcas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btCierreMarcas.Image = global::Solucion01.Properties.Resources.flecha_atras;
+            this.btCierreMarcas.Location = new System.Drawing.Point(3, 9);
+            this.btCierreMarcas.Name = "btCierreMarcas";
+            this.btCierreMarcas.Size = new System.Drawing.Size(63, 54);
+            this.btCierreMarcas.TabIndex = 16;
+            this.btCierreMarcas.UseVisualStyleBackColor = false;
+            this.btCierreMarcas.Click += new System.EventHandler(this.btCierreMarcas_Click);
+            // 
             // frmMarcas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btCierreMarcas);
             this.Controls.Add(this.btAgregar);
             this.Controls.Add(this.btBuscar);
             this.Controls.Add(this.btListar);
@@ -146,5 +163,6 @@
         private System.Windows.Forms.Button btBuscar;
         private System.Windows.Forms.Button btAgregar;
         private System.Windows.Forms.PictureBox picMarca;
+        private System.Windows.Forms.Button btCierreMarcas;
     }
 }

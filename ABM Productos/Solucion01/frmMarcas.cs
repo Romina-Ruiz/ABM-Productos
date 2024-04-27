@@ -63,5 +63,10 @@ namespace Solucion01
 
             alta.ShowDialog();  
         }
+
+        private void btCierreMarcas_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -81,11 +81,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSet1.xsd</DependentUpon>
     </Compile>
-    <Compile Include="EliminarMarcas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="EliminarMarcas.Designer.cs">
-      <DependentUpon>EliminarMarcas.cs</DependentUpon>
+    <Compile Include="DetalleArticulo.cs" />
+    <Compile Include="DetalleArticulo.Designer.cs">
+      <DependentUpon>DetalleArticulo.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="frmCategorias.cs">
       <SubType>Form</SubType>
@@ -154,6 +154,8 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DetalleArticulo.resx">
       <DependentUpon>DetalleArticulo.cs</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DetalleArticulo.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="frmCategorias.resx">
       <DependentUpon>frmCategorias.cs</DependentUpon>

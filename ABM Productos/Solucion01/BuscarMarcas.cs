@@ -22,55 +22,41 @@ namespace Solucion01
         private void BuscarMarcas_Load(object sender, EventArgs e)
         {
 
-            MarcaNegocio negocio = new MarcaNegocio();
-
-            dgvSeleccionado.DataSource = negocio.listar();
+            
 
 
 
         }
 
-        private void Modificar_Click(object sender, EventArgs e)
+        
+        private void btBuscar_Click(object sender, EventArgs e)
         {
 
-            Marca seleccionado;
-            seleccionado = (Marca)dgvSeleccionado.CurrentRow.DataBoundItem;
+            int IdBuscado = (int)NumMarcas.Value;
 
-            ModificarMarca modificarMarca = new ModificarMarca(seleccionado);
-            modificarMarca.ShowDialog();
+            Marca marcabuscada;
+            List<Marca> listacompleta;
+            MarcaNegocio Negocio= new MarcaNegocio();
+            listacompleta = Negocio.listar();
+            marcabuscada = listacompleta.Find(c => c.CodMarca == IdBuscado);
 
+            if (marcabuscada != null ) {
+
+                lbResult.Text = marcabuscada.NombreMarca;
+            }
+
+
+             else
+            {
+                lbResult.Text = "Categoria no encontrada";
+            }
 
 
         }
 
-        private void btEliminar_Click(object sender, EventArgs e)
+        private void btCierreMarcas_Click(object sender, EventArgs e)
         {
-
-            MarcaNegocio marcaNegocio = new MarcaNegocio();
-            Marca seleccionado;
-
-            try
-            {
-
-               DialogResult resp= MessageBox.Show("¿Esta seguro que quiere eliminarlo?", "Eliminando", MessageBoxButtons.YesNo,MessageBoxIcon.Warning);
-               
-                if(resp == DialogResult.Yes)
-                {
-                    seleccionado = (Marca)dgvSeleccionado.CurrentRow.DataBoundItem;
-
-                    marcaNegocio.Eliminar(seleccionado.CodMarca);
-
-                }
-                
-              
-
-            }
-            catch (Exception ex)
-            {
-
-                MessageBox.Show(ex.ToString());
-            }
+            this.Close();
         }
-
     }
 }

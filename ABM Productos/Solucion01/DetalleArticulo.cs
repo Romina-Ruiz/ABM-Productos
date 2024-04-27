@@ -12,7 +12,7 @@ using System.Windows.Forms;
 
 namespace Solucion01
 {
-    public partial class DetalleArticulo : Form
+   /* public partial class DetalleArticulo : Form
     {
         public DetalleArticulo()
         {
@@ -69,5 +69,5 @@ namespace Solucion01
             }
         }
     }
-    
+    */
 }

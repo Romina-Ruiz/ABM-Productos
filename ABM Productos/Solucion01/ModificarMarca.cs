@@ -49,5 +49,10 @@ namespace Solucion01
             Close();
 
         }
+
+        private void btCierreMarcas_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
