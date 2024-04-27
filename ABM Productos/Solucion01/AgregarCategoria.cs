@@ -50,13 +50,14 @@ namespace dominio
                 if(categoria.Id != 0)
                 {
                    
-                negocio.Modificar(categoria);
+                    negocio.Modificar(categoria);
                 MessageBox.Show("Modificado exitosamente");
 
                 }
                 else
                 {
-                negocio.agregar(categoria);
+                    
+                    negocio.agregar(categoria);
                 MessageBox.Show("Agregado exitosamente");
 
                 }

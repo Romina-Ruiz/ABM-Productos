@@ -28,22 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.lbMarcas = new System.Windows.Forms.Label();
             this.lbNombre = new System.Windows.Forms.Label();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.btAceptar = new System.Windows.Forms.Button();
             this.btCancelar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // lbMarcas
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Stencil", 27.75F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(253, 25);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(330, 44);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "AGREGAR MARCA";
+            this.lbMarcas.AutoSize = true;
+            this.lbMarcas.Font = new System.Drawing.Font("Stencil", 27.75F, System.Drawing.FontStyle.Bold);
+            this.lbMarcas.Location = new System.Drawing.Point(335, 28);
+            this.lbMarcas.Name = "lbMarcas";
+            this.lbMarcas.Size = new System.Drawing.Size(169, 44);
+            this.lbMarcas.TabIndex = 0;
+            this.lbMarcas.Text = "MARCAS";
             // 
             // lbNombre
             // 
@@ -99,11 +99,12 @@
             this.Controls.Add(this.btAceptar);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.lbNombre);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbMarcas);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Name = "AgregarMarcas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AgregarMarcas";
+            this.Load += new System.EventHandler(this.AgregarMarcas_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -111,7 +112,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbMarcas;
         private System.Windows.Forms.Label lbNombre;
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.Button btAceptar;

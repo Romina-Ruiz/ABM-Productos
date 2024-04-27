@@ -33,11 +33,6 @@ namespace Solucion01
         private void Modificar_Click(object sender, EventArgs e)
         {
 
-            Marca seleccionado;
-            seleccionado = (Marca)dgvSeleccionado.CurrentRow.DataBoundItem;
-
-            ModificarMarca modificarMarca = new ModificarMarca(seleccionado);
-            modificarMarca.ShowDialog();
 
 
 
@@ -46,30 +41,7 @@ namespace Solucion01
         private void btEliminar_Click(object sender, EventArgs e)
         {
 
-            MarcaNegocio marcaNegocio = new MarcaNegocio();
-            Marca seleccionado;
-
-            try
-            {
-
-               DialogResult resp= MessageBox.Show("¿Esta seguro que quiere eliminarlo?", "Eliminando", MessageBoxButtons.YesNo,MessageBoxIcon.Warning);
-               
-                if(resp == DialogResult.Yes)
-                {
-                    seleccionado = (Marca)dgvSeleccionado.CurrentRow.DataBoundItem;
-
-                    marcaNegocio.Eliminar(seleccionado.CodMarca);
-
-                }
-                
-              
-
-            }
-            catch (Exception ex)
-            {
-
-                MessageBox.Show(ex.ToString());
-            }
+         
         }
 
     }

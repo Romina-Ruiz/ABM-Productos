@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -15,21 +16,21 @@ namespace Solucion01
     public partial class AgregarMarcas : Form
     {
 
-        //private Marca marca=null;
+            private Marca marca=null;
         
         public AgregarMarcas()
         {
             InitializeComponent();
         }
 
-      /*  public AgregarMarcas(Marca marca)
+      public AgregarMarcas(Marca marca)
         {
             InitializeComponent();
              this.marca= marca;
             Text = "Modificar Marca";
 
 
-        }*/
+        }
 
 
         private void btCancelar_Click(object sender, EventArgs e)
@@ -39,16 +40,39 @@ namespace Solucion01
 
         private void btAceptar_Click(object sender, EventArgs e)
         {
-            Marca nuevo= new Marca();  
+             
             MarcaNegocio negocio= new MarcaNegocio();
-
 
             try
             {
-                nuevo.NombreMarca=txtNombre.Text;
 
-                negocio.Agregar(nuevo);
-                MessageBox.Show("Registro Agregado");
+                if (marca == null)
+                {
+                    marca = new Marca();
+
+
+                }
+                marca.NombreMarca= txtNombre.Text;
+
+                if (marca.CodMarca!= 0)
+                {
+
+
+                    negocio.Modificar(marca);
+                    MessageBox.Show("Registro Modificado");
+
+                }
+
+                else
+                {
+                    negocio.Agregar(marca);
+                    MessageBox.Show("Registro Agregado");
+
+
+                }
+
+
+
                 Close();
 
             }
@@ -57,7 +81,26 @@ namespace Solucion01
 
                 MessageBox.Show(ex.ToString());
             }
+
+
         }
 
+        private void AgregarMarcas_Load(object sender, EventArgs e)
+        {
+            MarcaNegocio negocio = new MarcaNegocio();
+            try
+            {
+                if (marca != null)
+                {
+                    marca.NombreMarca = txtNombre.Text;
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.ToString());
+            }
+        }
     }
 }

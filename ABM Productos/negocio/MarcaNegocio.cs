@@ -60,7 +60,7 @@ namespace negocio
 
             try
             {
-                datos.setearConsulta("INSERT into MARCAS (Descripcion) values ('')");
+                datos.setearConsulta("INSERT into MARCAS (Descripcion) values ('" + nuevo.NombreMarca+ "')");
                 datos.ejecutarAccion();
 
                 
@@ -82,7 +82,9 @@ namespace negocio
 
             try
             {
-                datos.setearConsulta("update MARCAS set Descripcion= @Descripcion");
+                datos.setearConsulta("update MARCAS set Descripcion=@descrip where Id=@id");
+                datos.setearParametro("@descrip ", seleccionado.NombreMarca);
+                datos.setearParametro("@id", seleccionado.CodMarca);
                 datos.ejecutarAccion();
 
 
