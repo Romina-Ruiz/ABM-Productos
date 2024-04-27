@@ -134,7 +134,6 @@ C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_nuevo\ABM-Productos\ABM P
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_nuevo\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.AgregarMarcas.resources
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_nuevo\ABM-Productos\ABM Productos\Solucion01\obj\Debug\dominio.BuscarCategoria.resources
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_nuevo\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.DetalleArticulo.resources
-C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_nuevo\ABM-Productos\ABM Productos\Solucion01\obj\Debug\dominio.EliminarCategoria.resources
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_nuevo\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.frmCategorias.resources
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_nuevo\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.frmMarcas.resources
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_nuevo\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.frmPrincipal.resources
