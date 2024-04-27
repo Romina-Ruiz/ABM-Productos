@@ -43,6 +43,8 @@
             this.lblCategoria = new System.Windows.Forms.Label();
             this.cmbMarca = new System.Windows.Forms.ComboBox();
             this.cmbCategoria = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtUrl = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // etiqueta1
@@ -51,7 +53,7 @@
             this.etiqueta1.BackColor = System.Drawing.Color.White;
             this.etiqueta1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.etiqueta1.ForeColor = System.Drawing.Color.Black;
-            this.etiqueta1.Location = new System.Drawing.Point(123, 112);
+            this.etiqueta1.Location = new System.Drawing.Point(100, 112);
             this.etiqueta1.Name = "etiqueta1";
             this.etiqueta1.Size = new System.Drawing.Size(65, 20);
             this.etiqueta1.TabIndex = 1;
@@ -69,7 +71,7 @@
             this.etiqueta2.AutoSize = true;
             this.etiqueta2.BackColor = System.Drawing.Color.White;
             this.etiqueta2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.etiqueta2.Location = new System.Drawing.Point(123, 163);
+            this.etiqueta2.Location = new System.Drawing.Point(100, 162);
             this.etiqueta2.Name = "etiqueta2";
             this.etiqueta2.Size = new System.Drawing.Size(71, 20);
             this.etiqueta2.TabIndex = 3;
@@ -87,7 +89,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.White;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(123, 209);
+            this.label3.Location = new System.Drawing.Point(100, 208);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(103, 20);
             this.label3.TabIndex = 5;
@@ -121,7 +123,7 @@
             this.botonCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.botonCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.botonCancelar.ForeColor = System.Drawing.Color.White;
-            this.botonCancelar.Location = new System.Drawing.Point(113, 425);
+            this.botonCancelar.Location = new System.Drawing.Point(91, 458);
             this.botonCancelar.Name = "botonCancelar";
             this.botonCancelar.Size = new System.Drawing.Size(97, 36);
             this.botonCancelar.TabIndex = 8;
@@ -134,7 +136,7 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.White;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(123, 252);
+            this.label5.Location = new System.Drawing.Point(97, 250);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(59, 20);
             this.label5.TabIndex = 9;
@@ -156,7 +158,7 @@
             this.botonAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.botonAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.botonAgregar.ForeColor = System.Drawing.Color.White;
-            this.botonAgregar.Location = new System.Drawing.Point(344, 425);
+            this.botonAgregar.Location = new System.Drawing.Point(363, 458);
             this.botonAgregar.Name = "botonAgregar";
             this.botonAgregar.Size = new System.Drawing.Size(97, 36);
             this.botonAgregar.TabIndex = 11;
@@ -169,7 +171,7 @@
             this.lblMarca.AutoSize = true;
             this.lblMarca.BackColor = System.Drawing.Color.White;
             this.lblMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMarca.Location = new System.Drawing.Point(124, 307);
+            this.lblMarca.Location = new System.Drawing.Point(100, 307);
             this.lblMarca.Name = "lblMarca";
             this.lblMarca.Size = new System.Drawing.Size(58, 20);
             this.lblMarca.TabIndex = 12;
@@ -180,7 +182,7 @@
             this.lblCategoria.AutoSize = true;
             this.lblCategoria.BackColor = System.Drawing.Color.White;
             this.lblCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCategoria.Location = new System.Drawing.Point(123, 359);
+            this.lblCategoria.Location = new System.Drawing.Point(100, 356);
             this.lblCategoria.Name = "lblCategoria";
             this.lblCategoria.Size = new System.Drawing.Size(87, 20);
             this.lblCategoria.TabIndex = 13;
@@ -205,13 +207,33 @@
             this.cmbCategoria.Size = new System.Drawing.Size(121, 21);
             this.cmbCategoria.TabIndex = 15;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(100, 410);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(110, 20);
+            this.label1.TabIndex = 16;
+            this.label1.Text = "URL Imagen";
+            // 
+            // txtUrl
+            // 
+            this.txtUrl.Location = new System.Drawing.Point(245, 412);
+            this.txtUrl.Name = "txtUrl";
+            this.txtUrl.Size = new System.Drawing.Size(118, 20);
+            this.txtUrl.TabIndex = 17;
+            // 
             // AgreArti
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Solucion01.Properties.Resources.Fondo4;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(524, 492);
+            this.ClientSize = new System.Drawing.Size(524, 522);
+            this.Controls.Add(this.txtUrl);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.cmbCategoria);
             this.Controls.Add(this.cmbMarca);
             this.Controls.Add(this.lblCategoria);
@@ -252,5 +274,7 @@
         private System.Windows.Forms.Label lblCategoria;
         private System.Windows.Forms.ComboBox cmbMarca;
         private System.Windows.Forms.ComboBox cmbCategoria;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtUrl;
     }
 }

@@ -57,12 +57,13 @@ namespace Solucion01
                 articulo.Nombre_Articulo = textBox2.Text;
                 articulo._Descripcion = textBox3.Text;
                 articulo.Precio = float.Parse(textBox4.Text);
-                
+                articulo.urlImagen = txtUrl.Text;
+
                 articulo.des_marca = cmbMarca.SelectedItem.ToString();
                 articulo.des_categoria = cmbCategoria.SelectedItem.ToString();
 
                 // Obtener el objeto Marca seleccionado del ComboBox
-                Marca marcaSeleccionada = (Marca)cmbMarca.SelectedItem;                
+                Marca marcaSeleccionada = (Marca)cmbMarca.SelectedItem;
                 Categoria categoriaSeleccionada = (Categoria)cmbCategoria.SelectedItem;
 
                 // Obtener el ID correspondiente
@@ -70,9 +71,9 @@ namespace Solucion01
                 int idCategoriaSeleccionado = categoriaSeleccionada.Id;
 
                 articulo.Id_marca = idMarcaSeleccionado;
-                articulo.Id_cate = idCategoriaSeleccionado;       
-                                                         
-                                            
+                articulo.Id_cate = idCategoriaSeleccionado;
+
+                                     
 
                 if (articulo.Id != 0) 
                 {
@@ -82,7 +83,11 @@ namespace Solucion01
                 }
                 else
                 {
+                    Articulo aux = artiNe.UltimoId();                    
+                    articulo.Id = aux.Id + 1 ;
+
                     artiNe.Agregar(articulo);
+                    artiNe.AgregarImagen(articulo);
                     MessageBox.Show("Agregado Exitosamente");
                 }                
                
@@ -107,6 +112,7 @@ namespace Solucion01
                     textBox2.Text = articulo.Nombre_Articulo;
                     textBox3.Text = articulo._Descripcion;
                     textBox4.Text = articulo.Precio.ToString();
+                    txtUrl.Text = articulo.urlImagen;
                     cmbMarca.Text = articulo.des_marca;
                     cmbCategoria.Text = articulo.des_categoria;
                 }

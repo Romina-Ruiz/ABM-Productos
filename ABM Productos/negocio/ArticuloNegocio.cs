@@ -17,28 +17,22 @@ namespace negocio
         {
 
             List<Articulo> lista = new List<Articulo>();
-            AccesoDatos datos = new AccesoDatos();
-            AccesoDatos datos2 = new AccesoDatos();
+            AccesoDatos datos = new AccesoDatos();           
 
             try
-            {
-                //datos.setearConsulta("select A.Id as IdArti, A.Codigo, A.Nombre, A.Descripcion,A.Precio,A.IdMarca,C.Id, M.Descripcion as des_marca,C.Descripcion as des_Categoria from ARTICULOS A, MARCAS M ,CATEGORIAS C where A.IdMarca = M.Id and A.IdCategoria = C.Id");
-                
+            {                              
+                    
+                         
                 datos.setearConsulta("select A.Id as IdArti, A.Codigo, A.Nombre," +
-                                         " A.Descripcion, A.Precio,A.IdMarca,C.Id," +
-                                         " M.Descripcion as des_marca, " +
-                                         "C.Descripcion as des_Categoria " +
-                                         "from ARTICULOS A, MARCAS M , CATEGORIAS C " +
-                                         "where A.IdMarca = M.Id and A.IdCategoria = C.Id");
-                datos.ejecutarLectura();
+                    " A.Descripcion, A.Precio,A.IdMarca,C.Id, M.Descripcion" +
+                    " as des_marca,C.Descripcion as des_Categoria," +
+                    "I.Id as Id_img,I.IdArticulo, I.ImagenUrl" +
+                    " from ARTICULOS A, MARCAS M , CATEGORIAS C ," +
+                    " IMAGENES I where A.IdMarca = M.Id " +
+                    "and A.IdCategoria = C.Id and I.IdArticulo = A.Id ");
 
-                datos2.setearConsulta("select I.Id, I.IdArticulo, I.ImagenUrl " +
-                                      "from IMAGENES I , ARTICULOS A  where IdArticulo = A.Id ");
-                datos2.ejecutarLectura();
-
-                
-            List<Articulo> lista1 = new List<Articulo>();
-
+                datos.ejecutarLectura();              
+                           
                 while (datos.Lector.Read())
                 {
                     Articulo aux = new Articulo();
@@ -74,71 +68,20 @@ namespace negocio
                     if (!(datos.Lector["des_categoria"] is DBNull))
                     {
                         aux.des_categoria = (string)datos.Lector["des_categoria"];
-                    }                   
-
-                    lista.Add(aux);
-                }
-
-                List<Articulo> lista2 = new List<Articulo>();
-
-
-                /*while (datos2.Lector.Read())
-                {
-                    Articulo aux1 = new Articulo();
-                    
-                    //IMAGENES
-                    if (!(datos2.Lector["ImagenUrl"] is DBNull))
-                    {
-                        aux1.urlImagen = (string)datos2.Lector["ImagenUrl"];
                     }
 
-                    aux1.IdArticulo = (int)datos2.Lector["IdArticulo"];
+                    //IMAGENES
+                    if (!(datos.Lector["ImagenUrl"] is DBNull))
+                    {
+                        aux.urlImagen = (string)datos.Lector["ImagenUrl"];
+                    }
 
-                    aux1.Id_imagen = (int)datos2.Lector["Id_img"];
+                    aux.IdArticulo = (int)datos.Lector["IdArticulo"];
 
-                    lista2.Add(aux1);
-                }
+                    aux.Id_imagen = (int)datos.Lector["Id_img"];
 
-                int num1 = lista1.Count;
-                int num2 = lista2.Count;
-
-                Articulo aux2 = new Articulo();
-                Articulo aux3 = new Articulo();
-
-                for (int i = 0; i < num1; i++)
-                {
-
-                    Articulo aux4 = new Articulo();
-
-                         aux2 = lista1[i];
-
-                        for (int k = 0; k < num2; k++)
-                        {
-
-                        aux3 = lista2[k]; 
-                        
-
-                            if (aux2.Id == aux3.IdArticulo)
-                            {
-                                aux4.Id = aux2.Id;
-                                aux4.Cod_Articulo = aux2.Cod_Articulo;
-                                aux4.Nombre_Articulo = aux2.Nombre_Articulo;
-                                aux4._Descripcion = aux2._Descripcion;
-                                aux4.Precio = aux2.Precio;
-                                aux4.Id_marca = aux2.Id_marca;
-                                aux4.Id_cate = aux2.Id_cate;
-                                aux4.des_marca = aux2.des_marca;
-                                aux4.des_categoria = aux2.des_categoria;
-
-                                aux4.urlImagen = aux3.urlImagen;
-                                aux4.IdArticulo = aux3.IdArticulo;
-                                aux4.Id_imagen = aux3.Id_imagen;
-
-
-                                lista.Add(aux4);
-                            }
-                        }
-                 }*/
+                    lista.Add(aux);
+                }          
 
                 return lista;
                 
@@ -149,7 +92,34 @@ namespace negocio
                 throw ex;
 
             }
-            
+            finally
+            {
+                datos.cerrarConexion();
+            }
+
+        }
+
+        public Articulo UltimoId()
+        {
+            Articulo ultimoArticulo = new Articulo();
+            AccesoDatos datos = new AccesoDatos();
+
+            try
+            {
+                datos.setearConsulta("select max(Id) as IdUltimo from ARTICULOS");
+                datos.ejecutarLectura();
+
+                datos.Lector.Read();
+                
+                ultimoArticulo.Id = (int)datos.Lector["IdUltimo"];
+                
+
+                return ultimoArticulo;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
         public void Agregar(Articulo Art)
@@ -157,15 +127,14 @@ namespace negocio
             AccesoDatos datos = new AccesoDatos();
 
             try
-            {                
-                string consulta = "INSERT INTO Articulos (Codigo, Nombre, Descripcion," +
+            {
+             datos.setearConsulta("INSERT INTO Articulos (Codigo, Nombre, Descripcion," +
                                   "IdMarca,IdCategoria, Precio) " +
                                   "VALUES ('" + Art.Cod_Articulo + "','" + Art.Nombre_Articulo +"'" +
                                   ",'" + Art._Descripcion + "',"+ Art.Id_marca +"," +
-                                  ""+ Art.Id_cate +","+ Art.Precio +")";
-
-                datos.setearConsulta(consulta);
-                datos.ejecutarAccion();
+                                  ""+ Art.Id_cate +","+ Art.Precio +")");                
+                
+             datos.ejecutarAccion();              
 
             }
             catch (Exception)
@@ -176,10 +145,34 @@ namespace negocio
             finally 
             {
                 datos.cerrarConexion();
-            }
-        
+            }     
         
         }
+        public void AgregarImagen(Articulo Art) 
+        {
+            AccesoDatos datos = new AccesoDatos();
+
+            try
+            {
+                datos.setearConsulta("insert into imagenes values(" + Art.Id + ",'" + Art.urlImagen + "')");
+
+                datos.ejecutarAccion();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+
+        } 
+
+
+
+
         public void Modificar(Articulo modificar)
         {
             AccesoDatos datos = new AccesoDatos();
@@ -197,11 +190,16 @@ namespace negocio
                 datos.setearParametro("Codigo", modificar.Cod_Articulo);
                 datos.setearParametro("Nombre", modificar.Nombre_Articulo);
                 datos.setearParametro("Descripcion", modificar._Descripcion);               
-                
+
                 datos.setearParametro("Id", modificar.Id);
                 datos.setearParametro("IdMarca", modificar.Id_marca);
                 datos.setearParametro("IdCategoria", modificar.Id_cate);
-                datos.setearParametro("Precio", modificar.Precio);
+                datos.setearParametro("Precio", modificar.Precio);              
+               
+                datos.setearConsulta("update IMAGENES set IdArticulo = "+ modificar.Id+", ImagenUrl ='"+ modificar.urlImagen+ "' where IdArticulo = "+ modificar.IdArticulo +"");
+                
+                datos.setearParametro("IdArticulo", modificar.Id);
+                datos.setearParametro("UrlImagen", modificar.urlImagen);
 
                 datos.ejecutarAccion();
             }
@@ -228,6 +226,7 @@ namespace negocio
 
                 throw ex;
             }
+
 
         }
     }
