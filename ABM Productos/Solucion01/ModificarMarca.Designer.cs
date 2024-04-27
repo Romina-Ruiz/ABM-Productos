@@ -33,6 +33,7 @@
             this.btAceptar = new System.Windows.Forms.Button();
             this.txtModificar = new System.Windows.Forms.TextBox();
             this.lbNombre = new System.Windows.Forms.Label();
+            this.btCierreMarcas = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbModificarMarca
@@ -47,12 +48,16 @@
             // 
             // btCancelar
             // 
-            this.btCancelar.BackColor = System.Drawing.Color.RosyBrown;
+            this.btCancelar.BackColor = System.Drawing.Color.LightCoral;
             this.btCancelar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
-            this.btCancelar.Location = new System.Drawing.Point(430, 338);
+            this.btCancelar.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btCancelar.FlatAppearance.BorderSize = 3;
+            this.btCancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSeaGreen;
+            this.btCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btCancelar.Location = new System.Drawing.Point(430, 328);
             this.btCancelar.Name = "btCancelar";
-            this.btCancelar.Size = new System.Drawing.Size(166, 45);
+            this.btCancelar.Size = new System.Drawing.Size(166, 55);
             this.btCancelar.TabIndex = 10;
             this.btCancelar.Text = "Cancelar";
             this.btCancelar.UseVisualStyleBackColor = false;
@@ -60,12 +65,16 @@
             // 
             // btAceptar
             // 
-            this.btAceptar.BackColor = System.Drawing.Color.RosyBrown;
+            this.btAceptar.BackColor = System.Drawing.Color.LightCoral;
             this.btAceptar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btAceptar.Location = new System.Drawing.Point(204, 338);
+            this.btAceptar.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btAceptar.FlatAppearance.BorderSize = 3;
+            this.btAceptar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSeaGreen;
+            this.btAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btAceptar.Location = new System.Drawing.Point(204, 328);
             this.btAceptar.Name = "btAceptar";
-            this.btAceptar.Size = new System.Drawing.Size(166, 45);
+            this.btAceptar.Size = new System.Drawing.Size(165, 55);
             this.btAceptar.TabIndex = 9;
             this.btAceptar.Text = "Aceptar";
             this.btAceptar.UseVisualStyleBackColor = false;
@@ -73,9 +82,10 @@
             // 
             // txtModificar
             // 
-            this.txtModificar.Location = new System.Drawing.Point(406, 197);
+            this.txtModificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtModificar.Location = new System.Drawing.Point(406, 189);
             this.txtModificar.Name = "txtModificar";
-            this.txtModificar.Size = new System.Drawing.Size(190, 20);
+            this.txtModificar.Size = new System.Drawing.Size(190, 29);
             this.txtModificar.TabIndex = 8;
             // 
             // lbNombre
@@ -89,12 +99,28 @@
             this.lbNombre.TabIndex = 7;
             this.lbNombre.Text = "Nombre";
             // 
+            // btCierreMarcas
+            // 
+            this.btCierreMarcas.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btCierreMarcas.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btCierreMarcas.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btCierreMarcas.FlatAppearance.BorderSize = 3;
+            this.btCierreMarcas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btCierreMarcas.Image = global::Solucion01.Properties.Resources.flecha_atras;
+            this.btCierreMarcas.Location = new System.Drawing.Point(3, 3);
+            this.btCierreMarcas.Name = "btCierreMarcas";
+            this.btCierreMarcas.Size = new System.Drawing.Size(63, 54);
+            this.btCierreMarcas.TabIndex = 15;
+            this.btCierreMarcas.UseVisualStyleBackColor = false;
+            this.btCierreMarcas.Click += new System.EventHandler(this.btCierreMarcas_Click);
+            // 
             // ModificarMarca
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btCierreMarcas);
             this.Controls.Add(this.btCancelar);
             this.Controls.Add(this.btAceptar);
             this.Controls.Add(this.txtModificar);
@@ -116,5 +142,6 @@
         private System.Windows.Forms.Button btAceptar;
         private System.Windows.Forms.TextBox txtModificar;
         private System.Windows.Forms.Label lbNombre;
+        private System.Windows.Forms.Button btCierreMarcas;
     }
 }

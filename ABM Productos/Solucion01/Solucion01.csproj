@@ -87,12 +87,6 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
-    <Compile Include="EliminarMarcas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="EliminarMarcas.Designer.cs">
-      <DependentUpon>EliminarMarcas.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmCategorias.cs">
       <SubType>Form</SubType>
     </Compile>

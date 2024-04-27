@@ -35,6 +35,7 @@
             this.btBuscar = new System.Windows.Forms.Button();
             this.lbResult = new System.Windows.Forms.Label();
             this.pictBuscar = new System.Windows.Forms.PictureBox();
+            this.btCierreMarcas = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.NumMarcas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictBuscar)).BeginInit();
             this.SuspendLayout();
@@ -79,7 +80,7 @@
             // 
             // btBuscar
             // 
-            this.btBuscar.BackColor = System.Drawing.Color.RosyBrown;
+            this.btBuscar.BackColor = System.Drawing.Color.LightCoral;
             this.btBuscar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btBuscar.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btBuscar.FlatAppearance.BorderSize = 2;
@@ -118,12 +119,28 @@
             this.pictBuscar.TabIndex = 13;
             this.pictBuscar.TabStop = false;
             // 
+            // btCierreMarcas
+            // 
+            this.btCierreMarcas.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btCierreMarcas.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btCierreMarcas.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btCierreMarcas.FlatAppearance.BorderSize = 3;
+            this.btCierreMarcas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btCierreMarcas.Image = global::Solucion01.Properties.Resources.flecha_atras;
+            this.btCierreMarcas.Location = new System.Drawing.Point(12, 3);
+            this.btCierreMarcas.Name = "btCierreMarcas";
+            this.btCierreMarcas.Size = new System.Drawing.Size(63, 54);
+            this.btCierreMarcas.TabIndex = 14;
+            this.btCierreMarcas.UseVisualStyleBackColor = false;
+            this.btCierreMarcas.Click += new System.EventHandler(this.btCierreMarcas_Click);
+            // 
             // BuscarMarca
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btCierreMarcas);
             this.Controls.Add(this.pictBuscar);
             this.Controls.Add(this.lbResult);
             this.Controls.Add(this.btBuscar);
@@ -148,5 +165,6 @@
         private System.Windows.Forms.Button btBuscar;
         private System.Windows.Forms.Label lbResult;
         private System.Windows.Forms.PictureBox pictBuscar;
+        private System.Windows.Forms.Button btCierreMarcas;
     }
 }

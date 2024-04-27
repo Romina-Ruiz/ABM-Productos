@@ -102,5 +102,10 @@ namespace Solucion01
                 MessageBox.Show(ex.ToString());
             }
         }
+
+        private void btCierreMarcas_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
