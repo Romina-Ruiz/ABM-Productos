@@ -22,27 +22,36 @@ namespace Solucion01
         private void BuscarMarcas_Load(object sender, EventArgs e)
         {
 
-            MarcaNegocio negocio = new MarcaNegocio();
-
-            dgvSeleccionado.DataSource = negocio.listar();
+            
 
 
 
         }
 
-        private void Modificar_Click(object sender, EventArgs e)
+        
+        private void btBuscar_Click(object sender, EventArgs e)
         {
 
+            int IdBuscado = (int)NumMarcas.Value;
 
+            Marca marcabuscada;
+            List<Marca> listacompleta;
+            MarcaNegocio Negocio= new MarcaNegocio();
+            listacompleta = Negocio.listar();
+            marcabuscada = listacompleta.Find(c => c.CodMarca == IdBuscado);
+
+            if (marcabuscada != null ) {
+
+                lbResult.Text = marcabuscada.NombreMarca;
+            }
+
+
+             else
+            {
+                lbResult.Text = "Categoria no encontrada";
+            }
 
 
         }
-
-        private void btEliminar_Click(object sender, EventArgs e)
-        {
-
-         
-        }
-
     }
 }
