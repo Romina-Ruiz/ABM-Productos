@@ -170,5 +170,23 @@ namespace Solucion01
             }
             
         }
+
+        private void btVer_Click(object sender, EventArgs e)
+        {
+
+            
+
+            if (DgvArticulo.CurrentRow != null)
+            {
+                Articulo seleccionado = (Articulo)DgvArticulo.CurrentRow.DataBoundItem;
+                BuscarArticulo ventana = new BuscarArticulo(seleccionado);
+                ventana.ShowDialog();
+
+                cargar();
+
+            }
+
+
+        }
     }
 }

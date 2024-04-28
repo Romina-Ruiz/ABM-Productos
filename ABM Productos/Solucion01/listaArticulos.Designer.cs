@@ -38,6 +38,7 @@
             this.bntBuscar = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lbArticulo = new System.Windows.Forms.Label();
+            this.btVer = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.DgvArticulo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -82,7 +83,7 @@
             this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnAgregar.ForeColor = System.Drawing.Color.White;
-            this.btnAgregar.Location = new System.Drawing.Point(102, 450);
+            this.btnAgregar.Location = new System.Drawing.Point(242, 450);
             this.btnAgregar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(166, 45);
@@ -102,7 +103,7 @@
             this.boton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.boton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.boton4.ForeColor = System.Drawing.Color.White;
-            this.boton4.Location = new System.Drawing.Point(333, 450);
+            this.boton4.Location = new System.Drawing.Point(457, 450);
             this.boton4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.boton4.Name = "boton4";
             this.boton4.Size = new System.Drawing.Size(167, 45);
@@ -122,7 +123,7 @@
             this.btnElimin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnElimin.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnElimin.ForeColor = System.Drawing.Color.White;
-            this.btnElimin.Location = new System.Drawing.Point(553, 450);
+            this.btnElimin.Location = new System.Drawing.Point(656, 450);
             this.btnElimin.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnElimin.Name = "btnElimin";
             this.btnElimin.Size = new System.Drawing.Size(181, 45);
@@ -190,12 +191,33 @@
             this.lbArticulo.TabIndex = 6;
             this.lbArticulo.Text = "ARTÍCULOS";
             // 
+            // btVer
+            // 
+            this.btVer.AccessibleName = "";
+            this.btVer.BackColor = System.Drawing.Color.CadetBlue;
+            this.btVer.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btVer.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btVer.FlatAppearance.BorderSize = 2;
+            this.btVer.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.btVer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btVer.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btVer.ForeColor = System.Drawing.Color.White;
+            this.btVer.Location = new System.Drawing.Point(102, 450);
+            this.btVer.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btVer.Name = "btVer";
+            this.btVer.Size = new System.Drawing.Size(111, 45);
+            this.btVer.TabIndex = 11;
+            this.btVer.Text = "&VER";
+            this.btVer.UseVisualStyleBackColor = false;
+            this.btVer.Click += new System.EventHandler(this.btVer_Click);
+            // 
             // listaArticulos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.ClientSize = new System.Drawing.Size(895, 539);
+            this.Controls.Add(this.btVer);
             this.Controls.Add(this.lbArticulo);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.bntBuscar);
@@ -231,5 +253,6 @@
         private System.Windows.Forms.Button bntBuscar;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lbArticulo;
+        private System.Windows.Forms.Button btVer;
     }
 }
