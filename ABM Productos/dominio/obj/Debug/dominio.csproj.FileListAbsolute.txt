@@ -34,3 +34,9 @@ C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_nuevo\ABM-Productos\ABM P
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_nuevo\ABM-Productos\ABM Productos\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_nuevo\ABM-Productos\ABM Productos\dominio\obj\Debug\dominio.dll
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_nuevo\ABM-Productos\ABM Productos\dominio\obj\Debug\dominio.pdb
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_ultimo_entregado\ABM-Productos\ABM Productos\dominio\bin\Debug\dominio.dll
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_ultimo_entregado\ABM-Productos\ABM Productos\dominio\bin\Debug\dominio.pdb
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_ultimo_entregado\ABM-Productos\ABM Productos\dominio\obj\Debug\dominio.csproj.AssemblyReference.cache
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_ultimo_entregado\ABM-Productos\ABM Productos\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_ultimo_entregado\ABM-Productos\ABM Productos\dominio\obj\Debug\dominio.dll
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_ultimo_entregado\ABM-Productos\ABM Productos\dominio\obj\Debug\dominio.pdb

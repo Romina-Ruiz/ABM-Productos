@@ -194,10 +194,24 @@ namespace negocio
                 datos.setearParametro("Id", modificar.Id);
                 datos.setearParametro("IdMarca", modificar.Id_marca);
                 datos.setearParametro("IdCategoria", modificar.Id_cate);
-                datos.setearParametro("Precio", modificar.Precio);              
-               
-                datos.setearConsulta("update IMAGENES set IdArticulo = "+ modificar.Id+", ImagenUrl ='"+ modificar.urlImagen+ "' where IdArticulo = "+ modificar.IdArticulo +"");
+                datos.setearParametro("Precio", modificar.Precio);
+
+                datos.ejecutarAccion();
                 
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+            
+            try
+            {
+                datos.setearConsulta("update IMAGENES set IdArticulo = " + modificar.Id + ", ImagenUrl ='" + modificar.urlImagen + "' where IdArticulo = " + modificar.IdArticulo + "");
+
                 datos.setearParametro("IdArticulo", modificar.Id);
                 datos.setearParametro("UrlImagen", modificar.urlImagen);
 
@@ -205,6 +219,7 @@ namespace negocio
             }
             catch (Exception ex)
             {
+
                 throw ex;
             }
             finally

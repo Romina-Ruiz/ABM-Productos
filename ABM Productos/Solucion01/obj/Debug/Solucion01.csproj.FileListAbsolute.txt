@@ -165,3 +165,31 @@ C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_nuevo\ABM-Productos\ABM P
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_nuevo\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.ModificarMarca.resources
 C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.BuscarMarca.resources
 C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.ModificarMarca.resources
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_ultimo_entregado\ABM-Productos\ABM Productos\Solucion01\bin\Debug\Solucion01.exe.config
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_ultimo_entregado\ABM-Productos\ABM Productos\Solucion01\bin\Debug\Solucion01.exe
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_ultimo_entregado\ABM-Productos\ABM Productos\Solucion01\bin\Debug\Solucion01.pdb
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_ultimo_entregado\ABM-Productos\ABM Productos\Solucion01\bin\Debug\dominio.dll
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_ultimo_entregado\ABM-Productos\ABM Productos\Solucion01\bin\Debug\negocio.dll
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_ultimo_entregado\ABM-Productos\ABM Productos\Solucion01\bin\Debug\dominio.pdb
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_ultimo_entregado\ABM-Productos\ABM Productos\Solucion01\bin\Debug\negocio.pdb
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_ultimo_entregado\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.csproj.AssemblyReference.cache
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_ultimo_entregado\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.AgreArti.resources
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_ultimo_entregado\ABM-Productos\ABM Productos\Solucion01\obj\Debug\dominio.AgregarCategoria.resources
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_ultimo_entregado\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.AgregarMarcas.resources
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_ultimo_entregado\ABM-Productos\ABM Productos\Solucion01\obj\Debug\dominio.BuscarCategoria.resources
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_ultimo_entregado\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.BuscarMarca.resources
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_ultimo_entregado\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.DetalleArticulo.resources
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_ultimo_entregado\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.frmCategorias.resources
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_ultimo_entregado\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.frmMarcas.resources
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_ultimo_entregado\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.frmPrincipal.resources
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_ultimo_entregado\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.listaArticulos.resources
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_ultimo_entregado\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.ListarCategorias.resources
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_ultimo_entregado\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.ListarMarcas.resources
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_ultimo_entregado\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.ModificarCategorias.resources
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_ultimo_entregado\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.ModificarMarca.resources
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_ultimo_entregado\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.Properties.Resources.resources
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_ultimo_entregado\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.csproj.GenerateResource.cache
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_ultimo_entregado\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.csproj.CoreCompileInputs.cache
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_ultimo_entregado\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.csproj.CopyComplete
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_ultimo_entregado\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.exe
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_ultimo_entregado\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.pdb

@@ -170,5 +170,10 @@ namespace Solucion01
             }
             
         }
+
+        private void DgvArticulo_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
