@@ -64,6 +64,12 @@
     <Compile Include="AgregarMarcas.Designer.cs">
       <DependentUpon>AgregarMarcas.cs</DependentUpon>
     </Compile>
+    <Compile Include="BuscarArticulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscarArticulo.Designer.cs">
+      <DependentUpon>BuscarArticulo.cs</DependentUpon>
+    </Compile>
     <Compile Include="BuscarCategoria.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -129,12 +135,6 @@
     <Compile Include="ModificarCategorias.Designer.cs">
       <DependentUpon>ModificarCategorias.cs</DependentUpon>
     </Compile>
-    <Compile Include="ModificarMarca.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ModificarMarca.Designer.cs">
-      <DependentUpon>ModificarMarca.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AgreArti.resx">
@@ -145,6 +145,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AgregarMarcas.resx">
       <DependentUpon>AgregarMarcas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscarArticulo.resx">
+      <DependentUpon>BuscarArticulo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="BuscarCategoria.resx">
       <DependentUpon>BuscarCategoria.cs</DependentUpon>
@@ -177,9 +180,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ModificarCategorias.resx">
       <DependentUpon>ModificarCategorias.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ModificarMarca.resx">
-      <DependentUpon>ModificarMarca.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

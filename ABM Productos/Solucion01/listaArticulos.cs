@@ -171,9 +171,28 @@ namespace Solucion01
             
         }
 
+<<<<<<< HEAD
         private void DgvArticulo_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+=======
+        private void btVer_Click(object sender, EventArgs e)
+        {
+
+            
+
+            if (DgvArticulo.CurrentRow != null)
+            {
+                Articulo seleccionado = (Articulo)DgvArticulo.CurrentRow.DataBoundItem;
+                BuscarArticulo ventana = new BuscarArticulo(seleccionado);
+                ventana.ShowDialog();
+
+                cargar();
+
+            }
+
+
+>>>>>>> 4b4d45cd18b1564ad71ca45c26ccbe8508a86d52
         }
     }
 }

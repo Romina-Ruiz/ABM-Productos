@@ -113,7 +113,7 @@
             this.btMarcas.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btMarcas.Location = new System.Drawing.Point(363, 88);
             this.btMarcas.Name = "btMarcas";
-            this.btMarcas.Size = new System.Drawing.Size(478, 193);
+            this.btMarcas.Size = new System.Drawing.Size(478, 200);
             this.btMarcas.TabIndex = 2;
             this.btMarcas.Text = "&MARCAS";
             this.btMarcas.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
