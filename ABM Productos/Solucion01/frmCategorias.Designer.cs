@@ -92,7 +92,7 @@
             this.botonAtras.BackColor = System.Drawing.SystemColors.Info;
             this.botonAtras.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.botonAtras.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.botonAtras.FlatAppearance.BorderColor = System.Drawing.Color.WhiteSmoke;
+            this.botonAtras.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.botonAtras.FlatAppearance.BorderSize = 2;
             this.botonAtras.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.botonAtras.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));

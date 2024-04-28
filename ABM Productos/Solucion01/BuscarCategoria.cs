@@ -40,7 +40,7 @@ namespace dominio
             }
             else
             {
-                lblInformacion.Text = "Categoria no encontrada";
+                lblInformacion.Text = "NO EXISTE";
             }
         }
     }

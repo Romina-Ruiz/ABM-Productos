@@ -100,9 +100,9 @@
             this.btnBuscar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
             this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscar.Font = new System.Drawing.Font("Stencil", 21.75F, System.Drawing.FontStyle.Bold);
-            this.btnBuscar.Location = new System.Drawing.Point(237, 286);
+            this.btnBuscar.Location = new System.Drawing.Point(207, 250);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(197, 59);
+            this.btnBuscar.Size = new System.Drawing.Size(199, 60);
             this.btnBuscar.TabIndex = 1;
             this.btnBuscar.Text = "&Buscar";
             this.btnBuscar.UseVisualStyleBackColor = true;
@@ -111,11 +111,11 @@
             // lblInformacion
             // 
             this.lblInformacion.AutoSize = true;
-            this.lblInformacion.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblInformacion.ForeColor = System.Drawing.Color.White;
-            this.lblInformacion.Location = new System.Drawing.Point(296, 252);
+            this.lblInformacion.Font = new System.Drawing.Font("Arial", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInformacion.ForeColor = System.Drawing.Color.Black;
+            this.lblInformacion.Location = new System.Drawing.Point(238, 351);
             this.lblInformacion.Name = "lblInformacion";
-            this.lblInformacion.Size = new System.Drawing.Size(0, 31);
+            this.lblInformacion.Size = new System.Drawing.Size(0, 44);
             this.lblInformacion.TabIndex = 5;
             // 
             // numId

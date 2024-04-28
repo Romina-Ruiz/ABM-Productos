@@ -89,7 +89,7 @@
             this.btBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold);
             this.btBuscar.ForeColor = System.Drawing.Color.Black;
-            this.btBuscar.Location = new System.Drawing.Point(230, 280);
+            this.btBuscar.Location = new System.Drawing.Point(244, 243);
             this.btBuscar.Name = "btBuscar";
             this.btBuscar.Size = new System.Drawing.Size(187, 67);
             this.btBuscar.TabIndex = 1;
@@ -101,11 +101,11 @@
             // lbResult
             // 
             this.lbResult.AutoSize = true;
-            this.lbResult.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.lbResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbResult.Location = new System.Drawing.Point(300, 304);
+            this.lbResult.BackColor = System.Drawing.Color.Tan;
+            this.lbResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbResult.Location = new System.Drawing.Point(259, 342);
             this.lbResult.Name = "lbResult";
-            this.lbResult.Size = new System.Drawing.Size(0, 33);
+            this.lbResult.Size = new System.Drawing.Size(0, 42);
             this.lbResult.TabIndex = 5;
             // 
             // pictBuscar

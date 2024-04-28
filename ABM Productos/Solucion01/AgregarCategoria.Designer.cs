@@ -34,6 +34,7 @@
             this.btbAceptar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.lbCategorias = new System.Windows.Forms.Label();
+            this.lbObligatorio = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnAtras
@@ -116,12 +117,24 @@
             this.lbCategorias.TabIndex = 4;
             this.lbCategorias.Text = "CATEGORIAS";
             // 
+            // lbObligatorio
+            // 
+            this.lbObligatorio.AutoSize = true;
+            this.lbObligatorio.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbObligatorio.ForeColor = System.Drawing.Color.Maroon;
+            this.lbObligatorio.Location = new System.Drawing.Point(634, 166);
+            this.lbObligatorio.Name = "lbObligatorio";
+            this.lbObligatorio.Size = new System.Drawing.Size(33, 42);
+            this.lbObligatorio.TabIndex = 18;
+            this.lbObligatorio.Text = "*";
+            // 
             // AgregarCategoria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Info;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lbObligatorio);
             this.Controls.Add(this.lbCategorias);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btbAceptar);
@@ -147,5 +160,6 @@
         private System.Windows.Forms.Button btbAceptar;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Label lbCategorias;
+        private System.Windows.Forms.Label lbObligatorio;
     }
 }

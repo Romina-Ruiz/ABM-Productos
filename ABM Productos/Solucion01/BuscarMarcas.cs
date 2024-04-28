@@ -48,7 +48,7 @@ namespace Solucion01
 
              else
             {
-                lbResult.Text = "Categoria no encontrada";
+                lbResult.Text = "NO EXISTE";
             }
 
 

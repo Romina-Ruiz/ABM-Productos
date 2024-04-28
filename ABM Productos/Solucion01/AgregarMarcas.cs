@@ -38,6 +38,24 @@ namespace Solucion01
             Close();
         }
 
+
+        private bool ValidarFiltro()
+        {
+            if (string.IsNullOrEmpty(txtNombre.Text))
+            {
+
+                MessageBox.Show("Debe cargar un nombre!");
+                return true;
+
+            }
+
+
+            return false;
+
+
+        }
+
+
         private void btAceptar_Click(object sender, EventArgs e)
         {
              
@@ -45,6 +63,9 @@ namespace Solucion01
 
             try
             {
+                if(ValidarFiltro()) { 
+                return;
+                }
 
                 if (marca == null)
                 {
@@ -92,7 +113,8 @@ namespace Solucion01
             {
                 if (marca != null)
                 {
-                    marca.NombreMarca = txtNombre.Text;
+                    
+                    txtNombre.Text= marca.NombreMarca;
                 }
 
             }

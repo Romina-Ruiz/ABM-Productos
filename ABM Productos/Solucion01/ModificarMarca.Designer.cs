@@ -34,6 +34,7 @@
             this.txtModificar = new System.Windows.Forms.TextBox();
             this.lbNombre = new System.Windows.Forms.Label();
             this.btCierreMarcas = new System.Windows.Forms.Button();
+            this.lbObligatorio = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lbModificarMarca
@@ -116,12 +117,24 @@
             this.btCierreMarcas.UseVisualStyleBackColor = false;
             this.btCierreMarcas.Click += new System.EventHandler(this.btCierreMarcas_Click);
             // 
+            // lbObligatorio
+            // 
+            this.lbObligatorio.AutoSize = true;
+            this.lbObligatorio.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbObligatorio.ForeColor = System.Drawing.Color.Maroon;
+            this.lbObligatorio.Location = new System.Drawing.Point(596, 196);
+            this.lbObligatorio.Name = "lbObligatorio";
+            this.lbObligatorio.Size = new System.Drawing.Size(33, 42);
+            this.lbObligatorio.TabIndex = 20;
+            this.lbObligatorio.Text = "*";
+            // 
             // ModificarMarca
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Tan;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lbObligatorio);
             this.Controls.Add(this.btCierreMarcas);
             this.Controls.Add(this.btCancelar);
             this.Controls.Add(this.btAceptar);
@@ -147,5 +160,6 @@
         private System.Windows.Forms.TextBox txtModificar;
         private System.Windows.Forms.Label lbNombre;
         private System.Windows.Forms.Button btCierreMarcas;
+        private System.Windows.Forms.Label lbObligatorio;
     }
 }

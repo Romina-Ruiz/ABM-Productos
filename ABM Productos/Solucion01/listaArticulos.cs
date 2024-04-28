@@ -106,10 +106,30 @@ namespace Solucion01
             }
         }
 
-        private void bntBuscar_Click(object sender, EventArgs e)
+        private bool ValidarBuscar()
+        {
+            if (string.IsNullOrEmpty(txtFiltro.Text))
+            {
+
+                MessageBox.Show("Debe ingresar un criterio");
+                return true;
+
+            }
+            return false;
+
+        }
+         
+
+    private void bntBuscar_Click(object sender, EventArgs e)
         {
 
-             List<Articulo> listaFiltrada;
+            if (ValidarBuscar())
+            {
+                return;
+            }
+
+
+            List<Articulo> listaFiltrada;
              string filtro = (string)txtFiltro.Text;
 
              if(filtro != "") 

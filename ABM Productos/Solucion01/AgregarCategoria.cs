@@ -35,12 +35,40 @@ namespace dominio
             Close();
         }
 
+
+        private bool ValidarFiltro()
+        {
+            if (string.IsNullOrEmpty(txtDescripcion.Text))
+            {
+
+                MessageBox.Show("Debe cargar un nombre!");
+                return true;
+
+            }
+
+
+            return false;
+
+
+        }
+
+
+
         private void btbAceptar_Click(object sender, EventArgs e)
         {
                 
             CategoriaNegocio negocio = new CategoriaNegocio();
             try
-            {if (categoria == null)
+            {
+               
+                
+                if (ValidarFiltro())
+            {
+                return;
+            }
+
+                            
+                if (categoria == null)
                 {
                     categoria = new Categoria();
                 }

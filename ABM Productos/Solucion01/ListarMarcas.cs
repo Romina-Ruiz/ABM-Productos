@@ -49,8 +49,6 @@ namespace Solucion01
             cargar();
 
          
-
-
         }
 
         private void btEliminar_Click_1(object sender, EventArgs e)

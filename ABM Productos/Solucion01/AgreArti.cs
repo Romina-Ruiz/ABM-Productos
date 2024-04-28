@@ -44,12 +44,88 @@ namespace Solucion01
             this.Close();
         }
 
+
+        private bool ValidarFiltro()
+        {
+
+            if (!soloNumeros(textBox1.Text))
+            {
+
+                MessageBox.Show("Ingresar solo números!");
+                return true;
+
+            }
+            if (!soloNumeros(textBox4.Text))
+            {
+
+                MessageBox.Show("Ingresar solo números!");
+                return true;
+
+            }
+
+
+            if (string.IsNullOrEmpty(textBox2.Text))
+            {
+
+                MessageBox.Show("Debe cargar un nombre!");
+                return true;
+
+            }
+
+            if (cmbMarca.SelectedIndex< 0)
+            {
+                MessageBox.Show("Debe seleccionar una marca!");
+                return true;  
+            }
+
+
+            if(cmbCategoria.SelectedIndex< 0)
+            {
+                MessageBox.Show("Debe seleccionar una categoria");
+                return true;
+
+            }   
+
+            return false;
+
+
+        }
+
+        private bool soloNumeros(string cadena)
+        {
+            foreach (char caracter in cadena)
+            {
+
+                if(!(char.IsNumber(caracter))) { 
+                
+                    return false;   
+                }
+
+                
+            }
+
+            return true;
+
+        }
+
+
+
+
         private void botonAgregar_Click(object sender, EventArgs e)
         {           
             ArticuloNegocio artiNe = new ArticuloNegocio();
 
             try
             {
+
+
+                if (ValidarFiltro())
+                {
+                    return;
+                }
+
+
+
                 if (articulo == null)
                     articulo = new Articulo();
 

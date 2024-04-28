@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace Solucion01
 {
     public partial class ModificarMarca : Form
@@ -33,13 +34,12 @@ namespace Solucion01
         private void btAceptar_Click(object sender, EventArgs e)
         {
            /* MarcaNegocio marcaNegocio = new MarcaNegocio();
-
             Marca modificado = new Marca();
-            modificado = (Marca)dgvSeleccionado.CurrentRow.DataBoundItem;
+            modificado = (Marca)dvglistarmarca.CurrentRow.DataBoundItem;
 
             marcaNegocio.Modificar(modificado); 
-           */
-
+           
+            */
 
         }
 
