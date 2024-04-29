@@ -171,11 +171,7 @@ namespace Solucion01
             
         }
 
-<<<<<<< HEAD
-        private void DgvArticulo_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
 
-=======
         private void btVer_Click(object sender, EventArgs e)
         {
 
@@ -192,7 +188,7 @@ namespace Solucion01
             }
 
 
->>>>>>> 4b4d45cd18b1564ad71ca45c26ccbe8508a86d52
+
         }
     }
 }
