@@ -123,10 +123,6 @@ namespace Solucion01
     private void bntBuscar_Click(object sender, EventArgs e)
         {
 
-            if (ValidarBuscar())
-            {
-                return;
-            }
 
 
             List<Articulo> listaFiltrada;

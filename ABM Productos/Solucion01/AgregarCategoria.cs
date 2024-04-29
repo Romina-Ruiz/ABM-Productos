@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using dominio;
@@ -60,8 +61,9 @@ namespace dominio
             CategoriaNegocio negocio = new CategoriaNegocio();
             try
             {
-               
+                string patron = @"^[a-zA-Z\s]+$";
                 
+
                 if (ValidarFiltro())
             {
                 return;
@@ -77,16 +79,34 @@ namespace dominio
                
                 if(categoria.Id != 0)
                 {
-                   
+                   if(Regex.IsMatch(categoria.Descripcion, patron))
+                    {
                     negocio.Modificar(categoria);
                 MessageBox.Show("Modificado exitosamente");
+
+                    }
+                    else
+                    {
+                        MessageBox.Show("Descripcion de categoria invalida");
+                    }
 
                 }
                 else
                 {
-                    
-                    negocio.agregar(categoria);
+                    if (Regex.IsMatch(categoria.Descripcion, patron))
+                    {
+                        negocio.agregar(categoria);
                 MessageBox.Show("Agregado exitosamente");
+
+                    }
+                    else
+                    {
+                    MessageBox.Show("Descripcion de categoria invalida");
+
+                    }
+
+
+
 
                 }
 

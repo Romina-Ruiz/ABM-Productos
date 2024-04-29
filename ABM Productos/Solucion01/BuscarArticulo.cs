@@ -25,10 +25,11 @@ namespace Solucion01
 
             ArticuloNegocio nuevo = new ArticuloNegocio();
 
+            
             textBox1.Text = articulo.Cod_Articulo;
             textBox2.Text = articulo.Nombre_Articulo;
             textBox3.Text = articulo._Descripcion;
-            //textBox4.Text (float.Parse) = articulo.Precio;
+            textBox4.Text  = articulo.Precio.ToString();
             textBox5.Text = articulo.des_marca;
             textBox6.Text = articulo.des_categoria;
             textBox7.Text = articulo.urlImagen;
