@@ -52,7 +52,7 @@
             this.btnAtras.Location = new System.Drawing.Point(12, 12);
             this.btnAtras.Name = "btnAtras";
             this.btnAtras.Size = new System.Drawing.Size(67, 67);
-            this.btnAtras.TabIndex = 3;
+            this.btnAtras.TabIndex = 4;
             this.btnAtras.Text = "&";
             this.btnAtras.UseVisualStyleBackColor = false;
             this.btnAtras.Click += new System.EventHandler(this.btnAtras_Click);
@@ -64,7 +64,7 @@
             this.lblDescripcion.Location = new System.Drawing.Point(175, 166);
             this.lblDescripcion.Name = "lblDescripcion";
             this.lblDescripcion.Size = new System.Drawing.Size(205, 37);
-            this.lblDescripcion.TabIndex = 5;
+            this.lblDescripcion.TabIndex = 0;
             this.lblDescripcion.Text = "Descripcion:";
             // 
             // txtDescripcion
@@ -73,7 +73,7 @@
             this.txtDescripcion.Location = new System.Drawing.Point(418, 166);
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.Size = new System.Drawing.Size(210, 31);
-            this.txtDescripcion.TabIndex = 0;
+            this.txtDescripcion.TabIndex = 1;
             // 
             // btbAceptar
             // 
@@ -86,7 +86,7 @@
             this.btbAceptar.Location = new System.Drawing.Point(160, 257);
             this.btbAceptar.Name = "btbAceptar";
             this.btbAceptar.Size = new System.Drawing.Size(199, 57);
-            this.btbAceptar.TabIndex = 1;
+            this.btbAceptar.TabIndex = 2;
             this.btbAceptar.Text = "&Aceptar";
             this.btbAceptar.UseVisualStyleBackColor = true;
             this.btbAceptar.Click += new System.EventHandler(this.btbAceptar_Click);
@@ -102,7 +102,7 @@
             this.btnCancelar.Location = new System.Drawing.Point(418, 257);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(199, 57);
-            this.btnCancelar.TabIndex = 2;
+            this.btnCancelar.TabIndex = 3;
             this.btnCancelar.Text = "&Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
@@ -114,7 +114,7 @@
             this.lbCategorias.Location = new System.Drawing.Point(238, 33);
             this.lbCategorias.Name = "lbCategorias";
             this.lbCategorias.Size = new System.Drawing.Size(320, 57);
-            this.lbCategorias.TabIndex = 4;
+            this.lbCategorias.TabIndex = 5;
             this.lbCategorias.Text = "CATEGORIAS";
             // 
             // lbObligatorio
@@ -125,7 +125,7 @@
             this.lbObligatorio.Location = new System.Drawing.Point(634, 166);
             this.lbObligatorio.Name = "lbObligatorio";
             this.lbObligatorio.Size = new System.Drawing.Size(33, 42);
-            this.lbObligatorio.TabIndex = 18;
+            this.lbObligatorio.TabIndex = 6;
             this.lbObligatorio.Text = "*";
             // 
             // AgregarCategoria

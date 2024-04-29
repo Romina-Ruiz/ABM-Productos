@@ -47,7 +47,7 @@
             this.lbBuscarMarca.Location = new System.Drawing.Point(197, 21);
             this.lbBuscarMarca.Name = "lbBuscarMarca";
             this.lbBuscarMarca.Size = new System.Drawing.Size(392, 57);
-            this.lbBuscarMarca.TabIndex = 3;
+            this.lbBuscarMarca.TabIndex = 4;
             this.lbBuscarMarca.Text = "BUSCAR MARCA";
             // 
             // NumMarcas
@@ -58,7 +58,7 @@
             this.NumMarcas.Location = new System.Drawing.Point(335, 165);
             this.NumMarcas.Name = "NumMarcas";
             this.NumMarcas.Size = new System.Drawing.Size(148, 29);
-            this.NumMarcas.TabIndex = 0;
+            this.NumMarcas.TabIndex = 1;
             this.NumMarcas.Value = new decimal(new int[] {
             1,
             0,
@@ -74,7 +74,7 @@
             this.lbMarca.Location = new System.Drawing.Point(182, 157);
             this.lbMarca.Name = "lbMarca";
             this.lbMarca.Size = new System.Drawing.Size(135, 37);
-            this.lbMarca.TabIndex = 4;
+            this.lbMarca.TabIndex = 0;
             this.lbMarca.Text = "&Código:";
             this.lbMarca.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -92,7 +92,7 @@
             this.btBuscar.Location = new System.Drawing.Point(244, 243);
             this.btBuscar.Name = "btBuscar";
             this.btBuscar.Size = new System.Drawing.Size(187, 67);
-            this.btBuscar.TabIndex = 1;
+            this.btBuscar.TabIndex = 2;
             this.btBuscar.TabStop = false;
             this.btBuscar.Text = "&BUSCAR";
             this.btBuscar.UseVisualStyleBackColor = false;
@@ -131,7 +131,7 @@
             this.btCierreMarcas.Location = new System.Drawing.Point(12, 3);
             this.btCierreMarcas.Name = "btCierreMarcas";
             this.btCierreMarcas.Size = new System.Drawing.Size(63, 54);
-            this.btCierreMarcas.TabIndex = 2;
+            this.btCierreMarcas.TabIndex = 3;
             this.btCierreMarcas.Text = "&";
             this.btCierreMarcas.UseVisualStyleBackColor = false;
             this.btCierreMarcas.Click += new System.EventHandler(this.btCierreMarcas_Click);

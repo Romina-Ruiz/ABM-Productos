@@ -54,7 +54,7 @@
             this.label1.Location = new System.Drawing.Point(112, 438);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(130, 24);
-            this.label1.TabIndex = 32;
+            this.label1.TabIndex = 12;
             this.label1.Text = "&URL Imagen:";
             // 
             // lblCategoria
@@ -65,7 +65,7 @@
             this.lblCategoria.Location = new System.Drawing.Point(137, 391);
             this.lblCategoria.Name = "lblCategoria";
             this.lblCategoria.Size = new System.Drawing.Size(105, 24);
-            this.lblCategoria.TabIndex = 31;
+            this.lblCategoria.TabIndex = 10;
             this.lblCategoria.Text = "Ca&tegoria:";
             // 
             // lblMarca
@@ -76,7 +76,7 @@
             this.lblMarca.Location = new System.Drawing.Point(169, 343);
             this.lblMarca.Name = "lblMarca";
             this.lblMarca.Size = new System.Drawing.Size(73, 24);
-            this.lblMarca.TabIndex = 30;
+            this.lblMarca.TabIndex = 8;
             this.lblMarca.Text = "&Marca:";
             // 
             // textBox4
@@ -86,7 +86,7 @@
             this.textBox4.Location = new System.Drawing.Point(276, 292);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(193, 29);
-            this.textBox4.TabIndex = 21;
+            this.textBox4.TabIndex = 7;
             // 
             // label5
             // 
@@ -96,7 +96,7 @@
             this.label5.Location = new System.Drawing.Point(166, 297);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(76, 24);
-            this.label5.TabIndex = 29;
+            this.label5.TabIndex = 6;
             this.label5.Text = "&Precio:";
             // 
             // textBox3
@@ -106,7 +106,7 @@
             this.textBox3.Location = new System.Drawing.Point(276, 234);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(193, 29);
-            this.textBox3.TabIndex = 20;
+            this.textBox3.TabIndex = 5;
             // 
             // agregarTitulo
             // 
@@ -116,7 +116,7 @@
             this.agregarTitulo.Location = new System.Drawing.Point(149, 44);
             this.agregarTitulo.Name = "agregarTitulo";
             this.agregarTitulo.Size = new System.Drawing.Size(381, 34);
-            this.agregarTitulo.TabIndex = 25;
+            this.agregarTitulo.TabIndex = 15;
             this.agregarTitulo.Text = "ARTÍCULO SELECCIONADO";
             // 
             // label3
@@ -127,7 +127,7 @@
             this.label3.Location = new System.Drawing.Point(115, 239);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(127, 24);
-            this.label3.TabIndex = 28;
+            this.label3.TabIndex = 4;
             this.label3.Text = "&Descripción:";
             // 
             // textBox2
@@ -137,7 +137,7 @@
             this.textBox2.Location = new System.Drawing.Point(276, 178);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(193, 29);
-            this.textBox2.TabIndex = 19;
+            this.textBox2.TabIndex = 3;
             // 
             // etiqueta2
             // 
@@ -147,7 +147,7 @@
             this.etiqueta2.Location = new System.Drawing.Point(151, 183);
             this.etiqueta2.Name = "etiqueta2";
             this.etiqueta2.Size = new System.Drawing.Size(91, 24);
-            this.etiqueta2.TabIndex = 27;
+            this.etiqueta2.TabIndex = 2;
             this.etiqueta2.Text = "&Nombre:";
             // 
             // textBox1
@@ -158,7 +158,7 @@
             this.textBox1.Location = new System.Drawing.Point(276, 121);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(193, 29);
-            this.textBox1.TabIndex = 18;
+            this.textBox1.TabIndex = 1;
             // 
             // etiqueta1
             // 
@@ -169,7 +169,7 @@
             this.etiqueta1.Location = new System.Drawing.Point(159, 136);
             this.etiqueta1.Name = "etiqueta1";
             this.etiqueta1.Size = new System.Drawing.Size(83, 24);
-            this.etiqueta1.TabIndex = 26;
+            this.etiqueta1.TabIndex = 0;
             this.etiqueta1.Text = "&Código:";
             this.etiqueta1.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
@@ -180,7 +180,7 @@
             this.textBox5.Location = new System.Drawing.Point(276, 338);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(193, 29);
-            this.textBox5.TabIndex = 33;
+            this.textBox5.TabIndex = 9;
             // 
             // textBox6
             // 
@@ -189,7 +189,7 @@
             this.textBox6.Location = new System.Drawing.Point(276, 386);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(193, 29);
-            this.textBox6.TabIndex = 34;
+            this.textBox6.TabIndex = 11;
             // 
             // textBox7
             // 
@@ -198,7 +198,7 @@
             this.textBox7.Location = new System.Drawing.Point(276, 438);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(193, 29);
-            this.textBox7.TabIndex = 35;
+            this.textBox7.TabIndex = 13;
             // 
             // btnAtras
             // 
@@ -213,7 +213,7 @@
             this.btnAtras.Location = new System.Drawing.Point(12, 12);
             this.btnAtras.Name = "btnAtras";
             this.btnAtras.Size = new System.Drawing.Size(72, 66);
-            this.btnAtras.TabIndex = 36;
+            this.btnAtras.TabIndex = 14;
             this.btnAtras.UseVisualStyleBackColor = false;
             this.btnAtras.Click += new System.EventHandler(this.btnAtras_Click);
             // 

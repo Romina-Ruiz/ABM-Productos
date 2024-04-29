@@ -60,7 +60,7 @@
             this.etiqueta1.Location = new System.Drawing.Point(147, 110);
             this.etiqueta1.Name = "etiqueta1";
             this.etiqueta1.Size = new System.Drawing.Size(83, 24);
-            this.etiqueta1.TabIndex = 10;
+            this.etiqueta1.TabIndex = 0;
             this.etiqueta1.Text = "&Código:";
             this.etiqueta1.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
@@ -70,7 +70,7 @@
             this.textBox1.Location = new System.Drawing.Point(245, 105);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(193, 29);
-            this.textBox1.TabIndex = 0;
+            this.textBox1.TabIndex = 1;
             // 
             // etiqueta2
             // 
@@ -80,7 +80,7 @@
             this.etiqueta2.Location = new System.Drawing.Point(136, 167);
             this.etiqueta2.Name = "etiqueta2";
             this.etiqueta2.Size = new System.Drawing.Size(91, 24);
-            this.etiqueta2.TabIndex = 11;
+            this.etiqueta2.TabIndex = 2;
             this.etiqueta2.Text = "&Nombre:";
             // 
             // textBox2
@@ -89,7 +89,7 @@
             this.textBox2.Location = new System.Drawing.Point(245, 162);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(193, 29);
-            this.textBox2.TabIndex = 1;
+            this.textBox2.TabIndex = 3;
             // 
             // label3
             // 
@@ -99,7 +99,7 @@
             this.label3.Location = new System.Drawing.Point(103, 213);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(127, 24);
-            this.label3.TabIndex = 12;
+            this.label3.TabIndex = 4;
             this.label3.Text = "&Descripción:";
             // 
             // agregarTitulo
@@ -110,7 +110,7 @@
             this.agregarTitulo.Location = new System.Drawing.Point(189, 22);
             this.agregarTitulo.Name = "agregarTitulo";
             this.agregarTitulo.Size = new System.Drawing.Size(203, 44);
-            this.agregarTitulo.TabIndex = 9;
+            this.agregarTitulo.TabIndex = 16;
             this.agregarTitulo.Text = "ARTÍCULO";
             this.agregarTitulo.Click += new System.EventHandler(this.label4_Click);
             // 
@@ -120,7 +120,7 @@
             this.textBox3.Location = new System.Drawing.Point(245, 208);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(193, 29);
-            this.textBox3.TabIndex = 2;
+            this.textBox3.TabIndex = 5;
             // 
             // botonCancelar
             // 
@@ -134,7 +134,7 @@
             this.botonCancelar.Location = new System.Drawing.Point(340, 495);
             this.botonCancelar.Name = "botonCancelar";
             this.botonCancelar.Size = new System.Drawing.Size(138, 36);
-            this.botonCancelar.TabIndex = 8;
+            this.botonCancelar.TabIndex = 15;
             this.botonCancelar.Text = "CANCELA&R";
             this.botonCancelar.UseVisualStyleBackColor = false;
             this.botonCancelar.Click += new System.EventHandler(this.botonCancelar_Click);
@@ -147,7 +147,7 @@
             this.label5.Location = new System.Drawing.Point(151, 267);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(76, 24);
-            this.label5.TabIndex = 13;
+            this.label5.TabIndex = 6;
             this.label5.Text = "&Precio:";
             // 
             // textBox4
@@ -156,7 +156,7 @@
             this.textBox4.Location = new System.Drawing.Point(245, 262);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(193, 29);
-            this.textBox4.TabIndex = 3;
+            this.textBox4.TabIndex = 7;
             // 
             // botonAgregar
             // 
@@ -170,7 +170,7 @@
             this.botonAgregar.Location = new System.Drawing.Point(140, 495);
             this.botonAgregar.Name = "botonAgregar";
             this.botonAgregar.Size = new System.Drawing.Size(136, 36);
-            this.botonAgregar.TabIndex = 7;
+            this.botonAgregar.TabIndex = 14;
             this.botonAgregar.Text = "&AGREGAR";
             this.botonAgregar.UseVisualStyleBackColor = false;
             this.botonAgregar.Click += new System.EventHandler(this.botonAgregar_Click);
@@ -183,7 +183,7 @@
             this.lblMarca.Location = new System.Drawing.Point(151, 317);
             this.lblMarca.Name = "lblMarca";
             this.lblMarca.Size = new System.Drawing.Size(73, 24);
-            this.lblMarca.TabIndex = 14;
+            this.lblMarca.TabIndex = 8;
             this.lblMarca.Text = "&Marca:";
             // 
             // lblCategoria
@@ -194,7 +194,7 @@
             this.lblCategoria.Location = new System.Drawing.Point(122, 366);
             this.lblCategoria.Name = "lblCategoria";
             this.lblCategoria.Size = new System.Drawing.Size(105, 24);
-            this.lblCategoria.TabIndex = 15;
+            this.lblCategoria.TabIndex = 10;
             this.lblCategoria.Text = "Ca&tegoria:";
             // 
             // cmbMarca
@@ -205,7 +205,7 @@
             this.cmbMarca.Location = new System.Drawing.Point(245, 309);
             this.cmbMarca.Name = "cmbMarca";
             this.cmbMarca.Size = new System.Drawing.Size(193, 32);
-            this.cmbMarca.TabIndex = 4;
+            this.cmbMarca.TabIndex = 9;
             this.cmbMarca.SelectedIndexChanged += new System.EventHandler(this.cmbMarca_SelectedIndexChanged);
             // 
             // cmbCategoria
@@ -216,7 +216,7 @@
             this.cmbCategoria.Location = new System.Drawing.Point(245, 358);
             this.cmbCategoria.Name = "cmbCategoria";
             this.cmbCategoria.Size = new System.Drawing.Size(193, 32);
-            this.cmbCategoria.TabIndex = 5;
+            this.cmbCategoria.TabIndex = 11;
             // 
             // label1
             // 
@@ -226,7 +226,7 @@
             this.label1.Location = new System.Drawing.Point(100, 422);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(130, 24);
-            this.label1.TabIndex = 16;
+            this.label1.TabIndex = 12;
             this.label1.Text = "&URL Imagen:";
             // 
             // txtUrl
@@ -235,7 +235,7 @@
             this.txtUrl.Location = new System.Drawing.Point(245, 417);
             this.txtUrl.Name = "txtUrl";
             this.txtUrl.Size = new System.Drawing.Size(193, 29);
-            this.txtUrl.TabIndex = 6;
+            this.txtUrl.TabIndex = 13;
             // 
             // lbObligatorio
             // 

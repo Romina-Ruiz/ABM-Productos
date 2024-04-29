@@ -51,7 +51,7 @@
             this.dgvListarCategorias.Name = "dgvListarCategorias";
             this.dgvListarCategorias.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvListarCategorias.Size = new System.Drawing.Size(247, 225);
-            this.dgvListarCategorias.TabIndex = 4;
+            this.dgvListarCategorias.TabIndex = 0;
             this.dgvListarCategorias.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvListarCategorias_CellContentClick);
             // 
             // pictureBox1
@@ -88,7 +88,7 @@
             this.btnAtras.Location = new System.Drawing.Point(12, 12);
             this.btnAtras.Name = "btnAtras";
             this.btnAtras.Size = new System.Drawing.Size(67, 67);
-            this.btnAtras.TabIndex = 3;
+            this.btnAtras.TabIndex = 4;
             this.btnAtras.Text = "&";
             this.btnAtras.UseVisualStyleBackColor = false;
             this.btnAtras.Click += new System.EventHandler(this.btnAtras_Click);
@@ -105,7 +105,7 @@
             this.btnAgregar.Location = new System.Drawing.Point(73, 392);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(173, 51);
-            this.btnAgregar.TabIndex = 0;
+            this.btnAgregar.TabIndex = 1;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
@@ -122,7 +122,7 @@
             this.btnModificar.Location = new System.Drawing.Point(317, 392);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(196, 51);
-            this.btnModificar.TabIndex = 1;
+            this.btnModificar.TabIndex = 2;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;
             this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
@@ -139,7 +139,7 @@
             this.btnEliminar.Location = new System.Drawing.Point(564, 392);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(175, 51);
-            this.btnEliminar.TabIndex = 2;
+            this.btnEliminar.TabIndex = 3;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
@@ -151,7 +151,7 @@
             this.label1.Location = new System.Drawing.Point(242, 22);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(320, 57);
-            this.label1.TabIndex = 7;
+            this.label1.TabIndex = 5;
             this.label1.Text = "CATEGORIAS";
             // 
             // ListarCategorias

@@ -55,7 +55,7 @@
             this.btnAtras.Location = new System.Drawing.Point(12, 12);
             this.btnAtras.Name = "btnAtras";
             this.btnAtras.Size = new System.Drawing.Size(67, 67);
-            this.btnAtras.TabIndex = 2;
+            this.btnAtras.TabIndex = 3;
             this.btnAtras.Text = "&";
             this.btnAtras.UseVisualStyleBackColor = false;
             this.btnAtras.Click += new System.EventHandler(this.btnAtras_Click);
@@ -79,7 +79,7 @@
             this.lblTitulo.Location = new System.Drawing.Point(176, 25);
             this.lblTitulo.Name = "lblTitulo";
             this.lblTitulo.Size = new System.Drawing.Size(385, 44);
-            this.lblTitulo.TabIndex = 3;
+            this.lblTitulo.TabIndex = 4;
             this.lblTitulo.Text = "Buscar Categoria\r\n";
             // 
             // lblId
@@ -89,7 +89,7 @@
             this.lblId.Location = new System.Drawing.Point(161, 172);
             this.lblId.Name = "lblId";
             this.lblId.Size = new System.Drawing.Size(135, 37);
-            this.lblId.TabIndex = 4;
+            this.lblId.TabIndex = 0;
             this.lblId.Text = "Código:";
             // 
             // btnBuscar
@@ -103,7 +103,7 @@
             this.btnBuscar.Location = new System.Drawing.Point(207, 250);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(199, 60);
-            this.btnBuscar.TabIndex = 1;
+            this.btnBuscar.TabIndex = 2;
             this.btnBuscar.Text = "&Buscar";
             this.btnBuscar.UseVisualStyleBackColor = true;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
@@ -129,7 +129,7 @@
             0});
             this.numId.Name = "numId";
             this.numId.Size = new System.Drawing.Size(160, 31);
-            this.numId.TabIndex = 0;
+            this.numId.TabIndex = 1;
             this.numId.Value = new decimal(new int[] {
             1,
             0,

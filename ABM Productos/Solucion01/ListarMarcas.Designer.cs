@@ -45,7 +45,7 @@
             this.dgvListarMarcas.Name = "dgvListarMarcas";
             this.dgvListarMarcas.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvListarMarcas.Size = new System.Drawing.Size(246, 284);
-            this.dgvListarMarcas.TabIndex = 3;
+            this.dgvListarMarcas.TabIndex = 0;
             // 
             // label1
             // 
@@ -70,7 +70,7 @@
             this.btEliminar.Location = new System.Drawing.Point(436, 414);
             this.btEliminar.Name = "btEliminar";
             this.btEliminar.Size = new System.Drawing.Size(188, 62);
-            this.btEliminar.TabIndex = 1;
+            this.btEliminar.TabIndex = 2;
             this.btEliminar.Text = "&ELIMINAR";
             this.btEliminar.UseVisualStyleBackColor = false;
             this.btEliminar.Click += new System.EventHandler(this.btEliminar_Click_1);
@@ -88,7 +88,7 @@
             this.btModificar.Location = new System.Drawing.Point(191, 414);
             this.btModificar.Name = "btModificar";
             this.btModificar.Size = new System.Drawing.Size(188, 62);
-            this.btModificar.TabIndex = 0;
+            this.btModificar.TabIndex = 1;
             this.btModificar.Text = "&MODIFICAR";
             this.btModificar.UseVisualStyleBackColor = false;
             this.btModificar.Click += new System.EventHandler(this.Modificar_Click_1);
@@ -106,7 +106,7 @@
             this.btCierreMarcas.Location = new System.Drawing.Point(2, 9);
             this.btCierreMarcas.Name = "btCierreMarcas";
             this.btCierreMarcas.Size = new System.Drawing.Size(63, 54);
-            this.btCierreMarcas.TabIndex = 2;
+            this.btCierreMarcas.TabIndex = 3;
             this.btCierreMarcas.Text = "&";
             this.btCierreMarcas.UseVisualStyleBackColor = false;
             this.btCierreMarcas.Click += new System.EventHandler(this.btCierreMarcas_Click);
