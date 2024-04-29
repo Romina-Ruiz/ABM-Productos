@@ -169,14 +169,10 @@ namespace Solucion01
             
             }
             
-        }
+        }       
 
-
-        private void btVer_Click(object sender, EventArgs e)
+        private void btVer_Click_1(object sender, EventArgs e)
         {
-
-            
-
             if (DgvArticulo.CurrentRow != null)
             {
                 Articulo seleccionado = (Articulo)DgvArticulo.CurrentRow.DataBoundItem;
@@ -186,9 +182,6 @@ namespace Solucion01
                 cargar();
 
             }
-
-
-
         }
     }
 }
