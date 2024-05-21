@@ -44,6 +44,8 @@
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.btnAtras = new System.Windows.Forms.Button();
+            this.ptbxDetalle = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.ptbxDetalle)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -217,12 +219,23 @@
             this.btnAtras.UseVisualStyleBackColor = false;
             this.btnAtras.Click += new System.EventHandler(this.btnAtras_Click);
             // 
+            // ptbxDetalle
+            // 
+            this.ptbxDetalle.Location = new System.Drawing.Point(497, 121);
+            this.ptbxDetalle.Name = "ptbxDetalle";
+            this.ptbxDetalle.Size = new System.Drawing.Size(265, 341);
+            this.ptbxDetalle.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ptbxDetalle.TabIndex = 16;
+            this.ptbxDetalle.TabStop = false;
+            this.ptbxDetalle.Click += new System.EventHandler(this.ptbxDetalle_Click);
+            // 
             // BuscarArticulo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.ClientSize = new System.Drawing.Size(652, 550);
+            this.ClientSize = new System.Drawing.Size(917, 550);
+            this.Controls.Add(this.ptbxDetalle);
             this.Controls.Add(this.btnAtras);
             this.Controls.Add(this.textBox7);
             this.Controls.Add(this.textBox6);
@@ -242,6 +255,7 @@
             this.Name = "BuscarArticulo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BuscarArticulo";
+            ((System.ComponentModel.ISupportInitialize)(this.ptbxDetalle)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -264,5 +278,6 @@
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Button btnAtras;
+        private System.Windows.Forms.PictureBox ptbxDetalle;
     }
 }

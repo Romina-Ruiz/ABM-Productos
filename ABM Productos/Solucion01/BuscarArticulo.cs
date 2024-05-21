@@ -33,7 +33,7 @@ namespace Solucion01
             textBox5.Text = articulo.des_marca;
             textBox6.Text = articulo.des_categoria;
             textBox7.Text = articulo.urlImagen;
-
+            ptbxDetalle.Load(articulo.urlImagen);
 
 
         }
@@ -45,6 +45,10 @@ namespace Solucion01
             Close();
         }
 
+        private void ptbxDetalle_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 

@@ -48,20 +48,20 @@ namespace Solucion01
         private bool ValidarFiltro()
         {
 
-            if (!soloNumeros(textBox1.Text))
-            {
+            //if (!soloNumeros(textBox1.Text))
+            //{
 
-                MessageBox.Show("Ingresar solo números!");
-                return true;
+            //    MessageBox.Show("Ingresar solo números!");
+            //    return true;
+             
+            //}
+            //if (!soloNumeros(textBox4.Text))
+            //{
 
-            }
-            if (!soloNumeros(textBox4.Text))
-            {
+            //    MessageBox.Show("Ingresar solo números enteros para el precio");
+            //    return true;
 
-                MessageBox.Show("Ingresar solo números!");
-                return true;
-
-            }
+            //}
 
 
             if (string.IsNullOrEmpty(textBox2.Text))
@@ -221,6 +221,11 @@ namespace Solucion01
         private void cmbMarca_SelectedIndexChanged(object sender, EventArgs e)
         {
            
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -23,7 +23,6 @@ C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01
 C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\bin\Debug\Solucion01.exe
 C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\bin\Debug\Solucion01.pdb
 C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.csproj.AssemblyReference.cache
-C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.csproj.SuggestedBindingRedirects.cache
 C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.AgreArti.resources
 C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.frmCategorias.resources
 C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.frmMarcas.resources
@@ -87,7 +86,6 @@ C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01
 C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\bin\Debug\dominio.pdb
 C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\bin\Debug\negocio.pdb
 C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.ListarMarcas.resources
-C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.csproj.CopyComplete
 C:\Users\Romina\Documents\GitHub\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.AgregarMarcas.resources
 C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.AgregarMarcas.resources
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM\ABM-Productos\ABM Productos\Solucion01\bin\Debug\Solucion01.exe.config
@@ -218,3 +216,4 @@ C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (V
 C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.csproj.Up2Date
 C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.exe
 C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.pdb
+C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.csproj.Up2Date
