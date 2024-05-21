@@ -48,11 +48,10 @@
             this.DgvArticulo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DgvArticulo.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.DgvArticulo.Location = new System.Drawing.Point(102, 195);
-            this.DgvArticulo.MultiSelect = false;
             this.DgvArticulo.Name = "DgvArticulo";
             this.DgvArticulo.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.DgvArticulo.Size = new System.Drawing.Size(425, 205);
-            this.DgvArticulo.TabIndex = 3;
+            this.DgvArticulo.TabIndex = 0;
             this.DgvArticulo.SelectionChanged += new System.EventHandler(this.DgvArticulo_SelectionChanged);
             // 
             // btnAtras
@@ -87,7 +86,7 @@
             this.btnAgregar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(166, 45);
-            this.btnAgregar.TabIndex = 5;
+            this.btnAgregar.TabIndex = 2;
             this.btnAgregar.Text = "&AGREGAR";
             this.btnAgregar.UseVisualStyleBackColor = false;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
@@ -107,7 +106,7 @@
             this.boton4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.boton4.Name = "boton4";
             this.boton4.Size = new System.Drawing.Size(167, 45);
-            this.boton4.TabIndex = 6;
+            this.boton4.TabIndex = 3;
             this.boton4.Text = "&MODIFICAR";
             this.boton4.UseVisualStyleBackColor = false;
             this.boton4.Click += new System.EventHandler(this.boton4_Click);
@@ -127,7 +126,7 @@
             this.btnElimin.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnElimin.Name = "btnElimin";
             this.btnElimin.Size = new System.Drawing.Size(181, 45);
-            this.btnElimin.TabIndex = 7;
+            this.btnElimin.TabIndex = 4;
             this.btnElimin.Text = "&ELIMINAR";
             this.btnElimin.UseVisualStyleBackColor = false;
             this.btnElimin.Click += new System.EventHandler(this.btnElimin_Click);
@@ -140,7 +139,7 @@
             this.etiquetaBuscar.Location = new System.Drawing.Point(181, 122);
             this.etiquetaBuscar.Name = "etiquetaBuscar";
             this.etiquetaBuscar.Size = new System.Drawing.Size(107, 33);
-            this.etiquetaBuscar.TabIndex = 0;
+            this.etiquetaBuscar.TabIndex = 9;
             this.etiquetaBuscar.Text = "Filtrar:";
             // 
             // txtFiltro
@@ -149,7 +148,7 @@
             this.txtFiltro.Location = new System.Drawing.Point(304, 122);
             this.txtFiltro.Name = "txtFiltro";
             this.txtFiltro.Size = new System.Drawing.Size(181, 31);
-            this.txtFiltro.TabIndex = 1;
+            this.txtFiltro.TabIndex = 5;
             // 
             // bntBuscar
             // 
@@ -167,7 +166,7 @@
             this.bntBuscar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.bntBuscar.Name = "bntBuscar";
             this.bntBuscar.Size = new System.Drawing.Size(135, 35);
-            this.bntBuscar.TabIndex = 2;
+            this.bntBuscar.TabIndex = 6;
             this.bntBuscar.Text = "&Buscar";
             this.bntBuscar.UseVisualStyleBackColor = false;
             this.bntBuscar.Click += new System.EventHandler(this.bntBuscar_Click);
@@ -188,7 +187,7 @@
             this.lbArticulo.Location = new System.Drawing.Point(293, 19);
             this.lbArticulo.Name = "lbArticulo";
             this.lbArticulo.Size = new System.Drawing.Size(317, 63);
-            this.lbArticulo.TabIndex = 9;
+            this.lbArticulo.TabIndex = 7;
             this.lbArticulo.Text = "ARTÍCULOS";
             // 
             // btVer
@@ -206,7 +205,7 @@
             this.btVer.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btVer.Name = "btVer";
             this.btVer.Size = new System.Drawing.Size(111, 45);
-            this.btVer.TabIndex = 4;
+            this.btVer.TabIndex = 1;
             this.btVer.Text = "&VER";
             this.btVer.UseVisualStyleBackColor = false;
             this.btVer.Click += new System.EventHandler(this.btVer_Click_1);

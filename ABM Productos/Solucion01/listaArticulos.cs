@@ -75,12 +75,16 @@ namespace Solucion01
         }
         private void boton4_Click(object sender, EventArgs e)
         {
-            Articulo seleccionado;
-            seleccionado = (Articulo)DgvArticulo.CurrentRow.DataBoundItem;
+            
+                Articulo seleccionado;
+                seleccionado = (Articulo)DgvArticulo.CurrentRow.DataBoundItem;
+                AgreArti modificar = new AgreArti(seleccionado);
+                modificar.ShowDialog();
+                cargar();
 
-            AgreArti modificar = new AgreArti(seleccionado);
-            modificar.ShowDialog();
-            cargar();
+            
+            
+           
         }
 
        private void btnElimin_Click(object sender, EventArgs e)
