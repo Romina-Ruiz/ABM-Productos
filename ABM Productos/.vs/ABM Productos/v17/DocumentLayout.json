@@ -1,106 +1,126 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\",
+  "WorkspaceRootPath": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|c:\\users\\romina\\documents\\github\\abm productos\\abm-productos\\abm productos\\solucion01\\frmmarcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\frmmarcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\listarmarcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\listarmarcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\listarcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\listarcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\listaarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\listaarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\frmcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\frmcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\buscarmarcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\buscarmarcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\buscarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\buscarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\buscarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\agregarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\agregarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\agregarmarcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\agregarmarcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\agrearti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\agrearti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|c:\\users\\romina\\documents\\github\\abm productos\\abm-productos\\abm productos\\solucion01\\buscararticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\buscararticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\buscararticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\buscararticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\buscararticulo.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\buscararticulo.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\listaarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\listaarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\agrearti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\agrearti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\agregarmarcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\agregarmarcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\listarmarcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\listarmarcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\listarcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\listarcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\buscarmarcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\buscarmarcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\buscarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\buscarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\buscarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\agregarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\agregarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|c:\\users\\romina\\desktop\\utn programacion\\utn 5 cuatrimestre\\04-programacion 3 (viernes)\\tp 2\\abm productos\\abm-productos\\abm productos\\solucion01\\buscarmarcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\buscarmarcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40215393-5E45-4650-95E9-C307E7ECA17D}|negocio\\negocio.csproj|C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\negocio\\marcanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\listarcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\listarcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\buscararticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\buscararticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\buscarmarcas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\buscarmarcas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A05DAB-9F43-4329-BB55-36269C13858A}|dominio\\dominio.csproj|c:\\users\\romina\\desktop\\utn programacion\\utn 5 cuatrimestre\\04-programacion 3 (viernes)\\tp 2\\abm productos\\abm-productos\\abm productos\\dominio\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A05DAB-9F43-4329-BB55-36269C13858A}|dominio\\dominio.csproj|solutionrelative:dominio\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\buscarmarcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\buscarmarcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\agregarmarcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\agregarmarcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\listarmarcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\listarmarcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A05DAB-9F43-4329-BB55-36269C13858A}|dominio\\dominio.csproj|C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\dominio\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A05DAB-9F43-4329-BB55-36269C13858A}|dominio\\dominio.csproj|solutionrelative:dominio\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40215393-5E45-4650-95E9-C307E7ECA17D}|negocio\\negocio.csproj|C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\negocio\\marcanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40215393-5E45-4650-95E9-C307E7ECA17D}|negocio\\negocio.csproj|solutionrelative:negocio\\marcanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\frmmarcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\buscarmarcas.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\buscarmarcas.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\listaarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\listaarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\listaarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\listaarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\agrearti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\agrearti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\buscararticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\buscararticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\listarmarcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\listarmarcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\listarmarcas.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\listarmarcas.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\frmmarcas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\frmmarcas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\frmmarcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\frmmarcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\frmmarcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\frmmarcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\buscarmarcas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\buscarmarcas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\listarcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\listarcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\frmcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\frmcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\agregarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\agregarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\buscararticulo.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\buscararticulo.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\agrearti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\agrearti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\agregarmarcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\agregarmarcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\solucion01\\agregarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B69E288D-DE0E-4764-919B-B39CAF0C277B}|Solucion01\\Solucion01.csproj|solutionrelative:solucion01\\agregarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -110,39 +130,102 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 28,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\dominio\\Categoria.cs",
+              "RelativeDocumentMoniker": "dominio\\Categoria.cs",
+              "ToolTip": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\dominio\\Categoria.cs",
+              "RelativeToolTip": "dominio\\Categoria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T05:32:38.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Marca.cs",
+              "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\dominio\\Marca.cs",
+              "RelativeDocumentMoniker": "dominio\\Marca.cs",
+              "ToolTip": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\dominio\\Marca.cs",
+              "RelativeToolTip": "dominio\\Marca.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T04:47:03.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ListarMarcas.resx",
+              "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\ListarMarcas.resx",
+              "RelativeDocumentMoniker": "Solucion01\\ListarMarcas.resx",
+              "ToolTip": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\ListarMarcas.resx",
+              "RelativeToolTip": "Solucion01\\ListarMarcas.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-05-20T23:25:48.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BuscarMarcas.resx",
+              "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\BuscarMarcas.resx",
+              "RelativeDocumentMoniker": "Solucion01\\BuscarMarcas.resx",
+              "ToolTip": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\BuscarMarcas.resx",
+              "RelativeToolTip": "Solucion01\\BuscarMarcas.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-05-20T23:11:37.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "frmMarcas.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\frmMarcas.Designer.cs",
+              "RelativeDocumentMoniker": "Solucion01\\frmMarcas.Designer.cs",
+              "ToolTip": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\frmMarcas.Designer.cs",
+              "RelativeToolTip": "Solucion01\\frmMarcas.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T23:09:38.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "frmMarcas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\frmMarcas.cs",
+              "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\frmMarcas.cs",
               "RelativeDocumentMoniker": "Solucion01\\frmMarcas.cs",
-              "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\frmMarcas.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\frmMarcas.cs [Dise\u00F1o]",
               "RelativeToolTip": "Solucion01\\frmMarcas.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T01:35:17.755Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-04-29T01:35:17.755Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 22,
               "Title": "frmPrincipal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\frmPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\frmPrincipal.cs",
               "RelativeDocumentMoniker": "Solucion01\\frmPrincipal.cs",
               "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\frmPrincipal.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Solucion01\\frmPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\frmPrincipal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T23:08:00.542Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-04-28T23:08:00.542Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 26,
               "Title": "BuscarArticulo.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\BuscarArticulo.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\BuscarArticulo.Designer.cs",
               "RelativeDocumentMoniker": "Solucion01\\BuscarArticulo.Designer.cs",
-              "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\BuscarArticulo.Designer.cs",
+              "ToolTip": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\BuscarArticulo.Designer.cs",
               "RelativeToolTip": "Solucion01\\BuscarArticulo.Designer.cs",
               "ViewState": "AQIAAOMAAAAAAAAAAAAjwPQAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -151,24 +234,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 4,
               "Title": "BuscarArticulo.cs",
-              "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\BuscarArticulo.cs",
+              "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\BuscarArticulo.cs",
               "RelativeDocumentMoniker": "Solucion01\\BuscarArticulo.cs",
-              "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\BuscarArticulo.cs",
+              "ToolTip": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\BuscarArticulo.cs",
               "RelativeToolTip": "Solucion01\\BuscarArticulo.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAD4vx4AAAAOAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAUwBAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T21:14:19.008Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "BuscarArticulo.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\BuscarArticulo.cs",
+              "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\BuscarArticulo.cs",
               "RelativeDocumentMoniker": "Solucion01\\BuscarArticulo.cs",
-              "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\BuscarArticulo.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\BuscarArticulo.cs [Dise\u00F1o]",
               "RelativeToolTip": "Solucion01\\BuscarArticulo.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T21:11:17.798Z",
@@ -176,48 +259,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "listaArticulos.cs",
-              "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\listaArticulos.cs",
+              "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\listaArticulos.cs",
               "RelativeDocumentMoniker": "Solucion01\\listaArticulos.cs",
-              "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\listaArticulos.cs",
+              "ToolTip": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\listaArticulos.cs",
               "RelativeToolTip": "Solucion01\\listaArticulos.cs",
-              "ViewState": "AQIAAKUAAAAAAAAAAAAUwLcAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAH8AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T21:02:59.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T21:02:59.408Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "listaArticulos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\listaArticulos.cs",
+              "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\listaArticulos.cs",
               "RelativeDocumentMoniker": "Solucion01\\listaArticulos.cs",
-              "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\listaArticulos.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\listaArticulos.cs [Dise\u00F1o]",
               "RelativeToolTip": "Solucion01\\listaArticulos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T21:02:55.23Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-04-28T21:02:55.23Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "AgreArti.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\AgreArti.cs",
+              "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\AgreArti.cs",
               "RelativeDocumentMoniker": "Solucion01\\AgreArti.cs",
-              "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\AgreArti.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\AgreArti.cs [Dise\u00F1o]",
               "RelativeToolTip": "Solucion01\\AgreArti.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T20:54:15.788Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-04-28T20:54:15.788Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 23,
               "Title": "ListarCategorias.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\ListarCategorias.cs",
+              "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\ListarCategorias.cs",
               "RelativeDocumentMoniker": "Solucion01\\ListarCategorias.cs",
-              "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\ListarCategorias.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\ListarCategorias.cs [Dise\u00F1o]",
               "RelativeToolTip": "Solucion01\\ListarCategorias.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-27T18:00:49.413Z",
@@ -225,36 +305,34 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 24,
               "Title": "frmCategorias.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\frmCategorias.cs",
+              "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\frmCategorias.cs",
               "RelativeDocumentMoniker": "Solucion01\\frmCategorias.cs",
               "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\frmCategorias.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Solucion01\\frmCategorias.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\frmCategorias.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T17:15:00.044Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-04-27T17:15:00.044Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 21,
               "Title": "frmMarcas.cs",
-              "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\frmMarcas.cs",
+              "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\frmMarcas.cs",
               "RelativeDocumentMoniker": "Solucion01\\frmMarcas.cs",
-              "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\frmMarcas.cs",
+              "ToolTip": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\frmMarcas.cs",
               "RelativeToolTip": "Solucion01\\frmMarcas.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAYwEQAAAAZAAAA",
+              "ViewState": "AQIAADQAAAAAAAAAAAAzwEQAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T04:21:37.224Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-27T04:21:37.224Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "AgregarMarcas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\AgregarMarcas.cs",
+              "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\AgregarMarcas.cs",
               "RelativeDocumentMoniker": "Solucion01\\AgregarMarcas.cs",
-              "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\AgregarMarcas.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\AgregarMarcas.cs [Dise\u00F1o]",
               "RelativeToolTip": "Solucion01\\AgregarMarcas.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-27T04:14:15.465Z",
@@ -262,50 +340,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 5,
               "Title": "BuscarMarcas.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\BuscarMarcas.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\BuscarMarcas.Designer.cs",
               "RelativeDocumentMoniker": "Solucion01\\BuscarMarcas.Designer.cs",
-              "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\BuscarMarcas.Designer.cs",
+              "ToolTip": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\BuscarMarcas.Designer.cs",
               "RelativeToolTip": "Solucion01\\BuscarMarcas.Designer.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAYwJQAAAAzAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-27T03:32:11.256Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 2,
               "Title": "BuscarMarcas.cs",
-              "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\BuscarMarcas.cs",
+              "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\BuscarMarcas.cs",
               "RelativeDocumentMoniker": "Solucion01\\BuscarMarcas.cs",
-              "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\BuscarMarcas.cs",
+              "ToolTip": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\BuscarMarcas.cs",
               "RelativeToolTip": "Solucion01\\BuscarMarcas.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAawCsAAAAAAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAuwBkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-27T03:12:04.265Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 1,
               "Title": "BuscarCategoria.cs",
-              "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\BuscarCategoria.cs",
+              "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\BuscarCategoria.cs",
               "RelativeDocumentMoniker": "Solucion01\\BuscarCategoria.cs",
-              "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\BuscarCategoria.cs",
+              "ToolTip": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\BuscarCategoria.cs",
               "RelativeToolTip": "Solucion01\\BuscarCategoria.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAEwCgAAAAQAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAUwBwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-27T02:35:56.326Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 28,
               "Title": "AgregarMarcas.cs",
-              "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\AgregarMarcas.cs",
+              "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\AgregarMarcas.cs",
               "RelativeDocumentMoniker": "Solucion01\\AgregarMarcas.cs",
-              "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\AgregarMarcas.cs",
+              "ToolTip": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\AgregarMarcas.cs",
               "RelativeToolTip": "Solucion01\\AgregarMarcas.cs",
               "ViewState": "AQIAAF4AAAAAAAAAAAAcwHQAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -314,11 +392,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "ListarMarcas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\ListarMarcas.cs",
+              "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\ListarMarcas.cs",
               "RelativeDocumentMoniker": "Solucion01\\ListarMarcas.cs",
-              "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\ListarMarcas.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\ListarMarcas.cs [Dise\u00F1o]",
               "RelativeToolTip": "Solucion01\\ListarMarcas.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-26T03:43:51.399Z",
@@ -326,75 +404,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 29,
               "Title": "AgregarCategoria.cs",
-              "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\AgregarCategoria.cs",
+              "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\AgregarCategoria.cs",
               "RelativeDocumentMoniker": "Solucion01\\AgregarCategoria.cs",
-              "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\AgregarCategoria.cs",
+              "ToolTip": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\AgregarCategoria.cs",
               "RelativeToolTip": "Solucion01\\AgregarCategoria.cs",
               "ViewState": "AQIAAGAAAAAAAAAAAAAmwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T00:10:33.479Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-27T00:10:33.479Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 25,
               "Title": "AgregarCategoria.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\AgregarCategoria.cs",
+              "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\AgregarCategoria.cs",
               "RelativeDocumentMoniker": "Solucion01\\AgregarCategoria.cs",
               "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\AgregarCategoria.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Solucion01\\AgregarCategoria.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\AgregarCategoria.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T01:03:56.417Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-04-27T01:03:56.417Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "ListarMarcas.cs",
-              "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\ListarMarcas.cs",
+              "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\ListarMarcas.cs",
               "RelativeDocumentMoniker": "Solucion01\\ListarMarcas.cs",
-              "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\ListarMarcas.cs",
+              "ToolTip": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\ListarMarcas.cs",
               "RelativeToolTip": "Solucion01\\ListarMarcas.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAD4vy4AAAAvAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAkwBUAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-26T03:43:52.655Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 3,
               "Title": "ListarCategorias.cs",
-              "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\ListarCategorias.cs",
+              "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\ListarCategorias.cs",
               "RelativeDocumentMoniker": "Solucion01\\ListarCategorias.cs",
-              "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\ListarCategorias.cs",
+              "ToolTip": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\ListarCategorias.cs",
               "RelativeToolTip": "Solucion01\\ListarCategorias.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAjwDQAAAAAAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAA9wCIAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-22T22:58:31.6Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 27,
               "Title": "AgreArti.cs",
-              "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\AgreArti.cs",
+              "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\AgreArti.cs",
               "RelativeDocumentMoniker": "Solucion01\\AgreArti.cs",
-              "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\AgreArti.cs",
+              "ToolTip": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\AgreArti.cs",
               "RelativeToolTip": "Solucion01\\AgreArti.cs",
               "ViewState": "AQIAAHQAAAAAAAAAAAAuwIMAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T17:24:17.043Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-27T17:24:17.043Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "BuscarCategoria.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\BuscarCategoria.cs",
+              "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\BuscarCategoria.cs",
               "RelativeDocumentMoniker": "Solucion01\\BuscarCategoria.cs",
-              "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\BuscarCategoria.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\BuscarCategoria.cs [Dise\u00F1o]",
               "RelativeToolTip": "Solucion01\\BuscarCategoria.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-27T02:54:17.003Z",
@@ -402,11 +477,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "BuscarMarcas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\BuscarMarcas.cs",
+              "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\BuscarMarcas.cs",
               "RelativeDocumentMoniker": "Solucion01\\BuscarMarcas.cs",
-              "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\BuscarMarcas.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\Solucion01\\BuscarMarcas.cs [Dise\u00F1o]",
               "RelativeToolTip": "Solucion01\\BuscarMarcas.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-22T23:07:24.857Z",
@@ -414,13 +489,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 11,
               "Title": "MarcaNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\negocio\\MarcaNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\negocio\\MarcaNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\MarcaNegocio.cs",
-              "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\ABM Productos\\ABM-Productos\\ABM Productos\\negocio\\MarcaNegocio.cs",
+              "ToolTip": "C:\\Users\\Romina\\Desktop\\UTN PROGRAMACION\\UTN 5 Cuatrimestre\\04-Programacion 3 (VIERNES)\\TP 2\\ABM Productos\\ABM-Productos\\ABM Productos\\negocio\\MarcaNegocio.cs",
               "RelativeToolTip": "negocio\\MarcaNegocio.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAwA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T01:51:20.552Z"
             }

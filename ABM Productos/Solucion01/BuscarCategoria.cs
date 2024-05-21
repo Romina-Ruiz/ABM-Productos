@@ -19,29 +19,56 @@ namespace dominio
         {
             InitializeComponent();
         }
+        
+        private void BuscarCategoria_Load(object sender, EventArgs e)
+        {
 
+            CategoriaNegocio negocio= new CategoriaNegocio();
+            dgvBuscarCategoria.DataSource = negocio.listar();
+
+
+        }
         private void btnAtras_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void btnBuscar_Click(object sender, EventArgs e)
+        
+
+        private void txtBuscar_TextChanged(object sender, EventArgs e)
         {
-            int IdBuscado = (int)numId.Value;
-            
-            Categoria categoriaBuscada;
+
+            CategoriaNegocio categoria=new CategoriaNegocio();
             List<Categoria> listaCompleta;
-            CategoriaNegocio negocio = new CategoriaNegocio();
-            listaCompleta = negocio.listar();
-            categoriaBuscada = listaCompleta.Find(c => c.Id == IdBuscado);
-            if(categoriaBuscada !=null )
+
+           listaCompleta = categoria.listar();
+            
+
+            List<Categoria> Listafiltrada;
+
+           
+            string filtro = txtBuscar.Text;
+
+
+            if (filtro != "")
             {
-                lblInformacion.Text = categoriaBuscada.Descripcion;
+
+                Listafiltrada = listaCompleta.FindAll(x => x.Descripcion.ToUpper().Contains(filtro.ToUpper()));
+
             }
             else
             {
-                lblInformacion.Text = "NO EXISTE";
+
+                Listafiltrada = listaCompleta;
             }
+
+            dgvBuscarCategoria.DataSource = null;
+            dgvBuscarCategoria.DataSource = Listafiltrada;
+              
+
+
         }
+
+       
     }
 }

@@ -82,7 +82,7 @@
             this.btBuscar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LavenderBlush;
             this.btBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btBuscar.Font = new System.Drawing.Font("Stencil", 21.75F, System.Drawing.FontStyle.Bold);
-            this.btBuscar.Location = new System.Drawing.Point(110, 340);
+            this.btBuscar.Location = new System.Drawing.Point(110, 229);
             this.btBuscar.Name = "btBuscar";
             this.btBuscar.Size = new System.Drawing.Size(198, 71);
             this.btBuscar.TabIndex = 2;
@@ -100,7 +100,7 @@
             this.btAgregar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LavenderBlush;
             this.btAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btAgregar.Font = new System.Drawing.Font("Stencil", 21.75F, System.Drawing.FontStyle.Bold);
-            this.btAgregar.Location = new System.Drawing.Point(110, 236);
+            this.btAgregar.Location = new System.Drawing.Point(110, 337);
             this.btAgregar.Name = "btAgregar";
             this.btAgregar.Size = new System.Drawing.Size(198, 71);
             this.btAgregar.TabIndex = 1;

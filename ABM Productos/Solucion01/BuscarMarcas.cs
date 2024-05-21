@@ -14,49 +14,62 @@ namespace Solucion01
 {
     public partial class BuscarMarca : Form
     {
+               
         public BuscarMarca()
         {
             InitializeComponent();
         }
 
+
         private void BuscarMarcas_Load(object sender, EventArgs e)
         {
 
-            
+            MarcaNegocio negocio = new MarcaNegocio();
+            dgvBuscarMarcas.DataSource = negocio.listar();
 
 
 
         }
 
         
-        private void btBuscar_Click(object sender, EventArgs e)
-        {
-
-            int IdBuscado = (int)NumMarcas.Value;
-
-            Marca marcabuscada;
-            List<Marca> listacompleta;
-            MarcaNegocio Negocio= new MarcaNegocio();
-            listacompleta = Negocio.listar();
-            marcabuscada = listacompleta.Find(c => c.CodMarca == IdBuscado);
-
-            if (marcabuscada != null ) {
-
-                lbResult.Text = marcabuscada.NombreMarca;
-            }
-
-
-             else
-            {
-                lbResult.Text = "NO EXISTE";
-            }
-
-
-        }
-
         private void btCierreMarcas_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void txtFiltro_TextChanged(object sender, EventArgs e)
+        {
+
+            MarcaNegocio marcaNegocio = new MarcaNegocio();
+            List<Marca> Listacompleta;
+            
+            Listacompleta=marcaNegocio.listar();    
+
+            List<Marca> listaFiltrada;
+
+            string filtro = txtFiltro.Text;
+
+
+            if(filtro!="")
+            {
+
+                listaFiltrada = Listacompleta.FindAll(x => x.NombreMarca.ToUpper().Contains(filtro.ToUpper()));
+           
+            }
+            else
+            {
+
+                listaFiltrada=Listacompleta;
+            }
+
+            dgvBuscarMarcas.DataSource = null;
+            dgvBuscarMarcas.DataSource = listaFiltrada;
+
+
+
+
+
+
         }
     }
 }

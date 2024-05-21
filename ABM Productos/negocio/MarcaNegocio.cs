@@ -53,6 +53,49 @@ namespace negocio
 
         }
 
+       /* public List<Marca>filtrar(string filtro)
+        {
+
+            List<Marca> lista =new List<Marca>();
+            AccesoDatos datos=new AccesoDatos();    
+
+            try
+            {
+
+                string consulta = "SELECT Id, Descripcion FROM MARCAS where Descripcion like ";
+
+                if (filtro.Contains(consulta))
+                {
+                    consulta += filtro;
+
+                }
+                     datos.setearConsulta("SELECT Id, Descripcion FROM MARCAS");
+                     datos.ejecutarLectura();
+
+                    while (datos.Lector.Read())
+                    {
+                        Marca aux = new Marca();
+                        aux.CodMarca = (int)datos.Lector["Id"];
+                        aux.NombreMarca = (string)datos.Lector["Descripcion"];
+
+                        lista.Add(aux);
+                    }
+
+                    return lista;
+
+               
+
+
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+
+
+        }*/
+
 
         public void Agregar(Marca nuevo)
         {

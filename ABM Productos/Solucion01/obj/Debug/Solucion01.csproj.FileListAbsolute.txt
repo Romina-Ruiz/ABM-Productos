@@ -191,3 +191,30 @@ C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_ultimo_entregado\ABM-Prod
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\ABM_ultimo_entregado\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.BuscarArticulo.resources
 C:\Users\Romina\Documents\GitHub\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.BuscarArticulo.resources
 C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.BuscarArticulo.resources
+C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\ABM Productos\ABM-Productos\ABM Productos\Solucion01\bin\Debug\Solucion01.exe.config
+C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\ABM Productos\ABM-Productos\ABM Productos\Solucion01\bin\Debug\Solucion01.exe
+C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\ABM Productos\ABM-Productos\ABM Productos\Solucion01\bin\Debug\Solucion01.pdb
+C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\ABM Productos\ABM-Productos\ABM Productos\Solucion01\bin\Debug\dominio.dll
+C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\ABM Productos\ABM-Productos\ABM Productos\Solucion01\bin\Debug\negocio.dll
+C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\ABM Productos\ABM-Productos\ABM Productos\Solucion01\bin\Debug\dominio.pdb
+C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\ABM Productos\ABM-Productos\ABM Productos\Solucion01\bin\Debug\negocio.pdb
+C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.csproj.AssemblyReference.cache
+C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.AgreArti.resources
+C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\dominio.AgregarCategoria.resources
+C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.AgregarMarcas.resources
+C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.BuscarArticulo.resources
+C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\dominio.BuscarCategoria.resources
+C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.BuscarMarca.resources
+C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.DetalleArticulo.resources
+C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.frmCategorias.resources
+C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.frmMarcas.resources
+C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.frmPrincipal.resources
+C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.listaArticulos.resources
+C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.ListarCategorias.resources
+C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.ListarMarcas.resources
+C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.Properties.Resources.resources
+C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.csproj.GenerateResource.cache
+C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.csproj.CoreCompileInputs.cache
+C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.csproj.Up2Date
+C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.exe
+C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\ABM Productos\ABM-Productos\ABM Productos\Solucion01\obj\Debug\Solucion01.pdb

@@ -33,11 +33,11 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblTitulo = new System.Windows.Forms.Label();
             this.lblId = new System.Windows.Forms.Label();
-            this.btnBuscar = new System.Windows.Forms.Button();
             this.lblInformacion = new System.Windows.Forms.Label();
-            this.numId = new System.Windows.Forms.NumericUpDown();
+            this.txtBuscar = new System.Windows.Forms.TextBox();
+            this.dgvBuscarCategoria = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numId)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvBuscarCategoria)).BeginInit();
             this.SuspendLayout();
             // 
             // btnAtras
@@ -64,9 +64,9 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(539, 43);
+            this.pictureBox1.Location = new System.Drawing.Point(487, 174);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(237, 395);
+            this.pictureBox1.Size = new System.Drawing.Size(232, 284);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
@@ -86,27 +86,11 @@
             // 
             this.lblId.AutoSize = true;
             this.lblId.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold);
-            this.lblId.Location = new System.Drawing.Point(161, 172);
+            this.lblId.Location = new System.Drawing.Point(196, 99);
             this.lblId.Name = "lblId";
-            this.lblId.Size = new System.Drawing.Size(135, 37);
+            this.lblId.Size = new System.Drawing.Size(148, 37);
             this.lblId.TabIndex = 0;
-            this.lblId.Text = "Código:";
-            // 
-            // btnBuscar
-            // 
-            this.btnBuscar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnBuscar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btnBuscar.FlatAppearance.BorderSize = 3;
-            this.btnBuscar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
-            this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBuscar.Font = new System.Drawing.Font("Stencil", 21.75F, System.Drawing.FontStyle.Bold);
-            this.btnBuscar.Location = new System.Drawing.Point(207, 250);
-            this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(199, 60);
-            this.btnBuscar.TabIndex = 2;
-            this.btnBuscar.Text = "&Buscar";
-            this.btnBuscar.UseVisualStyleBackColor = true;
-            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
+            this.lblId.Text = "Nombre:";
             // 
             // lblInformacion
             // 
@@ -118,23 +102,25 @@
             this.lblInformacion.Size = new System.Drawing.Size(0, 44);
             this.lblInformacion.TabIndex = 5;
             // 
-            // numId
+            // txtBuscar
             // 
-            this.numId.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numId.Location = new System.Drawing.Point(319, 178);
-            this.numId.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numId.Name = "numId";
-            this.numId.Size = new System.Drawing.Size(160, 31);
-            this.numId.TabIndex = 1;
-            this.numId.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+            this.txtBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBuscar.Location = new System.Drawing.Point(360, 98);
+            this.txtBuscar.Name = "txtBuscar";
+            this.txtBuscar.Size = new System.Drawing.Size(175, 38);
+            this.txtBuscar.TabIndex = 6;
+            this.txtBuscar.TextChanged += new System.EventHandler(this.txtBuscar_TextChanged);
+            // 
+            // dgvBuscarCategoria
+            // 
+            this.dgvBuscarCategoria.BackgroundColor = System.Drawing.Color.White;
+            this.dgvBuscarCategoria.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvBuscarCategoria.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
+            this.dgvBuscarCategoria.Location = new System.Drawing.Point(154, 174);
+            this.dgvBuscarCategoria.Name = "dgvBuscarCategoria";
+            this.dgvBuscarCategoria.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvBuscarCategoria.Size = new System.Drawing.Size(246, 284);
+            this.dgvBuscarCategoria.TabIndex = 15;
             // 
             // BuscarCategoria
             // 
@@ -142,9 +128,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Info;
             this.ClientSize = new System.Drawing.Size(810, 483);
-            this.Controls.Add(this.numId);
+            this.Controls.Add(this.dgvBuscarCategoria);
+            this.Controls.Add(this.txtBuscar);
             this.Controls.Add(this.lblInformacion);
-            this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.lblId);
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.pictureBox1);
@@ -154,8 +140,9 @@
             this.Name = "BuscarCategoria";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BuscarCategoria";
+            this.Load += new System.EventHandler(this.BuscarCategoria_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numId)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvBuscarCategoria)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -167,8 +154,8 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.Label lblId;
-        private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.Label lblInformacion;
-        private System.Windows.Forms.NumericUpDown numId;
+        private System.Windows.Forms.TextBox txtBuscar;
+        private System.Windows.Forms.DataGridView dgvBuscarCategoria;
     }
 }
