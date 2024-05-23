@@ -133,6 +133,7 @@ namespace Solucion01
                 articulo.Nombre_Articulo = textBox2.Text;
                 articulo._Descripcion = textBox3.Text;
                 articulo.Precio = float.Parse(textBox4.Text);
+                
                 articulo.urlImagen = txtUrl.Text;
 
                 articulo.des_marca = cmbMarca.SelectedItem.ToString();

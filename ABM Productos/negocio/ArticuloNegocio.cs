@@ -71,10 +71,10 @@ namespace negocio
                     }
 
                     //IMAGENES
-                    if (!(datos.Lector["ImagenUrl"] is DBNull))
-                    {
+                   // if (!(datos.Lector["ImagenUrl"] is DBNull))
+                    //{
                         aux.urlImagen = (string)datos.Lector["ImagenUrl"];
-                    }
+                   // }
 
                     aux.IdArticulo = (int)datos.Lector["IdArticulo"];
 

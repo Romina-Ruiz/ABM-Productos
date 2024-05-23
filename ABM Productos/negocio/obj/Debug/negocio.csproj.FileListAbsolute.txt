@@ -70,3 +70,12 @@ C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (V
 C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\ABM Productos\ABM-Productos\ABM Productos\negocio\obj\Debug\negocio.dll
 C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\ABM Productos\ABM-Productos\ABM Productos\negocio\obj\Debug\negocio.pdb
 C:\Users\jonat\Desktop\Repositorio GitHub\ABM-Productos\ABM Productos\negocio\obj\Debug\negocio.csproj.Up2Date
+C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\backup 2\2\ABM-Productos\ABM Productos\negocio\bin\Debug\negocio.dll
+C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\backup 2\2\ABM-Productos\ABM Productos\negocio\bin\Debug\negocio.pdb
+C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\backup 2\2\ABM-Productos\ABM Productos\negocio\bin\Debug\dominio.dll
+C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\backup 2\2\ABM-Productos\ABM Productos\negocio\bin\Debug\dominio.pdb
+C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\backup 2\2\ABM-Productos\ABM Productos\negocio\obj\Debug\negocio.csproj.AssemblyReference.cache
+C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\backup 2\2\ABM-Productos\ABM Productos\negocio\obj\Debug\negocio.csproj.CoreCompileInputs.cache
+C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\backup 2\2\ABM-Productos\ABM Productos\negocio\obj\Debug\negocio.csproj.Up2Date
+C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\backup 2\2\ABM-Productos\ABM Productos\negocio\obj\Debug\negocio.dll
+C:\Users\Romina\Desktop\UTN PROGRAMACION\UTN 5 Cuatrimestre\04-Programacion 3 (VIERNES)\TP 2\backup 2\2\ABM-Productos\ABM Productos\negocio\obj\Debug\negocio.pdb

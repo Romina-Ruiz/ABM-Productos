@@ -201,6 +201,7 @@
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(193, 29);
             this.textBox7.TabIndex = 13;
+            this.textBox7.Leave += new System.EventHandler(this.textBox7_Leave);
             // 
             // btnAtras
             // 
@@ -227,7 +228,6 @@
             this.ptbxDetalle.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.ptbxDetalle.TabIndex = 16;
             this.ptbxDetalle.TabStop = false;
-            this.ptbxDetalle.Click += new System.EventHandler(this.ptbxDetalle_Click);
             // 
             // BuscarArticulo
             // 

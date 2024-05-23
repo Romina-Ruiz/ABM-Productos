@@ -146,15 +146,6 @@ namespace Solucion01
              ocultarColumna();
         }
 
-        private void DgvArticulo_SelectionChanged(object sender, EventArgs e)
-        {
-            if (DgvArticulo.CurrentRow != null) 
-            {
-                Articulo selec = (Articulo)DgvArticulo.CurrentRow.DataBoundItem;
-                cargarImagen(selec.urlImagen);
-            }
-            
-        }
 
         private void cargarImagen(string imagen)
         {
@@ -165,11 +156,22 @@ namespace Solucion01
             catch (Exception)
             {
 
-                pictureBox1.Load("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/310px-Placeholder_view_vector.svg.png");
-            
+                pictureBox1.Load("https://efectocolibri.com/wp-content/uploads/2021/01/placeholder.png");
+
+            }
+
+        }
+
+        private void DgvArticulo_SelectionChanged(object sender, EventArgs e)
+        {
+            if (DgvArticulo.CurrentRow != null) 
+            {
+                Articulo selec = (Articulo)DgvArticulo.CurrentRow.DataBoundItem;
+                cargarImagen(selec.urlImagen);
             }
             
-        }       
+        }
+      
 
         private void btVer_Click_1(object sender, EventArgs e)
         {
